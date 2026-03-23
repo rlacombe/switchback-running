@@ -29,6 +29,8 @@ claude
 
 Type `/setup` and the coach will walk you through everything — connecting your Intervals.icu account and building your athlete profile.
 
+Your personal data is stored in `ATHLETE.md` (gitignored) so it stays local and won't be overwritten when you `git pull` updates. The coaching framework in `CLAUDE.md` can be updated freely.
+
 ## What You Can Do
 
 ### Morning check-in
@@ -112,6 +114,7 @@ You're not limited to slash commands. Ask anything:
 | `/week` | Weekly summary — mileage, compliance, trend, next week preview |
 | `/adjust` | Modify upcoming workouts (e.g., `/adjust feeling tired`) |
 | `/plan` | Build structured workouts and training plans (e.g., `/plan next week`) |
+| `/briefing` | Post a coaching note to your Intervals.icu calendar |
 
 ## Coaching Philosophy
 
