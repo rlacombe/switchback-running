@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "intervals-icu": {
+      "command": "npx",
+      "args": ["tsx", "src/index.ts"],
+      "env": {
+        "INTERVALS_API_KEY": "${INTERVALS_API_KEY}",
+        "INTERVALS_ATHLETE_ID": "${INTERVALS_ATHLETE_ID}"
+      }
+    }
+  }
+}
