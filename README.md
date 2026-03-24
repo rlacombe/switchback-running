@@ -10,12 +10,12 @@ The best coaches and athletes in ultrarunning have spent lifetimes learning what
 
 But most recreational athletes don't have access to a coach — or, if they do, their time is sparse and focused on high-level goals and critical advice, rather than the minutiae of a changing schedule.
 
-This project aims to bridge that gap: a tool that reads your training data, applies established coaching frameworks, and talks you through what to do on a Tuesday morning when your HRV is down and your schedule just changed.
+Virgil aims to bridge that gap — it reads your training data, applies established coaching frameworks, and talks you through what to do on a Tuesday morning when your HRV is down and your schedule just changed.
 
 > [!IMPORTANT]
-> **This is not a replacement for a human coach.** A good coach brings experience, intuition, and a relationship that no tool can replicate. If you can work with one, you should — see [Working with a Coach](#working-with-a-coach) below.
+> **Virgil is not a replacement for a human coach.** A good coach brings experience, intuition, and a relationship that no tool can replicate. If you can work with one, you should — see [Working with a Coach](#working-with-a-coach) below.
 
-This tool can complement that relationship by handling the day-to-day details between sessions. For the many runners who train alone, it offers something better than a static plan: science-based guidance that adapts to how your training is actually going.
+Virgil can complement that relationship by handling the day-to-day details between sessions. For the many runners who train alone, it offers something better than a static plan: science-based guidance that adapts to how your training is actually going.
 
 We encourage you to [buy the books](#recommended-reading). They're excellent, they'll make you a better and more self-aware athlete, and they support the authors whose work makes this project possible.
 
@@ -184,12 +184,12 @@ You're not limited to slash commands. Ask anything:
 Three principles guide every recommendation:
 
 1. **Health before performance.** Long-term health always comes first. Overtraining, under-recovery, and injury risk get flagged — even if it means recommending DNS.
-2. **Push hard when ready.** Within the bounds of health, the companion is direct and demanding. Easy days easy, hard days hard.
+2. **Push hard when ready.** Within the bounds of health, Virgil is direct and demanding. Easy days easy, hard days hard.
 3. **Evidence over tradition.** Recommendations cite physiology and established frameworks. When experts disagree, both approaches are presented with reasoning — you choose.
 
 ### Knowledge Base
 
-The `knowledge/` directory contains 16 reference docs covering training science topics — from aerobic base and periodization to race execution and injury prevention. Each doc synthesizes positions from Johnston, Koop, and Magness with specific protocols, quotes, and decision frameworks. These are read when making recommendations.
+The `knowledge/` directory contains 16 reference docs covering training science topics — from aerobic base and periodization to race execution and injury prevention. Each doc synthesizes positions from Johnston, Koop, and Magness with specific protocols, quotes, and decision frameworks. Virgil reads these before making recommendations.
 
 ## Recommended Reading
 
@@ -199,7 +199,7 @@ The training framework draws from these books. We recommend them for any ultraru
 - **Training Essentials for Ultrarunners** by Jason Koop — [Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566) | Coaching: [Jason Koop](https://jasonkoop.com) · [CTS](https://trainright.com)
 - **Science of Running** by Steve Magness — [Amazon](https://www.amazon.com/Science-Running-Efficiently-Ultramarathons-Sprints/dp/0615942946) | [stevemagness.com](https://stevemagness.com) · [scienceofrunning.com](https://scienceofrunning.com)
 
-We are not affiliated with any of these authors or organizations. If you can work with them directly, you should — this tool is not a substitute for a real coaching relationship.
+We are not affiliated with any of these authors or organizations. If you can work with them directly, you should — Virgil is not a substitute for a real coaching relationship.
 
 **[Intervals.icu](https://intervals.icu)** is the training platform that powers the data layer. It's free, but please consider supporting it — it's an incredible tool built by a small team.
 
@@ -207,9 +207,9 @@ We are not affiliated with any of these authors or organizations. If you can wor
 
 The best thing you can do for your running is work with a real coach. A good coach sees things data can't capture — your form, your confidence, the way you carry stress — and builds a relationship that adapts to who you are, not just what your numbers say.
 
-This tool is designed to complement that relationship, not replace it. Between coaching sessions, it can handle the daily details: adjusting a workout when your schedule changes, reviewing an activity, or explaining why a training block is structured the way it is. Some coaches may find it useful as a tool in their own practice.
+Virgil is designed to complement that relationship, not replace it. Between coaching sessions, it can handle the daily details: adjusting a workout when your schedule changes, reviewing an activity, or explaining why a training block is structured the way it is. Some coaches may find it useful in their own practice.
 
-**If you're a coach** and you're curious about how this tool could support your athletes, please [reach out](https://github.com/rlacombe/intervals-coaching-agent/issues) — we'd love to hear from you.
+**If you're a coach** and you're curious about how Virgil could support your athletes, please [reach out](https://github.com/rlacombe/virgil-running/issues) — we'd love to hear from you.
 
 **If you're looking for a coach**, the authors whose work powers this project all offer coaching services:
 - [Evoke Endurance](https://evokeendurance.com) (Scott Johnston)
@@ -219,7 +219,7 @@ This tool is designed to complement that relationship, not replace it. Between c
 ## Disclaimer
 
 > [!IMPORTANT]
-> This project is for informational and educational purposes only. It is not medical advice. Use it at your own risk. The author, [Intervals.icu](https://intervals.icu), and [Anthropic](https://anthropic.com) are not responsible for any injuries, health issues, or other consequences resulting from training decisions you make based on this tool. Always consult a qualified healthcare professional before starting or modifying a training program.
+> This project is for informational and educational purposes only. It is not medical advice. Use it at your own risk. The author, [Intervals.icu](https://intervals.icu), and [Anthropic](https://anthropic.com) are not responsible for any injuries, health issues, or other consequences resulting from training decisions you make based on Virgil's recommendations. Always consult a qualified healthcare professional before starting or modifying a training program.
 
 Happy trails! Stay safe and have fun out there. 🤟⛰️🏃
 
