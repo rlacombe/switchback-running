@@ -45,7 +45,7 @@ Make a test API call using `get_wellness` for today. If it succeeds, tell the us
 
 ## Step 4: Build the athlete profile
 
-Tell the user you're going to ask a few questions to personalize the coaching. Ask them conversationally — one or two questions at a time, not a long form. Use their answers to fill in `ATHLETE.md` (copied from `ATHLETE.example.md` if it doesn't exist yet). This file is gitignored — their personal data stays local and won't be overwritten by `git pull`.
+Tell the user you're going to ask a few questions to personalize the coaching. Ask them conversationally — one or two questions at a time, not a long form. Create the `athlete/` directory if it doesn't exist, then use their answers to fill in `athlete/profile.md` (copied from `ATHLETE.example.md` if it doesn't exist yet). Also create an empty `athlete/notes.md` for Virgil's persistent observations. This folder is gitignored — their personal data stays local and won't be overwritten by `git pull`.
 
 Questions to cover (adapt based on what they've already answered):
 - What's your name?
@@ -59,7 +59,7 @@ Questions to cover (adapt based on what they've already answered):
 - Why do you run? What motivates you?
 - Any long-term goals beyond this race?
 
-After gathering answers, write their data to `ATHLETE.md` (filling in the template from `ATHLETE.example.md`). Show them what you wrote and ask if anything needs adjusting.
+After gathering answers, write their data to `athlete/profile.md` (filling in the template from `ATHLETE.example.md`). Show them what you wrote and ask if anything needs adjusting.
 
 ## Step 5: Done
 

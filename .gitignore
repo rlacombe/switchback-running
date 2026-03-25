@@ -8,4 +8,4 @@ dist/
 .claude/settings.local.json
 data/
 sleep-routine.md
-ATHLETE.md
+athlete/

@@ -24,7 +24,7 @@ Fetch in parallel:
 - `get_events` for the last 30 days — planned vs completed (compliance)
 - `get_athlete` — profile context
 
-Read `ATHLETE.md` for injury history, age, and known weaknesses.
+Read `athlete/profile.md` for injury history, age, and known weaknesses.
 
 ## Step 3: Analyze
 

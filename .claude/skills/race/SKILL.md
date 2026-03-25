@@ -25,7 +25,7 @@ Fetch in parallel:
 - `get_activities` for the last 30 days — recent training volume and long runs
 - `get_wellness` for the last 7 days — sleep, HRV, fatigue trends
 
-Read `ATHLETE.md` for race details (distance, elevation, cutoffs, key cutoffs).
+Read `athlete/profile.md` for race details (distance, elevation, cutoffs, key cutoffs).
 
 ## Step 3: Build the race plan
 
