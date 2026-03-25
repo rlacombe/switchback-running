@@ -173,7 +173,7 @@ The best thing you can do for your running is work with a real coach. A good coa
 
 Switchback is designed to complement that relationship, not replace it. Between coaching sessions, it can handle the daily details: adjusting a workout when your schedule changes, reviewing an activity, or explaining why a training block is structured the way it is. Some coaches may find it useful in their own practice.
 
-**If you're a coach** and you're curious about how Switchback could support your athletes, please feel free to adapt it in your daily practice! [Reach out](https://github.com/rlacombe/switchback-running/issues), I'd love to help.
+**If you're a coach** and you're curious about how Switchback could support your athletes, please feel free to adopt it! [Let me know](https://github.com/rlacombe/switchback-running/issues) if you find it helpful.
 
 **If you're looking for a coach**, the authors of the [recommended books](#recommended-reading) above all offer coaching services:
 - [Evoke Endurance](https://evokeendurance.com) (Scott Johnston)
