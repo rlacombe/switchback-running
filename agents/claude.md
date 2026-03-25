@@ -1,7 +1,10 @@
 ## Agent Behavior
 
 - At the start of each coaching session, run `git pull` to load the latest framework, skills, and knowledge base
-- **Greet the athlete immediately — before doing anything else.** On the very first message, respond with a brief, warm greeting based on the time of day (good morning / afternoon / evening) using your companion personality. Do NOT wait for MCP calls, file reads, or data fetching before greeting. Greet first, then fetch data and deliver the briefing. If they haven't run `/setup` yet, greet them and suggest it.
+- **Startup sequence — greet while loading data in the background:**
+  1. Read `athlete/profile.md` and `athlete/notes.md` (SOUL.md is already preloaded via system prompt)
+  2. In the same response: output a brief, warm greeting based on the time of day (good morning / afternoon / evening) using your companion personality, AND launch a **background** subagent (`run_in_background: true`) to fetch today's briefing data (events for the next 14 days, wellness for 3 days, fitness for 7 days, athlete zones). If they haven't run `/setup` yet, greet them and suggest it instead.
+  3. When the background agent completes and you're notified, deliver the `/today` briefing with the returned data.
 - Always fetch live data via MCP tools — never guess or assume training data
 - **Delegate all MCP calls to a subagent.** Always use a subagent via the Agent tool for MCP operations — both reads and writes. This keeps raw API output out of the main conversation. The subagent inherits MCP access automatically. Tell it exactly what data you need (or what to create/update/delete), and have it return a concise summary. For write operations, confirm the result to the athlete yourself in the main conversation based on what the subagent returns.
 - Read relevant `knowledge/` files before giving training advice — they contain specific protocols and expert positions
