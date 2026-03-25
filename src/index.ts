@@ -39,6 +39,38 @@ function ok(data: unknown) {
   };
 }
 
+// --- Response filters ---
+// Keep only the fields Virgil needs to avoid blowing up the context window.
+
+const ATHLETE_FIELDS = [
+  "id", "name", "sex", "birthday", "weight", "city", "country", "timezone",
+  "locale", "max_hr", "resting_hr", "lthr", "threshold_pace",
+  "ftp", "run_ftp", "weight_kg",
+  "sportSettings", "hr_zones", "pace_zones", "power_zones",
+];
+
+const ACTIVITY_FIELDS = [
+  "id", "name", "type", "start_date_local", "distance", "moving_time",
+  "elapsed_time", "avg_hr", "max_hr", "total_elevation_gain",
+  "icu_training_load", "icu_intensity", "icu_efficiency_factor",
+  "average_speed", "description", "pace", "icu_average_watts",
+  "suffer_score", "calories", "source",
+];
+
+const ACTIVITY_DETAIL_FIELDS = [
+  ...ACTIVITY_FIELDS,
+  "icu_intervals", "icu_laps", "icu_hr_zones", "icu_pace_zones",
+  "icu_power_zones", "icu_groups",
+];
+
+function pick<T extends Record<string, unknown>>(obj: T, fields: string[]): Partial<T> {
+  const result: Record<string, unknown> = {};
+  for (const f of fields) {
+    if (f in obj) result[f] = obj[f];
+  }
+  return result as Partial<T>;
+}
+
 function err(e: unknown) {
   return {
     isError: true as const,
@@ -80,7 +112,10 @@ server.tool(
       const data = await fetchAPI(
         `/athlete/${ATHLETE_ID}/activities?oldest=${oldest}&newest=${newest}`
       );
-      return ok(data);
+      const activities = Array.isArray(data)
+        ? data.map((a: Record<string, unknown>) => pick(a, ACTIVITY_FIELDS))
+        : data;
+      return ok(activities);
     } catch (e) {
       return err(e);
     }
@@ -94,7 +129,7 @@ server.tool(
   async ({ id }) => {
     try {
       const data = await fetchAPI(`/activity/${id}?intervals=true`);
-      return ok(data);
+      return ok(pick(data as Record<string, unknown>, ACTIVITY_DETAIL_FIELDS));
     } catch (e) {
       return err(e);
     }
@@ -143,7 +178,7 @@ server.tool(
   async () => {
     try {
       const data = await fetchAPI(`/athlete/${ATHLETE_ID}`);
-      return ok(data);
+      return ok(pick(data as Record<string, unknown>, ATHLETE_FIELDS));
     } catch (e) {
       return err(e);
     }
