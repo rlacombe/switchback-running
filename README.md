@@ -1,15 +1,15 @@
-# Virgil | Ultrarunning training companion
+# Switchback Running
 
-[Your companion](https://en.wikipedia.org/wiki/Virgil_(Dante)) through ultratrail hell and back! Virgil connects to your [Intervals.icu](https://intervals.icu) account — your training calendar, wellness data, and fitness trends — and uses [established exercise science](#recommended-reading) to help you make the most of your training and prepare for your next trail race. Built on [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Virgil works through natural conversation: reviewing workouts, adjusting plans, flagging risks, and answering questions about your training.
+[Your companion](https://en.wikipedia.org/wiki/Virgil_(Dante)) through ultratrail hell and back! Switchback connects to your [Intervals.icu](https://intervals.icu) account — your training calendar, wellness data, and fitness trends — and uses [established exercise science](#recommended-reading) to help you make the most of your training and prepare for your next trail race. Built on [Claude Code](https://docs.anthropic.com/en/docs/claude-code), your companion works through natural conversation: reviewing workouts, adjusting plans, flagging risks, and answering questions about your training.
 
 ## Why This Exists
 
 Books like [Training for the Uphill Athlete](#recommended-reading), [Training Essentials for Ultrarunners](#recommended-reading), and [Science of Running](#recommended-reading) have distilled decades of coaching wisdom into frameworks any runner can learn from. But most of us train without a coach — and even with one, the day-to-day decisions (what to do when your HRV is down, your schedule just changed, or you're not sure if that soreness is a warning sign) fall on you.
 
-Virgil reads your training data, applies those frameworks, and talks you through it.
+Switchback reads your training data, applies those frameworks, and talks you through it.
 
 > [!IMPORTANT]
-> **Virgil is not a replacement for a human coach.** If you can work with one, you should — see [Working with a Coach](#working-with-a-coach) below. For the many runners who train alone, Virgil offers something better than a static plan: science-based guidance that adapts to how your training is actually going.
+> **Switchback is not a replacement for a human coach.** If you can work with one, you should — see [Working with a Coach](#working-with-a-coach) below. For the many runners who train alone, it offers something better than a static plan: science-based guidance that adapts to how your training is actually going.
 
 We encourage you to [buy the books](#recommended-reading). They're excellent, they'll make you a better and more self-aware athlete, and they support authors who've dedicated their careers to helping runners like us go after their dreams.
 
@@ -30,20 +30,20 @@ npm install -g @anthropic-ai/claude-code
 
 This gives you the `claude` command. On first run, it will walk you through signing in to your Anthropic account. See the [Claude Code docs](https://docs.anthropic.com/en/docs/claude-code) for details.
 
-### Set up Virgil
+### Set up Switchback
 
 ```bash
-git clone https://github.com/rlacombe/virgil-running.git
-cd virgil-running
+git clone https://github.com/rlacombe/switchback-running.git
+cd switchback-running
 claude
 ```
 
-That's it — you're now talking to Virgil. Type `/setup` and it will walk you through connecting your Intervals.icu account and building your athlete profile.
+That's it — type `/setup` and your companion will walk you through connecting your Intervals.icu account, building your athlete profile, and choosing a name and personality for your companion.
 
 ### Updating
 
 ```bash
-cd virgil-running
+cd switchback-running
 git pull
 ```
 
@@ -51,7 +51,7 @@ This updates the coaching framework, knowledge base, and skills without touching
 
 ### How it works
 
-Virgil is not a traditional app — there's no UI to install, no server to run. The repository contains a coaching framework and knowledge base that Claude Code loads automatically. When you run `claude` inside this directory, it becomes Virgil.
+Switchback is not a traditional app — there's no UI to install, no server to run. The repository contains a coaching framework and knowledge base that Claude Code loads automatically. When you run `claude` inside this directory, it becomes your training companion.
 
 Your personal data stays local and is never committed — this includes `athlete/` (your profile and coaching notes) and `SOUL.md` (your companion's name and personality). See `SOUL.example.md` for the default persona.
 
@@ -103,7 +103,7 @@ You're not limited to slash commands. Ask anything:
 
 | Command | Description |
 |---------|-------------|
-| `/setup` | Guided setup — dependencies, API connection, athlete profile |
+| `/setup` | Guided setup — dependencies, API connection, athlete profile, companion persona |
 | `/today` | Morning briefing — planned workout, wellness, fitness status |
 | `/review` | Post-workout analysis — planned vs actual comparison |
 | `/week` | Weekly summary — mileage, compliance, trend, next week preview |
@@ -119,12 +119,12 @@ You're not limited to slash commands. Ask anything:
 Three principles guide every recommendation:
 
 1. **Health before performance.** Long-term health always comes first. Overtraining, under-recovery, and injury risk get flagged — even if it means recommending DNS.
-2. **Push hard when ready.** Within the bounds of health, Virgil is direct and demanding. Easy days easy, hard days hard.
+2. **Push hard when ready.** Within the bounds of health, your companion is direct and demanding. Easy days easy, hard days hard.
 3. **Evidence over tradition.** Recommendations cite physiology and established frameworks. When experts disagree, both approaches are presented with reasoning — you choose.
 
 ### Knowledge Base
 
-The `knowledge/` directory contains 16 reference docs covering training science topics — from aerobic base and periodization to race execution and injury prevention. Each doc synthesizes positions from Johnston, Koop, and Magness with specific protocols, quotes, and decision frameworks. Virgil reads these before making recommendations.
+The `knowledge/` directory contains 17 reference docs covering training science topics — from aerobic base and periodization to race execution and injury prevention. Each doc synthesizes positions from Johnston, Koop, and Magness with specific protocols, quotes, and decision frameworks. Your companion reads these before making recommendations.
 
 ## Recommended Reading
 
@@ -134,25 +134,26 @@ The training framework draws from these books. We recommend them for any ultraru
 - **Training Essentials for Ultrarunners** by Jason Koop — [Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566) | Coaching: [Jason Koop](https://jasonkoop.com) · [CTS](https://trainright.com)
 - **Science of Running** by Steve Magness — [Amazon](https://www.amazon.com/Science-Running-Efficiently-Ultramarathons-Sprints/dp/0615942946) | [stevemagness.com](https://stevemagness.com) · [scienceofrunning.com](https://scienceofrunning.com)
 
-This project is not affiliated with any of these authors or organizations. If you can work with them directly, you should — Virgil is not a substitute for a real coaching relationship.
+This project is not affiliated with any of these authors or organizations. If you can work with them directly, you should — Switchback is not a substitute for a real coaching relationship.
 
 ## Working with a Coach
 
 The best thing you can do for your running is work with a real coach. A good coach sees things data can't capture — your form, your confidence, the way you carry stress — and builds a relationship that adapts to who you are, not just what your numbers say.
 
-Virgil is designed to complement that relationship, not replace it. Between coaching sessions, it can handle the daily details: adjusting a workout when your schedule changes, reviewing an activity, or explaining why a training block is structured the way it is. Some coaches may find it useful in their own practice.
+Switchback is designed to complement that relationship, not replace it. Between coaching sessions, it can handle the daily details: adjusting a workout when your schedule changes, reviewing an activity, or explaining why a training block is structured the way it is. Some coaches may find it useful in their own practice.
 
-**If you're a coach** and you're curious about how Virgil could support your athletes, please feel free to adapt it in your daily practice! [Reach out](https://github.com/rlacombe/virgil-running/issues), I'd love to help.
+**If you're a coach** and you're curious about how Switchback could support your athletes, please feel free to adapt it in your daily practice! [Reach out](https://github.com/rlacombe/switchback-running/issues), I'd love to help.
 
 **If you're looking for a coach**, the authors of the [recommended books](#recommended-reading) above all offer coaching services:
 - [Evoke Endurance](https://evokeendurance.com) (Scott Johnston)
 - [Jason Koop / CTS](https://jasonkoop.com)
 - [Uphill Athlete](https://uphillathlete.com)
+- [Steve Magness](https://stevemagness.com)
 
 ## Disclaimer
 
 > [!IMPORTANT]
-> This project is for informational and educational purposes only. It is not medical advice. Use it at your own risk. The author, [Intervals.icu](https://intervals.icu), and [Anthropic](https://anthropic.com) are not responsible for any injuries, health issues, or other consequences resulting from training decisions you make based on Virgil's recommendations. Always consult a qualified healthcare professional before starting or modifying a training program.
+> This project is for informational and educational purposes only. It is not medical advice. Use it at your own risk. The author, [Intervals.icu](https://intervals.icu), and [Anthropic](https://anthropic.com) are not responsible for any injuries, health issues, or other consequences resulting from training decisions you make based on your companion's recommendations. Always consult a qualified healthcare professional before starting or modifying a training program.
 
 Happy trails! Stay safe and have fun out there. 🤟⛰️🏃
 

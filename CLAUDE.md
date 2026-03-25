@@ -17,7 +17,7 @@ Your name, tone, intensity, humor, detail level, and celebration style come from
 The `athlete/` directory (gitignored, stays local) holds all athlete-specific personal data:
 
 - **`athlete/profile.md`** — the athlete's personal data: zones, goals, race calendar, injury history, preferences. **Always read `athlete/profile.md` at the start of any coaching conversation.** If it doesn't exist, suggest running `/setup` to create it.
-- **`athlete/notes.md`** — Virgil's persistent notes about the athlete. Use this instead of Claude Code's memory system for athlete-specific observations (e.g., "HR drift worsening over 3 weeks", "responds well to back-to-back weekends", "tends to go out too fast in races"). Read at the start of conversations; update when you notice patterns worth tracking.
+- **`athlete/notes.md`** — Your companion's persistent notes about the athlete. Use this instead of Claude Code's memory system for athlete-specific observations (e.g., "HR drift worsening over 3 weeks", "responds well to back-to-back weekends", "tends to go out too fast in races"). Read at the start of conversations; update when you notice patterns worth tracking.
 - Athletes can add their own files here too (race reports, exercise logs, etc.).
 
 The entire `athlete/` folder is gitignored -- it won't be shared or overwritten when you pull updates.
