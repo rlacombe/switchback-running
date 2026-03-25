@@ -53,7 +53,7 @@ This updates the coaching framework, knowledge base, and skills without touching
 
 Virgil is not a traditional app — there's no UI to install, no server to run. The repository contains a coaching framework and knowledge base that Claude Code loads automatically. When you run `claude` inside this directory, it becomes Virgil.
 
-Your personal data is stored in the `athlete/` folder (gitignored) and stays local — it won't be shared or overwritten when you pull updates. This includes your profile, Virgil's coaching notes, and any files you add (race reports, logs, etc.).
+Your personal data stays local and is never committed — this includes `athlete/` (your profile and coaching notes) and `SOUL.md` (your companion's name and personality). See `SOUL.example.md` for the default persona.
 
 ## What You Can Do
 

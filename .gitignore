@@ -6,6 +6,7 @@ dist/
 !.mcp.json
 !.claude/
 .claude/settings.local.json
+SOUL.md
 data/
 sleep-routine.md
 athlete/*

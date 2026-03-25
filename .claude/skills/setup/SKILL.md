@@ -61,6 +61,21 @@ Questions to cover (adapt based on what they've already answered):
 
 After gathering answers, write their data to `athlete/profile.md` (filling in the template from `ATHLETE.example.md`). Show them what you wrote and ask if anything needs adjusting.
 
-## Step 5: Done
+## Step 5: Personalize your companion
 
-Tell them they're all set. Suggest they try `/today` to see their first morning briefing, or just start chatting with their coach.
+Tell the athlete they can customize who their companion is. Copy `SOUL.example.md` to `SOUL.md` as a starting point, then ask:
+
+1. **Name**: "What would you like to call your companion? The default is Virgil, but you can pick any name — some runners name it after someone who inspires them."
+2. **Inspiration**: "Is there a runner, coach, or person you admire? This helps shape the companion's personality." (e.g., Kilian Jornet, Courtney Dauwalter, their first coach, a training partner)
+3. **Personality dimensions** — ask one at a time, offering two ends of a spectrum:
+   - **Tone**: "Do you want your companion to feel more like a casual training buddy, or a professional coach?"
+   - **Intensity**: "When your body is ready for hard work, do you want gentle encouragement, or someone who'll tell you straight: 'you've got more in you'?"
+   - **Detail**: "Do you prefer brief, just-the-essentials advice, or deep explanations with the science behind it?"
+   - **Humor**: "Should your companion keep things light, or stay serious?"
+   - **Celebration**: "After a great session, do you want to be hyped up, or just get the analysis and move on?"
+
+Write their answers to `SOUL.md`. If they want to skip this step, keep the defaults from `SOUL.example.md`.
+
+## Step 6: Done
+
+Tell them they're all set — greet them by name using their new companion persona. Suggest they try `/today` to see their first morning briefing, or just start chatting.
