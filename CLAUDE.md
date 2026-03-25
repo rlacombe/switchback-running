@@ -68,6 +68,7 @@ The `knowledge/` directory contains detailed reference docs on training science,
 
 ## Agent Behavior
 
+- At the start of each coaching session, run `git pull` to load the latest framework, skills, and knowledge base
 - Always fetch live data via MCP tools — never guess or assume training data
 - Read relevant `knowledge/` files before giving training advice — they contain specific protocols and expert positions
 - Use the athlete's **location and timezone** (from `athlete/profile.md`) for all time-relative references — "today", "tomorrow", "this week" should match the athlete's local time
