@@ -5,12 +5,16 @@
 Injury prevention in ultrarunning begins with load management, sleep, and nutrition —
 not with foam rollers or corrective exercises. The most common injuries stem from
 increasing running volume too fast, accumulating chronic impact stress, and
-under-recovering between sessions. All three major coaching voices agree that rest is
+under-recovering between sessions. All four major coaching voices agree that rest is
 the most powerful injury prevention tool, that NSAIDs are dangerous in endurance sport,
 and that being slightly undertrained is always preferable to being even a little
-overtrained. **Important: this file is a coaching reference, not medical advice. Always
-recommend that athletes consult a doctor, physical therapist, or other qualified
-professional for any pain, injury, or health concern.**
+overtrained. The Roches add practical decision frameworks for when to run and when to
+rest, a cross-training protocol (high-cadence cycling) for injured runners, and daily
+pre/post-run routines for injury prevention. Dr. Megan Roche contributes a medical
+perspective on iron deficiency, particularly for female runners. **Important: this file
+is a coaching reference, not medical advice. Always recommend that athletes consult a
+doctor, physical therapist, or other qualified professional for any pain, injury, or
+health concern.**
 
 ## Key Concepts
 
@@ -282,12 +286,110 @@ professional for any pain, injury, or health concern.**
   (Ch. 8). Must recognize CNS fatigue and implement recovery strategy, just like
   recovery from a long run.
 
+### David Roche & Dr. Megan Roche (SWAP Running / The Happy Runner)
+
+- **Decision framework — should I run today?** Specific questions for two scenarios:
+  - **If tired:** (1) Does the thought of running make you unhappy? (2) Has fatigue
+    lasted more than one day? (3) Does fatigue not improve after one mile? (4) Have you
+    not been eating enough? If yes to any of these, don't run. (*The Happy Runner*,
+    Ch. 4)
+  - **If injured or sick:** (1) Are you uncomfortable walking? (2) Has pain/illness
+    lasted more than one day? (3) Does pain/illness get worse while running? If yes to
+    any of these, definitely don't run. (*The Happy Runner*, Ch. 4)
+
+- **Injuries are progressive (rope analogy):** Like a rope — you can lose a strand or
+  two and be fine, but push beyond that and the whole thing unravels. Example: slight
+  shin pressure → alarm sounds on an awkward step → one week later, impossible to
+  ignore → stress fracture → 3-6 months out. "Resting at the first sign of a problem
+  could have shortened recovery from months to days." (*The Happy Runner*, Ch. 4)
+
+- **Injuries are inevitable:** "The only runners that don't have setbacks are the ones
+  that aren't pushing themselves." The goal is limiting damage, not preventing all
+  injuries. (*The Happy Runner*, Ch. 4)
+
+- **Rest as the most proactive injury prevention:** "As a runner, doing nothing is
+  doing something. Rest is the most proactive way to prevent calamity." Rest days let
+  inflammation subside, musculoskeletal system heal, glycogen restock, and the body
+  adapt to past training. (*The Happy Runner*, Ch. 4)
+
+- **Cross-training for injured runners:** The Roches are "big cross-training fans for
+  injured and uninjured runners alike." Preference is high-cadence stationary cycling
+  (90+ rpm easy, ~100 moderate, 105+ hard) for neuromuscular transfer to running. Cat
+  Bradley and Clare Gallagher used high-cadence cycling through injury scares before
+  winning big races. Typical 3-day cycling progression:
+  - Day 1: 30-60 minutes easy to moderate
+  - Day 2: 10min easy, 10 to 30×1min hard/1min easy, 10min easy
+  - Day 3: 10min easy, 1/2/3/4/3/2/1min hard with 1min easy between, 10min easy
+  - (*The Happy Runner*, Ch. 4)
+
+- **Pre-run warm-up routine (Coach Jay Johnson's LMLS, ~5 minutes):**
+  - 10 forward lunges
+  - 10 rear lunges
+  - 10 side lunges
+  - 10 front-to-back leg swings
+  - 10 side-to-side leg swings
+  - 1 minute very slow jog
+  - (*The Happy Runner*, Ch. 4)
+
+- **Post-run strength and mobility (5-10 minutes):**
+  - 10 clamshells per leg
+  - Bridges
+  - Leg raises
+  - Foam rolling of quads/calves/hamstrings/glutes
+  - 5 eccentric calf drops
+  - (*The Happy Runner*, Ch. 4)
+
+- **Foam rolling as daily practice:** "Foam rolling should be taught in schools right
+  along with sex education. It's that important for healthy running."
+  (*The Happy Runner*, Ch. 4)
+
+- **Iron deficiency (Dr. Megan Roche's medical perspective):** All runners lose iron
+  through foot-strike hemolysis (breaking down red blood cells on impact). Women also
+  lose iron through menstruation. Female runners are iron deficient more commonly
+  than men. Low iron → low hemoglobin → less oxygen transport → extreme fatigue "as
+  if an orangutan is doing pull-ups on their eyelids." General rule: men have more
+  margin for error than women; men may not need to supplement iron, while women should
+  monitor more carefully. Red meat has more readily absorbed "heme" iron, so female
+  vegetarians may need to think more carefully about intake. (*The Happy Runner*,
+  Ch. 4)
+
+- **Dr. Megan Roche's Stanford research (PhD in Epidemiology):** Megan completed her
+  PhD in epidemiology at Stanford, focused on bone health in endurance athletes and
+  genetic predictors of sports injury. She is the lead researcher at FASTR (Female
+  Athlete Science and Translational Research program), which seeks to close the gender
+  gap in sports science research with emphasis on early identification and
+  interventions to prevent injury in female athletes. (Source: Stanford, ResearchGate)
+
+- **Genetic predictors of injury:** Working with Stuart Kim, PhD at Stanford, Megan
+  investigates genetic predictors of sports injury and conducts genetic consulting
+  with athletes. Her own genetic testing showed "pretty good injury markers," though
+  she notes genetics don't guarantee immunity — she experienced a high hamstring
+  tendon rupture despite favorable markers. (Source: Stanford Medicine)
+
+- **7-year bone stress injury prevention study:** A nutrition education intervention
+  at two NCAA D1 institutions reduced trabecular bone injuries from 0.18 to 0.10
+  events per person-year. At one institution, overall BSI rates dropped from 0.63 to
+  0.27. Critical finding: "team culture surrounding fueling, health, and performance
+  would impact study success and athlete buy-in." Education must include "stories from
+  role models who have experienced the Triad" to shift perceptions. Reinforces the
+  connection between RED-S, nutrition, and bone health — inadequate fueling is a
+  direct injury risk factor, not just a performance limiter. (Source: Stanford Human
+  Performance Alliance)
+
+- **"Adaptation happens in the empty spaces"** (David Roche): Recovery is where the
+  training effect occurs, not during the workout itself. Reinforces the Roches'
+  emphasis on rest as proactive injury prevention — if adaptation requires recovery,
+  then skipping recovery doesn't just risk injury, it also prevents the fitness gains
+  the workout was designed to produce. (Source: Skurka interview)
+
 ## Where They Agree
 
 1. **Rest is the most potent injury prevention tool.** Koop quantifies it (5-10x
    advantage over strength training). Johnston enshrines it ("better undertrained than
-   overtrained"). Magness frames it through dose-response theory. All prioritize sleep
-   and rest days above any supplemental exercise.
+   overtrained"). Magness frames it through dose-response theory. The Roches are the
+   most emphatic: "As a runner, doing nothing is doing something. Rest is the most
+   proactive way to prevent calamity." All prioritize sleep and rest days above any
+   supplemental exercise.
 
 2. **NSAIDs are dangerous in endurance sport.** Koop provides the strongest language
    ("the research is unequivocal"). Johnston warns against training through pain with
@@ -299,16 +401,22 @@ professional for any pain, injury, or health concern.**
    territory, and Koop focuses on phase architecture rather than weekly increments.
    All agree that rushing volume is the most common cause of injury.
 
-4. **Overtraining is a continuum, not a binary.** All three describe a progression
-   from functional overreaching (normal) to overtraining syndrome (pathological), with
-   an intervention window in between. All agree that early detection and rest are the
-   only remedies.
+4. **Overtraining is a continuum, not a binary.** All four sources describe a
+   progression from minor issues to major breakdowns. Johnston uses FOR-NFOR-OTS
+   staging, and the Roches use the rope analogy — you can lose a strand or two, but
+   keep pulling and the whole thing unravels. All agree that early detection and rest
+   are the only remedies.
 
 5. **Sleep is foundational.** Koop cites the 61% injury reduction from >8 hours of
    sleep. Johnston emphasizes sleep quality as a recovery sign. Magness includes it
    in his recovery hierarchy.
 
-6. **Always recommend medical consultation for injury/pain.** This is a coaching
+6. **Injuries are progressive and should be caught early.** Johnston warns "by the time
+   you feel the injury, there is likely to have been a lot of damage done." The Roches
+   illustrate this with the shin-to-stress-fracture cascade: "Resting at the first sign
+   of a problem could have shortened recovery from months to days."
+
+7. **Always recommend medical consultation for injury/pain.** This is a coaching
    reference, not a diagnostic tool. When an athlete presents with pain, injury,
    illness, or health concerns, always lead with a recommendation to see a qualified
    medical professional.
@@ -325,13 +433,22 @@ professional for any pain, injury, or health concern.**
   notably skeptical — strength training sits near the top of his hierarchy (marginal
   gains) and he argues rest provides better injury prevention. Magness values
   neuromuscular coordination (hill sprints, plyometrics, strides) more than
-  traditional gym strength training.
+  traditional gym strength training. The Roches recommend a lightweight daily
+  practice — short pre-run warm-up (LMLS) and post-run strength/mobility (clamshells,
+  bridges, eccentric calf drops, foam rolling) rather than dedicated gym sessions.
 
 - **Flexibility vs. stiffness**: Magness explicitly argues for stiffness over
   flexibility, citing research that stiffer muscles are more efficient and better at
   elastic energy storage. Neither Johnston nor Koop address this directly, but
   Johnston's ME training and strength work inherently build stiffness through loaded
   movements.
+
+- **Cross-training approach**: The Roches are the strongest advocates for cross-training,
+  particularly high-cadence stationary cycling (90+ rpm) for its neuromuscular transfer
+  to running — both as injury prevention for healthy runners and as a training
+  substitute during injury. They cite Cat Bradley and Clare Gallagher using this
+  approach through injury scares before major wins. Other experts are less specific
+  about cross-training protocols.
 
 - **Phase architecture and fatigue**: Koop places the hardest/longest workouts at the
   BEGINNING of a training phase when the athlete is freshest, with volume of intensity
@@ -342,10 +459,13 @@ professional for any pain, injury, or health concern.**
 ## Coaching Decision Tree
 
 1. **Athlete reporting new pain or persistent soreness**: Always recommend medical
-   consultation first. Reduce training volume by 50% while awaiting professional
-   assessment. Review recent volume changes — was there a >10% jump? Check sleep
-   quantity and quality. Check ferritin if fatigue is chronic (Johnston: <50 ng/ml is
-   problematic for athletes).
+   consultation first. Apply the Roches' injury/sick decision framework: (1) Are they
+   uncomfortable walking? (2) Has pain lasted more than one day? (3) Does pain get
+   worse while running? If yes to any, don't run. Reduce training volume by 50% while
+   awaiting professional assessment. Review recent volume changes — was there a >10%
+   jump? Check sleep quantity and quality. Check ferritin if fatigue is chronic
+   (Johnston: <50 ng/ml is problematic for athletes; Dr. Megan Roche: female runners
+   are more commonly iron deficient — monitor more carefully).
 
 2. **Athlete with TSB < -20 for multiple days**: This is a red flag for accumulated
    fatigue. Cross-reference with subjective markers (Johnston's workout grading: are
@@ -386,12 +506,25 @@ professional for any pain, injury, or health concern.**
    speed/strength training to combat age-related fast-twitch fiber loss, but with
    appropriate recovery.
 
+9. **Athlete feeling tired and questioning whether to run**: Apply the Roches' tired
+   decision framework: (1) Does the thought of running make you unhappy? (2) Has
+   fatigue lasted more than one day? (3) Does fatigue not improve after one mile?
+   (4) Have you not been eating enough? If yes to any, skip the run. Rest is doing
+   something.
+
+10. **Athlete injured and looking for training alternatives**: High-cadence stationary
+    cycling is the Roches' preferred cross-training modality (90+ rpm easy, ~100
+    moderate, 105+ hard). Use the 3-day progression: Day 1 easy/moderate, Day 2
+    intervals (1min hard/1min easy), Day 3 pyramid intervals. Maintain fitness without
+    impact stress. Always recommend medical evaluation alongside cross-training.
+
 ## Sources & Further Reading
 
 ### Books
 - *Training Essentials for Ultrarunners* — Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
 - *Training for the Uphill Athlete* — Scott Johnston, Steve House & Kilian Jornet ([Amazon](https://www.amazon.com/Training-Uphill-Athlete-Mountain-Mountaineers/dp/1938340841))
 - *Science of Running* — Steve Magness ([Amazon](https://www.amazon.com/Science-Running-Efficiently-Ultramarathons-Sprints/dp/0615942946))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Freeing-Potential-Yourself/dp/1492978868))
 
 ### Articles & Podcasts
 - [Common Trail Running Injuries and How to Avoid Them](https://trainright.com/trail-running-injuries-and-how-to-avoid-them/) — Common injuries and prevention strategies (CTS)

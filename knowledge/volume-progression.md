@@ -1,7 +1,7 @@
 # Volume & Load Management
 
 ## Summary
-Volume is the single most agreed-upon driver of ultrarunning performance. All three experts place it at or near the foundation of training, but they differ significantly on how fast to add it, how to structure recovery, and whether the traditional 10% rule is useful or an oversimplified myth. Getting volume management wrong leads to overtraining, injury, or stagnation -- getting it right builds the engine that powers everything else.
+Volume is the single most agreed-upon driver of ultrarunning performance. All four experts place it at or near the foundation of training, but they differ significantly on how fast to add it, how to structure recovery, and whether the traditional 10% rule is useful or an oversimplified myth. The Roches add a frequency-first perspective, emphasizing that total life stress determines training capacity, that consistent easy running trumps dramatic training blocks, and that joy in the process is itself a sustainability metric. Getting volume management wrong leads to overtraining, injury, or stagnation -- getting it right builds the engine that powers everything else.
 
 ## Key Concepts
 
@@ -86,13 +86,24 @@ The minimum sustained volume needed for successful race completion at a given di
 - **"Without a background of high volume training, high intensity training can maintain but seldom improve performance."** (Ch. 11, citing Laursen, 2009)
 - **Masters athletes should cut back mileage** due to changes in recovery capacity.
 
+### David Roche & Dr. Megan Roche (SWAP Running)
+- **Frequency over single-run volume.** 5-6 shorter runs per week is usually better than 3 longer ones. Each run provides a fresh aerobic stimulus; frequency and consistency strengthen the musculoskeletal system to handle more impact over time. This aligns with Magness's point about doubles enhancing supercompensation -- more stimuli, shorter bouts.
+- **Doubles for advanced runners, beer for everyone else.** Advanced runners can add short second runs (30-60 min) on days with hard workouts to increase aerobic volume while minimizing injury risk and recovery cost. But for most runners, forget doubles -- "the second run may be best replaced with a first beer anyway."
+- **One rest day minimum.** Recommend at least one complete rest day per week year-round to prevent injuries and burnout. Some runners thrive running every day, but it is not the default recommendation.
+- **Down weeks at ~70% volume.** Decrease mileage every third or fourth week. More frequently (every other week) for injury-prone or busy athletes. Up to every sixth week for resilient, experienced runners. Similar to Johnston's 3:1 cycle but more flexible in frequency.
+- **20-mile weekly increments as breakthrough markers.** The Roches think about mileage progression in 20-mile weekly plateaus. First big breakthroughs at 20 miles/week, then 40, then 60. Above 60 miles/week, you are "juggling fire swords" -- need experience or a good coach. This gives a practical volume ladder that complements Johnston's distance-specific peak guidelines.
+- **"The body knows stress, not mileage."** Do not expect your body to handle the same training as someone with a different life. Life stress (job, family, sleep, emotional) counts toward the total stress budget. "The stress is like a pizza -- every activity takes a slice. If the pizza is finished before the week ends, everything goes to crap." This resonates with Magness's individualization argument against the 10% rule.
+- **Start where you are.** Do not jump to 50 miles/week. Even 10 minutes counts. Use run/walk methods (Jeff Galloway) if getting started or coming back. Make sure it is fun -- "as soon as running becomes a chore, your training plan might as well be an epitaph."
+- **Consistent little-t training > big-T Training blocks.** The background drumbeat of easy miles and strides is what matters most. Training blocks are the guitar solo on top. Most runners should spend most of their time on consistent, unspectacular training. This echoes Johnston's emphasis on annual consistency ("can you do the same workout again tomorrow?") and contrasts with Koop's concentrated-block philosophy.
+
 ## Where They Agree
-1. **Volume is foundational.** All three place running volume at or near the base of training priorities. You cannot be a good ultrarunner without running a lot.
-2. **Annual and multi-year thinking trumps weekly thinking.** Single weeks matter less than sustained consistency over months and years.
-3. **Recovery weeks are essential.** All prescribe significant volume reductions on regular cycles.
+1. **Volume is foundational.** All four experts place running volume at or near the base of training priorities. You cannot be a good ultrarunner without running a lot.
+2. **Annual and multi-year thinking trumps weekly thinking.** Single weeks matter less than sustained consistency over months and years. The Roches reinforce this with "consistent little-t training > big-T Training blocks."
+3. **Recovery weeks are essential.** All prescribe significant volume reductions on regular cycles. The Roches' ~70% down-week guideline aligns with Johnston's 40-60% reduction range.
 4. **Returning to previous volume levels is safer than venturing into new territory.** Johnston and Magness both note this explicitly.
 5. **Detraining is rapid with complete cessation but slow with reduced volume.** Cutting to 50% for weeks preserves most fitness.
 6. **Elite ultrarunners train 700-1,300 hours per year.** The volume needed at the top is enormous.
+7. **Individualization matters.** Johnston, Magness, and the Roches all emphasize that volume tolerance is personal. The Roches frame this through total life stress ("the body knows stress, not mileage"), Magness through training history and biomechanics, Johnston through experience-based annual caps.
 
 ## Where They Disagree
 
@@ -100,32 +111,41 @@ The minimum sustained volume needed for successful race completion at a given di
 - **Johnston:** Treats 10% as a firm maximum across distance, vertical, and time. "Nothing wrong with holding volume constant from week to week."
 - **Koop:** Does not use the 10% rule. Focuses on phase-based load management with concentrated blocks and recovery between phases.
 - **Magness:** Explicitly says to throw it out. "It assumes that we are all the same and at the same point in our training." Volume increases should be individualized based on history.
+- **The Roches:** Do not prescribe a strict percentage rule but think in 20-mile weekly plateaus (20, 40, 60 mpw). Implicitly conservative -- let the body adapt at each plateau before pushing to the next. Life stress must be factored into any progression decision.
 
 ### Progressive overload within a training block
 - **Johnston:** Traditional progressive model -- increase volume across 3 build weeks, then recovery week. Conservative, steady ramp.
 - **Koop:** Reversed. Do the hardest/longest workouts at the BEGINNING of the phase when freshest. Volume of intensity should DECREASE as the training phase progresses. "This is a huge problem" with the traditional model.
 - **Magness:** Non-linear. Emphasis shifts but training components are always present. Neither rigid ramp nor rigid front-loading.
+- **The Roches:** Favor consistent, repeatable weekly patterns over dramatic block periodization. The "background drumbeat" of easy miles and strides matters more than how workouts are arranged within a block. Down weeks provide the recovery rather than phase transitions.
 
 ### Concentrated vs. distributed volume
 - **Koop:** Strongly favors concentration -- back-to-back long runs, clustering hard efforts. "Essentially worth more benefit in the entirety of the training picture."
 - **Johnston:** Prefers steady distribution with adequate recovery. Back-to-back long runs used for specificity weeks but not as default structure.
 - **Magness:** Uses long run after hard workout to create residual fatigue and force additional fiber recruitment. Split doubles for recovery enhancement.
+- **The Roches:** Favor frequency and distribution -- 5-6 shorter runs per week rather than fewer, longer efforts. This contrasts most directly with Koop's concentrated-block approach. For advanced runners, doubles are acceptable but not the default.
+
+### Role of rest days
+- **Johnston:** Recovery weeks are essential; specific rest days are secondary to overall load management.
+- **Koop:** Recovery phases of 4-6 days at reduced intensity, but does not mandate weekly rest days.
+- **Magness:** Focuses on training load cycling; does not prescribe fixed rest days.
+- **The Roches:** At least one complete rest day per week, year-round. Among the most explicit advocates for regular, non-negotiable rest.
 
 ## Coaching Decision Tree
 
 1. **Is the athlete returning from a break?**
    - Break <2 weeks: Start at 80% of recent volume.
    - Break 2-4 weeks: Start at 60-70% of recent volume.
-   - Break >4 weeks: Start at 50% of previous cycle's average (Johnston).
+   - Break >4 weeks: Start at 50% of previous cycle's average (Johnston). Consider run/walk methods (the Roches, citing Galloway) if the break was long or the athlete is deconditioned. Even 10 minutes counts -- start where you are.
 
 2. **Is the volume level new territory for this athlete?**
    - No (previously sustained): Can increase relatively quickly (Magness -- up to 80-90% of previous peak within 3 weeks).
    - Yes (never sustained before): Use Johnston's conservative approach. Max 10% per week across each variable. Add one mile per day of running when entering new territory (Magness).
 
 3. **What is the athlete's experience level?**
-   - Beginner (<2 years, <400 hrs/year): 3:1 build:recovery. Strict 10% max on volume increases. Focus on consistency.
-   - Intermediate (2-5 years, 400-600 hrs/year): Can use 3:1 or 4:1 cycles. Experiment with concentrated blocks (Koop).
-   - Advanced (5+ years, >600 hrs/year): Consider front-loading phases (Koop). Can sustain higher density. Gains come from distribution and specificity rather than raw volume increases.
+   - Beginner (<2 years, <400 hrs/year): 3:1 build:recovery. Strict 10% max on volume increases. Focus on consistency and frequency (the Roches: 5-6 shorter runs > 3 long ones). Prioritize building the running habit over building volume. At least one rest day per week.
+   - Intermediate (2-5 years, 400-600 hrs/year): Can use 3:1 or 4:1 cycles. Experiment with concentrated blocks (Koop). The Roches' 20-mile plateau framework can guide progression targets (currently at 20-40 mpw? Focus on consolidating before jumping to 40-60).
+   - Advanced (5+ years, >600 hrs/year): Consider front-loading phases (Koop). Can sustain higher density. Gains come from distribution and specificity rather than raw volume increases. Doubles become viable (the Roches). Above 60 mpw, proceed cautiously -- "juggling fire swords" territory.
 
 4. **How is the athlete responding to current load?**
    - Workout grades consistently A-B, sleep and HRV normal: Continue progression or add load.
@@ -154,6 +174,8 @@ The minimum sustained volume needed for successful race completion at a given di
    - HRV trending down over 5+ days
    - Sleep disruption (sympathetic nervous system overactivation)
    - Weight loss, loss of appetite, elevated cortisol (advanced OTS symptoms)
+   - Running feels like a chore, loss of motivation (the Roches: "as soon as running becomes a chore, your training plan might as well be an epitaph" -- joy is a leading indicator of sustainable load)
+   - Life stress consuming too many "pizza slices" -- job changes, family demands, poor sleep, emotional strain all reduce available training capacity (the Roches)
    - **Karl Meltzer:** "When I feel tired, I rest, period... 60 miles per week is plenty to win lots of 100s."
    - **Johnston:** "It is far better to be undertrained than to be even a little overtrained."
 
@@ -167,6 +189,7 @@ The minimum sustained volume needed for successful race completion at a given di
 ### Books
 - *Training for the Uphill Athlete* — Scott Johnston, Steve House & Kilian Jornet ([Amazon](https://www.amazon.com/Training-Uphill-Athlete-Mountain-Mountaineers/dp/1938340841))
 - *Training Essentials for Ultrarunners* — Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Freeing-Potential-Natural/dp/1492978477))
 
 ### Articles & Podcasts
 - [When to Add Intensity Training](https://uphillathlete.com/aerobic-training/when-to-add-intensity-training/) — The 10% test and safe volume progression principles (Uphill Athlete)
@@ -174,3 +197,4 @@ The minimum sustained volume needed for successful race completion at a given di
 - [Ultrarunning Spring Volume Training](https://trainright.com/ultrarunning-spring-volume-training/) — Three-phase approach to building volume (CTS)
 - [Double-Day Training for Ultrarunners](https://trainright.com/double-day-training-ultrarunner/) — Do's and don'ts of double-day training (CTS)
 - [Ultramarathon Training Time Required](https://trainright.com/ultramarathon-training-time-required/) — Minimum training time requirements by race distance (CTS)
+- [Some Work, All Play Podcast](https://swaprunning.com/podcast) — David Roche & Dr. Megan Roche on frequency-based training, stress budgets, and joy-first volume management (SWAP Running)

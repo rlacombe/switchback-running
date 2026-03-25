@@ -166,6 +166,98 @@ wrong guarantees them — GI distress is the leading cause of race abandonment.
   wasn't nearly as fast and getting sick all the time" (Ch. 3). Underfueling degrades
   both performance and health.
 
+### David Roche & Dr. Megan Roche (SWAP / The Happy Runner)
+
+- **"Eat enough, always. Eat too much, sometimes. Eat too little, never."** The Roches'
+  core nutrition mantra for runners. There is no one-size-fits-all diet, but this
+  overarching principle applies to every happy runner. The emphasis is on abundance, not
+  restriction. (*The Happy Runner*, Ch. 8)
+
+- **Energy availability as the #1 determinant of longevity.** Negative energy
+  availability (running a caloric deficit) is one of the biggest roadblocks to
+  performance — increased injury rate, fewer adaptations to training stimuli, and
+  shortened careers. "Energy availability is the number one determinant of longevity in
+  running." (*The Happy Runner*, Ch. 8)
+
+- **The power-to-weight fallacy.** Dr. Megan Roche's personal story: as a collegiate
+  track athlete at Duke, she was seduced by the power-to-weight ratio equation. It led
+  to disordered eating and a persistent catabolic state. Her epiphany came at the
+  Stanford Invitational, watching professional runners who were "strong and durable" —
+  it took healthy energy availability, not low weight, to have a successful running
+  career. She "ordered pepperoni pizza with ranch dressing and never looked back."
+  (*The Happy Runner*, Ch. 8)
+
+- **The dinner table epiphany.** At the 2015 World Long Distance Mountain Running
+  Championships in Zermatt, the Roches observed the best ultrarunners eating
+  enthusiastically — olive oil by the pour, extra-large plates of pasta. One top runner
+  said: "The dinner table is a great way to tell how long a runner's career will be. The
+  eaters last. The skimmers may be fast, but probably not for long." (*The Happy Runner*,
+  Ch. 8)
+
+- **Caloric deficit as a ticking time bomb.** Initial weight loss may boost performance
+  temporarily, but reverting to negative energy availability causes performance to
+  diminish even more quickly. "The fuse seems to get shorter each time." It creates a
+  mental-physical cycle of calorie restriction that can be very difficult to overcome and
+  may never completely leave. (*The Happy Runner*, Ch. 8)
+
+- **All food is good food.** Labeling foods as off-limits can lead to disordered eating
+  behaviors — or be a stand-in for eating disorders. "Food is fuel, sure. But it's also
+  friends and family and fun." Rather than restricting, set up a framework and support
+  system that helps embrace all the good stuff about food. (*The Happy Runner*, Ch. 8)
+
+- **Four keys to healthy eating behaviors** (SWAP framework):
+  1. Eliminate tools of self-judgment — unless losing weight at a doctor's direction,
+     disregard the scale. "Pick it up and toss it in the trash."
+  2. Understand triggering events — comments like "you look stronger" can trigger body
+     image concerns.
+  3. Reinforce that all food is good food — well-balanced, nutrient-dense, and delicious.
+  4. Understand you are not alone — talk openly with partners, family, medical
+     professionals.
+  (*The Happy Runner*, Ch. 8)
+
+- **Iron and nutrition** (Dr. Megan Roche): Iron is essential for hemoglobin and oxygen
+  transport. All runners lose iron through foot-strike hemolysis. Women additionally lose
+  iron through menstruation. Meat intake matters because "heme" iron from red meat is
+  more readily absorbed than plant-based non-heme iron. Female vegetarian runners may
+  need to think more carefully about their iron intake than male vegetarians. Men
+  generally have more margin for error on iron status. (*The Happy Runner*, Ch. 8)
+
+- **120-140g carbs/hour during ultras**: David Roche consumed 120-140 grams of
+  carbohydrates per hour during his Leadville 100 course-record run (15:26:34 in 2024).
+  This is significantly higher than the traditional 60-90g/hr recommendation and even
+  exceeds Koop's 30-60g/hr guideline. Roche's reasoning: "At altitude and during intense
+  efforts, you're burning through so many calories, and the only way to make it possible
+  is by taking in a ton of fuel." This aligns with newer sports science research pushing
+  carb intake higher for elite ultrarunners operating at high intensities. Note: this
+  level of intake requires extensive gut training and may not be appropriate for all
+  athletes — Roche is an elite with years of gut-training practice. (Source: iRunFar
+  interview)
+
+- **Sweat rate individuality**: David Roche has "literally the highest sweat rate we have
+  ever measured," underscoring that hydration strategy must be individualized based on
+  personal sweat rate data. His extreme sweat rate, rather than carbohydrate availability
+  alone, may partly explain his ultrarunning success — high fluid turnover necessitates
+  aggressive hydration and creates a larger window for caloric absorption. Practical
+  takeaway: athletes should get sweat rate testing rather than relying on generic fluid
+  intake guidelines. (Source: iRunFar interview)
+
+- **Nutrition education and bone stress injury prevention** (Dr. Megan Roche): A 7-year
+  Stanford study led by Dr. Michael Fredericson with Megan Roche examined nutrition
+  education's effectiveness in preventing bone stress injuries (BSIs) among NCAA Division
+  I female endurance runners. Key findings:
+  - Nutrition education reduced trabecular bone injuries from 0.18 to 0.10 events per
+    person-year
+  - At one institution, overall BSI rates dropped from 0.63 to 0.27 events per
+    person-year
+  - Results varied by institution — "team culture surrounding fueling, health, and
+    performance would impact study success and athlete buy-in" (Dr. Megan Roche)
+  - Education alone wasn't sufficient; role model stories about experiencing the Triad
+    were needed to shift perceptions and drive behavior change
+  - Practical implication: "an athlete's strongest self is their healthiest and often
+    fastest self" — reinforcing the Roches' core message that adequate energy availability
+    is a performance advantage, not a sacrifice
+  (Source: Stanford Human Performance Alliance)
+
 ### Steve Magness (Science of Running)
 
 - **Glycogen depletion as signaling**: Low glycogen stores trigger the AMPK signaling
@@ -211,22 +303,36 @@ wrong guarantees them — GI distress is the leading cause of race abandonment.
 
 ## Where They Agree
 
-1. **Consistent fueling matters enormously.** All three recognize that under-fueling
-   is one of the most common mistakes in ultrarunning, leading to bonks, GI distress,
-   and DNFs.
+1. **Consistent fueling matters enormously.** All four sources recognize that
+   under-fueling is one of the most common mistakes in ultrarunning, leading to bonks,
+   GI distress, and DNFs. The Roches go furthest, framing adequate energy availability
+   as the #1 determinant of career longevity.
 
-2. **Post-exercise nutrition window.** All three agree on consuming carbs + protein
-   within 30-60 minutes after training, at a roughly 3:1 or 4:1 carb:protein ratio.
+2. **Post-exercise nutrition window.** Johnston, Koop, and Magness agree on consuming
+   carbs + protein within 30-60 minutes after training, at a roughly 3:1 or 4:1
+   carb:protein ratio.
 
-3. **Fat adaptation has value — as one tool.** All three acknowledge that trained
-   athletes oxidize fat more efficiently and that this matters for ultra-distance
-   events. None advocates a pure carbohydrate-only approach.
+3. **Fat adaptation has value — as one tool.** Johnston, Koop, and Magness acknowledge
+   that trained athletes oxidize fat more efficiently and that this matters for
+   ultra-distance events. None advocates a pure carbohydrate-only approach.
 
-4. **Full ketogenic diets are not recommended.** Despite different emphasis, all three
-   have concerns about LCHF as a permanent dietary strategy for competitive athletes.
+4. **Full ketogenic diets are not recommended.** Despite different emphasis, Johnston,
+   Koop, and Magness all have concerns about LCHF as a permanent dietary strategy for
+   competitive athletes.
 
-5. **Metabolic flexibility is the goal.** All prefer an athlete who can efficiently
-   burn both fat and carbohydrate over one locked into a single fuel pathway.
+5. **Metabolic flexibility is the goal.** Johnston, Koop, and Magness all prefer an
+   athlete who can efficiently burn both fat and carbohydrate over one locked into a
+   single fuel pathway.
+
+6. **Under-eating is more dangerous than over-eating.** Johnston (Rico Elmer's weight
+   loss warning), Koop (under-fueling data), and the Roches ("eat too little, never")
+   converge on the same message: chronic caloric deficit degrades performance and
+   health. The Roches add that the damage can be cumulative and progressively harder
+   to reverse.
+
+7. **Food should not be a source of anxiety.** Johnston (via Kilian: "don't be crazy
+   about nutrition") and the Roches ("food is friends and family and fun") both push
+   back against obsessive or restrictive food cultures in endurance sports.
 
 ## Where They Disagree
 
@@ -254,6 +360,16 @@ wrong guarantees them — GI distress is the leading cause of race abandonment.
   protocol (200-300 cal/hr, 30-60g carbs/hr, 600-800mg sodium/L, Bullseye plan).
   Johnston is more philosophical ("food is fuel, eat balanced"). Magness is most
   focused on the underlying signaling science rather than practical race-day protocols.
+  The Roches are the most relationship-oriented — they focus on the athlete's
+  psychological relationship with food first and trust that adequate fueling follows
+  from a healthy mindset.
+
+- **Weight and body composition**: Koop, Johnston, and Magness discuss body composition
+  as a performance variable (with appropriate caveats). The Roches take the strongest
+  position against self-monitoring of weight, advising athletes to throw away the scale
+  unless directed otherwise by a doctor. They argue that the performance gains from
+  weight loss are almost always outweighed by the risks of disordered eating and
+  negative energy availability.
 
 ## Coaching Decision Tree
 
@@ -289,13 +405,28 @@ wrong guarantees them — GI distress is the leading cause of race abandonment.
 7. **Female athlete**: Be cautious with fasted training (Johnston's explicit warning).
    Monitor menstrual function as a canary for RED-S (Koop). Already efficient fat
    burners — LCHF diets offer diminishing returns (Koop, Ch. 2). Focus on adequate
-   energy availability over dietary restriction.
+   energy availability over dietary restriction. Pay special attention to iron status —
+   female runners lose iron through both foot-strike hemolysis and menstruation; female
+   vegetarians need particular care (Dr. Megan Roche).
+
+8. **Athlete showing signs of disordered eating or body image concerns**: Apply the
+   Roches' four keys — eliminate tools of self-judgment (scale), identify triggering
+   events, reinforce that all food is good food, and emphasize they are not alone.
+   Recommend talking to a medical professional. Frame energy availability as a
+   performance variable: "the eaters last." Never frame weight loss as a training goal.
+
+9. **Athlete asking about weight loss for performance**: Present Dr. Megan Roche's
+   personal story and the dinner table epiphany as counterweights. Initial gains from
+   caloric deficit are a "ticking time bomb" — the fuse gets shorter each time. Redirect
+   to the Roches' mantra: "eat enough, always; eat too much, sometimes; eat too little,
+   never." If weight management is medically indicated, defer to a physician.
 
 ## Sources & Further Reading
 
 ### Books
 - *Training Essentials for Ultrarunners* — Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
 - *Training for the Uphill Athlete* — Scott Johnston, Steve House & Kilian Jornet ([Amazon](https://www.amazon.com/Training-Uphill-Athlete-Mountain-Mountaineers/dp/1938340841))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Freeing-Body-Mind/dp/1492978884))
 
 ### Articles & Podcasts
 - [Bullseye Nutrition Plan for Ultramarathon Runners](https://trainright.com/bullseye-nutrition-plan-ultramarathon-runners/) — Koop's streamlined nutrition strategy for ultras (CTS)

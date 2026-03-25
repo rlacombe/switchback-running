@@ -1,7 +1,7 @@
 # Strength Training
 
 ## Summary
-Strength training for ultrarunners is the most polarizing topic among the three primary coaches. Johnston treats it as an essential progression from general strength through maximum strength to muscular endurance, integrated throughout the training year. Koop is the most skeptical, arguing that rest and sleep provide equal or better injury prevention benefits at lower cost to the training budget. Magness focuses on neuromuscular coordination -- hill sprints, plyometrics, and strides -- as the most efficient way to improve fiber recruitment and running economy without the overhead of traditional gym work.
+Strength training for ultrarunners is the most polarizing topic among the primary coaches. Johnston treats it as an essential progression from general strength through maximum strength to muscular endurance, integrated throughout the training year. Koop is the most skeptical, arguing that rest and sleep provide equal or better injury prevention benefits at lower cost to the training budget. Magness focuses on neuromuscular coordination -- hill sprints, plyometrics, and strides -- as the most efficient way to improve fiber recruitment and running economy without the overhead of traditional gym work. The Roches (David Roche and Dr. Megan Roche) take a minimal effective dose approach -- short, simple routines done consistently, recognizing that most athletes are time-limited and don't love strength work. Their philosophy: prioritize non-running maintenance so that injury stuff doesn't cause you to be a non-runner.
 
 ## Key Concepts
 
@@ -158,13 +158,61 @@ Five movement patterns:
 - Over-flexibility may reduce elastic energy storage and return
 - Pre-activation of muscles before landing adjusts stiffness, acts as internal cushioning, decreases stress from muscular vibration
 
+### David Roche & Dr. Megan Roche (SWAP Running)
+- **"Strength Work for the Athlete Who Hates Strength Work."** The Roches advocate short, simple routines that can be done almost every day, recognizing that most athletes are time-limited and don't love strength work. Consistency beats complexity.
+- **"Prioritize non-running stuff so injury stuff doesn't cause you to be a non-runner."** Their approach is minimal effective dose -- do the little things consistently rather than elaborate gym sessions sporadically.
+
+#### Pre-Run Warm-Up (5 minutes)
+Based on Coach Jay Johnson's Lunge Matrix/Leg Swings (LMLS):
+- 10 forward lunges
+- 10 rear lunges
+- 10 side lunges
+- 10 front-to-back leg swings
+- 10 side-to-side leg swings
+- 1-minute very slow jog at walking pace or a bit faster
+
+#### Post-Run Strength and Mobility (5-10 minutes)
+Doubles as injury prevention:
+- 10 clamshells per leg
+- Bridges
+- Leg raises
+- Foam rolling of quads/calves/hamstrings/glutes
+- 5 eccentric calf drops
+
+#### Full Strength Routine (2-3x/week, for athletes with more time)
+
+**Legs:**
+- 10 forward lunges (both legs)
+- 20 rear lunges (both legs)
+- 10 side lunges (both legs)
+- 50-100 single-leg step-ups per leg
+- 10-20 single-leg squats per leg
+
+**Core:**
+- 1-minute front plank (add variations with movement after proficiency)
+- 1-minute side planks
+- 30-second rear plank
+- Repeat
+
+**Upper body:**
+- Push-ups to fatigue (on knees works great)
+- 10-20 dips (supported with weight or sturdy chair)
+- 10-20 above-head military presses with light weights
+
+#### Coach Jay Johnson's Myrtl Routine
+Recommended for hip strength and mobility. "More complex routines are even better, like the myrtl by Coach Jay Johnson. It's kind of like cooking — people who want to be the best chefs can go to culinary school."
+
+#### Foam Rolling as Daily Practice
+The Roches consider foam rolling as essential as brushing your teeth. "Foam rolling should be taught in schools right along with sex education." Prioritize non-running maintenance over extra miles. Foam roll quads, calves, hamstrings, and glutes daily.
+
 ## Where They Agree
 1. **Strength training should serve running, not replace it.** No one advocates gym work at the expense of run volume.
 2. **Hill sprints are valuable for all ultrarunners.** Johnston and Magness prescribe nearly identical protocols (8-10 sec max efforts on 30%+ grade, 6-8 reps, ample recovery).
-3. **Heavy beats high-rep for force production.** When strength training is prescribed, heavier weights with lower reps produce better outcomes than light weight circuits (Johnston's max strength phase, Koop's early season prescription).
-4. **Core stability is foundational.** All three include core work as baseline maintenance.
-5. **Single-leg strength matters.** Running is a single-leg propulsion sport. All include single-leg exercises.
-6. **Strength training should be scheduled carefully relative to hard runs.** Never before key sessions. Best paired on the same day as hard runs (run first, lift second) or on easy days.
+3. **Heavy beats high-rep for force production.** When strength training is prescribed, heavier weights with lower reps produce better outcomes than light weight circuits (Johnston's max strength phase, Koop's early season prescription). The Roches are the exception here -- they favor higher-rep bodyweight work for accessibility and consistency.
+4. **Core stability is foundational.** All include core work as baseline maintenance.
+5. **Single-leg strength matters.** Running is a single-leg propulsion sport. All include single-leg exercises (lunges, step-ups, single-leg squats).
+6. **Strength training should be scheduled carefully relative to hard runs.** Never before key sessions. Best paired on the same day as hard runs (run first, lift second) or on easy days. The Roches' short routines (5-10 min post-run) sidestep this concern entirely by being low enough in volume to avoid recovery interference.
+7. **Consistency matters more than intensity.** All coaches, but especially the Roches, emphasize that sporadic heavy gym sessions are less valuable than regular, sustainable strength habits.
 
 ## Where They Disagree
 
@@ -172,16 +220,19 @@ Five movement patterns:
 - **Johnston:** Essential pillar. Three-phase progression is a core element of the annual plan. 2-3x/week during base, 1x/week during intensity phases.
 - **Koop:** Marginal gain near the top of his hierarchy. Rest and sleep offer comparable or better injury prevention. Not all ultrarunners are candidates. 2x/week max; late season corrective exercises only.
 - **Magness:** Important for neuromuscular coordination but best achieved through running-integrated work (hill sprints, strides, plyometrics) rather than traditional gym sessions.
+- **The Roches:** Essential for injury prevention and longevity, but the dose should be minimal and sustainable. Short daily routines (5-10 min) beat elaborate infrequent sessions. Non-running maintenance should be prioritized over extra miles.
 
 ### Gym-based strength vs. running-integrated strength
 - **Johnston:** Full gym progression. General strength circuits, max strength couplets, ME circuits -- all in the weight room.
 - **Koop:** If prescribed, use 5 movement patterns with traditional sets/reps. But questions whether the time cost is justified vs. simply running more and resting more.
 - **Magness:** Prefers hill sprints, plyometrics, and running-based circuits. Gym work is secondary to neuromuscular training done during or after runs.
+- **The Roches:** Bodyweight-focused, no gym required. Pre-run lunge matrix, post-run clamshells/bridges/calf drops, and a full bodyweight routine (lunges, step-ups, single-leg squats, planks, push-ups) for athletes with more time. Foam rolling daily. The philosophy is minimal barrier to entry -- "strength work for the athlete who hates strength work."
 
 ### Injury prevention mechanism
 - **Johnston:** Structural -- stronger muscles, tendons, and ligaments prevent overuse injuries. General → max → ME phases build progressive resilience.
 - **Koop:** "The research on strength training specifically to prevent injury is really weak." Rest (more sleep, more rest days) is more efficacious and offers "more bang for your buck."
 - **Magness:** Neuromuscular -- improved pre-activation, muscle stiffness, and elastic energy storage reduce impact forces. Stiffer muscles are more efficient and more resilient.
+- **The Roches:** Preventive maintenance through daily habit. Foam rolling, hip activation (clamshells, Myrtl routine), and eccentric calf work catch small problems before they become injuries. Dr. Megan Roche brings a clinical perspective: consistent low-dose prehab is more protective than periodic high-dose strength sessions.
 
 ## Coaching Decision Tree
 
@@ -192,8 +243,8 @@ Five movement patterns:
    - Yes: Assess sleep (target >8 hrs, per Koop). Address energy balance (prevent RED-S). Add corrective exercises targeting posterior chain (Koop). If injury pattern persists, consider Johnston's assessment-based progression. Always recommend professional evaluation.
 
 3. **How much time does the athlete have?**
-   - Time-limited (<8 hrs/week total): Prioritize running volume. Use Magness approach -- hill sprints 1x/week, strides post-run 3-4x/week, core 2x/week. Skip gym sessions.
-   - Moderate (8-12 hrs/week): Johnston's approach is viable. 2x/week strength in base period, reducing to 1x/week as intensity increases.
+   - Time-limited (<8 hrs/week total): Prioritize running volume. Use Magness approach -- hill sprints 1x/week, strides post-run 3-4x/week, core 2x/week. Skip gym sessions. Alternatively, the Roches' minimal approach works well here: 5-min pre-run lunge matrix, 5-10 min post-run clamshells/bridges/calf drops, daily foam rolling. Zero scheduling overhead.
+   - Moderate (8-12 hrs/week): Johnston's approach is viable. 2x/week strength in base period, reducing to 1x/week as intensity increases. The Roches' full bodyweight routine (2-3x/week) is a lower-barrier alternative if the athlete dislikes gym work.
    - Time-rich (>12 hrs/week): Full Johnston progression is possible. Can include gym-based max strength and ME work alongside high-volume running.
 
 4. **What phase of training?**
@@ -202,7 +253,11 @@ Five movement patterns:
    - Build/Intensity: Reduce to 1x/week maintenance. Schedule after hard runs or on easy days.
    - Peak/Taper: Johnston: cut hill sprints by 30%/week. Koop: corrective exercises only. All: no new strength stimuli.
 
-5. **Is the athlete over 40?**
+5. **Does the athlete dislike or avoid strength work?**
+   - Yes: Start with the Roches' approach. The 5-min pre-run warm-up (lunge matrix + leg swings) and 5-10 min post-run routine (clamshells, bridges, calf drops, foam rolling) have almost zero friction. Once the habit is established, introduce the full bodyweight routine 2-3x/week. "Strength work for the athlete who hates strength work."
+   - No: Match approach to time availability and goals (see above).
+
+6. **Is the athlete over 40?**
    - Yes: Strength training shifts from optional to essential. "For aging athletes, strength training isn't just corrective or ergogenic, it's essential for general health and well-being." (Koop, Ch. 11) Minimum 2x/week year-round, even at the expense of some running volume. Focus on heavy compound movements to counter muscle mass loss.
 
 ## Sources & Further Reading
@@ -211,6 +266,7 @@ Five movement patterns:
 - *Training for the Uphill Athlete* — Scott Johnston, Steve House & Kilian Jornet ([Amazon](https://www.amazon.com/Training-Uphill-Athlete-Mountain-Mountaineers/dp/1938340841))
 - *Training Essentials for Ultrarunners* — Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
 - *Science of Running* — Steve Magness ([Amazon](https://www.amazon.com/Science-Running-Efficiently-Ultramarathons-Sprints/dp/0615942946))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Freeing-Through-Movement/dp/1492998370))
 
 ### Articles & Podcasts
 - [Strength Training for the Mountain Athlete](https://uphillathlete.com/strength-training/strength-training-for-the-mountain-athlete/) — Building functional strength for mountain sports (Uphill Athlete)
@@ -218,3 +274,4 @@ Five movement patterns:
 - [Strength Training for Ultramarathon Runners](https://trainright.com/strength-training-ultramarathon-runners/) — Why strength training alone won't make you faster — and what it will do (CTS)
 - [How to Implement Heavy Strength Training for Runners](https://trainright.com/how-to-implement-heavy-strength-training-for-runners/) — Incorporating heavy strength training into running programs (CTS)
 - [Hill Sprints and Running Form](https://www.scienceofrunning.com/2010/01/video-hill-sprints-and-running-for.html) — Neuromuscular activation and injury prevention through hill sprints (Science of Running)
+- [Some Work, All Play Podcast](https://www.someworkallplay.com/) — David Roche and Dr. Megan Roche's podcast covering training, strength, and the joy-based approach (SWAP Running)

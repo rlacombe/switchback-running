@@ -1,7 +1,7 @@
 # Aerobic Base & Zone Training
 
 ## Summary
-The aerobic base is the foundation of all ultrarunning performance. For events lasting hours, the ability to produce speed at the aerobic threshold determines finishing pace far more than VO2max or anaerobic power. All three experts agree that the majority of training volume should be easy, but they diverge sharply on how to define intensity zones, whether Aerobic Deficiency Syndrome is real, and whether heart rate or perceived exertion should govern training intensity.
+The aerobic base is the foundation of all ultrarunning performance. For events lasting hours, the ability to produce speed at the aerobic threshold determines finishing pace far more than VO2max or anaerobic power. All four experts agree that the majority of training volume should be easy, but they diverge on how to define intensity zones, whether Aerobic Deficiency Syndrome is real, and whether heart rate or perceived exertion should govern training intensity. The Roches add a hormonal and consistency-focused lens, emphasizing cortisol management, blood volume adaptations, and the dangers of "mission creep" on easy days.
 
 ## Key Concepts
 
@@ -96,12 +96,24 @@ Note: This was a heavy race year; younger years were more heavily weighted to ba
 - **Problems with %VO2max zones:** "There was a 40-fold range for increases in lactate levels at 70% VO2max among individuals." Two runners at 80% VO2max can be below and above LT respectively. (Ch. 5)
 - **Prefers Canova's classification:** General (far from race pace), Support (moderate proximity), Specific (at or near race pace), Pure Speed (neuromuscular). (Ch. 15)
 
+### David Roche & Dr. Megan Roche (SWAP Running)
+- **"Easy means easy, not the absence of pain."** Easy is an effort level, not a pace. Many runners believe they are running easy but are actually above aerobic threshold, flooding with cortisol. Truly easy means finishing with no urge to stop -- relaxed, conversational, sustainable.
+- **AeT is a range, not a fixed point.** Aerobic threshold varies day to day with age, psychological stress, weather, sleep, and other variables. Do not fixate on a specific HR number; instead, understand the physiological transition zone and respond to the body's signals.
+- **Talk test as simplest calibration.** You should be able to hold a conversation on most runs. If you can't talk comfortably, you're probably above AeT. Simple, free, always available.
+- **LTHR x 0.85 = practical easy-run HR cap.** A good heuristic for most runners. Add a few beats for inexperienced runners (whose LTHR may be less precisely established); subtract a few for very experienced runners who have already pushed their aerobic ceiling high.
+- **Mission creep warning.** As fitness improves, easy pace gets faster -- and runners unconsciously let "easy" creep upward. Eventually what was easy becomes moderate, cortisol rises, and they are on a "Groundhog Day" path to overtraining. A HR monitor provides objectivity against this drift.
+- **The 80% rule.** Approximately 80% of running should be easy. "Run lots, not too much, mostly easy" -- their adaptation of Michael Pollan's food advice. Aligns strongly with Seiler's 80/20 research and Johnston's intensity distribution.
+- **Cortisol danger of chronic moderate training.** Training too frequently above AeT causes chronic cortisol exposure, triggering a cascade of negative effects: impaired recovery, hormonal disruption, and eventually overtraining. "Training above aerobic threshold is like venturing into an abandoned chainsaw warehouse in a horror movie." This echoes Johnston's ADS concept -- the Roches describe the same physiological trap using hormonal rather than metabolic framing.
+- **Blood volume adaptations require consistency.** Blood volume responds substantially to consistent training but drops rapidly with a stop-and-start approach. Consistency matters more than peak efforts for blood volume. Iron-rich foods or supplementation are important for maximizing this adaptation, particularly for female athletes (see Dr. Megan Roche's work on female physiology).
+- **Muscle fiber type is trainable.** Consistent aerobic training can change muscle fiber expression. A 2018 twin study showed the endurance-trained twin had 55% more slow-twitch fiber expression than the sedentary twin. This underscores that consistent easy running produces physiological (and even genetic-expression) breakthroughs over time -- not just metabolic ones.
+
 ## Where They Agree
-1. **The majority of training should be easy.** All three converge on approximately 80% easy / 20% hard distribution by session count, roughly 90/10 by volume.
+1. **The majority of training should be easy.** All four experts converge on approximately 80% easy / 20% hard distribution by session count, roughly 90/10 by volume. The Roches' "run lots, not too much, mostly easy" is a pithy restatement of Seiler's research.
 2. **Aerobic development is the foundation.** Regardless of how they define it, all agree that building the aerobic engine is the most important long-term investment.
-3. **Easy must be truly easy.** Running too hard on easy days is universally flagged as a common and destructive error.
+3. **Easy must be truly easy.** Running too hard on easy days is universally flagged as a common and destructive error. The Roches are especially vocal here -- "easy means easy, not the absence of pain" -- and warn that mission creep on easy days is the most common path to overtraining.
 4. **The aerobic system is supreme for ultras.** After approximately 90 seconds, nearly 100% of energy comes from aerobic pathways. In ultra events, this dominance is absolute.
 5. **Training at specific percentages of VO2max is unreliable** for prescribing individual intensity. Johnston and Magness both cite wide individual variation.
+6. **Consistency trumps peak efforts.** Johnston, Magness, and the Roches all emphasize that sustained, consistent aerobic training over months drives deeper adaptations (mitochondrial density, blood volume, muscle fiber expression) than sporadic high-volume or high-intensity blocks.
 
 ## Where They Disagree
 
@@ -109,16 +121,19 @@ Note: This was a heavy race year; younger years were more heavily weighted to ba
 - **Johnston:** Absolutely. Coined by Maffetone, observed in 80-90% of amateur athletes. The 10% test is the diagnostic tool. No intensity work until it resolves.
 - **Koop:** "Complete and total nonsense." A made-up term with no scientific backing. Athletes should not fear intensity work.
 - **Magness:** Does not use the term but implicitly agrees with the principle -- easy running volume, not intensity, drives the adaptations that predict endurance performance.
+- **The Roches:** Do not use the ADS label but describe the same phenomenon through a hormonal lens: chronic training above AeT raises cortisol, suppresses recovery, and creates a vicious cycle that looks identical to what Johnston calls ADS. Their prescription (cut intensity, run truly easy, be consistent) mirrors Johnston's remedy.
 
 ### Heart rate vs. RPE for intensity control?
 - **Johnston:** Heart rate is the primary tool. Individual zones set by lab or field tests. HR drift test is the first workout in every plan.
 - **Koop:** RPE is superior. Heart rate is too unreliable on trails. RPE "effectively alchemizes all of the environmental and physiological phenomena" encountered.
 - **Magness:** Neither strict zones nor pure RPE. Prefers paces standardized to recent race performance or percentages of goal race pace. "There are no magical training zones."
+- **The Roches:** Use HR as an objectivity check, not a rigid governor. The talk test is the primary daily tool (aligning with Koop's RPE emphasis), but HR monitors guard against mission creep (aligning with Johnston's data-driven approach). Practical heuristic: LTHR x 0.85 as easy-run HR cap. They treat AeT as a range that shifts with stress, weather, and fatigue -- reinforcing Koop's point that no single number captures reality on any given day.
 
 ### Should VO2max be trained early?
 - **Johnston:** Only when AeT/AnT spread is within 10%. Most athletes need months of base work first.
 - **Koop:** Yes. VO2max intervals belong early in the training cycle. A higher ceiling lifts all thresholds below it.
 - **Magness:** Acknowledges dual pathway -- both volume and intensity trigger mitochondrial biogenesis. VO2max plateaus early in trained athletes and is a poor predictor of performance.
+- **The Roches:** Generally align with Johnston's base-first philosophy for most athletes. Strides (short neuromuscular bursts) are included early and often as a low-stress way to develop speed without the cortisol cost of true VO2max intervals. Full intensity work comes later, after consistent aerobic running has built the foundation.
 
 ## Coaching Decision Tree
 
@@ -143,11 +158,11 @@ Note: This was a heavy race year; younger years were more heavily weighted to ba
    - Under 3 months: Specificity and race-pace work take priority. The base is what it is.
 
 6. **What data is available?**
-   - HR data from watch: Use Johnston's HR drift test to establish AeT. Monitor cardiac drift during easy runs to validate zone boundaries. Flag sessions where average HR exceeds AeT during intended easy efforts.
-   - RPE-only (no HR): Use Koop's RPE/talk test framework. Enforce easy = full conversation, hard = 5-7 words max.
+   - HR data from watch: Use Johnston's HR drift test to establish AeT. Monitor cardiac drift during easy runs to validate zone boundaries. Flag sessions where average HR exceeds AeT during intended easy efforts. Use the Roches' LTHR x 0.85 heuristic as a quick easy-run cap when a full drift test isn't practical.
+   - RPE-only (no HR): Use Koop's RPE/talk test framework, reinforced by the Roches' talk test. Enforce easy = full conversation, hard = 5-7 words max.
    - CTL/ATL/TSB from Intervals.icu: Monitor aerobic fitness trends. CTL building at 3-5 points/week = good base building. TSB chronically below -20 = overreaching, pull back.
    - Pace at AeT trending faster over weeks/months: Aerobic base is improving. Continue current approach.
-   - Pace at AeT stagnant despite consistent volume: Consider whether athlete is training in "no man's land" (too hard on easy days, too easy on hard days). Enforce separation.
+   - Pace at AeT stagnant despite consistent volume: Consider whether athlete is training in "no man's land" (too hard on easy days, too easy on hard days). Enforce separation. Check for the Roches' "mission creep" pattern -- easy pace may have drifted upward unconsciously as fitness improved.
 
 7. **Warning signs that aerobic base is insufficient:**
    - HR drift >5% on standard easy runs (Johnston test)
@@ -156,12 +171,15 @@ Note: This was a heavy race year; younger years were more heavily weighted to ba
    - Rapid HR rise in first 10-15 min of easy running
    - Pace at AeT is slower than expected for the athlete's race history
    - At moderate fatigue, speed is limited by legs, not breathing (suggests muscles can't utilize delivered oxygen -- Johnston/Evoke)
+   - Easy-run HR creeping upward over weeks at the same pace (the Roches' "mission creep" -- may indicate accumulated cortisol load or unconscious intensity drift)
+   - Stop-and-start training patterns undermining blood volume adaptations (the Roches: blood volume drops quickly with inconsistency)
 
 ## Sources & Further Reading
 
 ### Books
 - *Training for the Uphill Athlete* — Scott Johnston, Steve House & Kilian Jornet ([Amazon](https://www.amazon.com/Training-Uphill-Athlete-Mountain-Mountaineers/dp/1938340841))
 - *Science of Running* — Steve Magness ([Amazon](https://www.amazon.com/Science-Running-Efficiently-Ultramarathons-Sprints/dp/0615942946))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Freeing-Potential-Natural/dp/1492978477))
 
 ### Articles & Podcasts
 - [Aerobic Deficiency Syndrome](https://uphillathlete.com/aerobic-training/aerobic-deficiency-syndrome/) — Causes, symptoms, and how to rebuild aerobic capacity (Uphill Athlete)
@@ -170,3 +188,4 @@ Note: This was a heavy race year; younger years were more heavily weighted to ba
 - [When to Add Intensity Training](https://uphillathlete.com/aerobic-training/when-to-add-intensity-training/) — The "10% Test" for readiness to add high-intensity work (Uphill Athlete)
 - [How to Interpret Your Test Results](https://uphillathlete.com/aerobic-training/getting-tested-part-2-how-to-interpret-your-test-results/) — Interpreting metabolic and gas exchange test results (Uphill Athlete)
 - [Base Training Is Not Just Easy Running](https://www.scienceofrunning.com/2010/01/base-training-is-not-just-easy-running.html) — Why base phases should include varied stimuli, not just easy running (Science of Running)
+- [Some Work, All Play Podcast](https://swaprunning.com/podcast) — David Roche & Dr. Megan Roche discuss training philosophy, aerobic base, cortisol management, and joy-based running (SWAP Running)

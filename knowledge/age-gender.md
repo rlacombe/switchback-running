@@ -8,8 +8,11 @@ compete at elite levels. Training must account for physiological differences in
 hormonal profiles, fiber type distribution, fat oxidation, recovery capacity, and
 career development stage. A one-size-fits-all approach to volume, intensity, and
 periodization ignores fundamental biological variables that directly affect performance
-and health. This file covers sex-specific considerations, menstrual cycle impacts,
-menopause adaptations, age-related changes, youth development, and career-long
+and health. Dr. Megan Roche brings a clinical perspective (Stanford researcher, Duke
+neuroscience) and personal experience with disordered eating that adds medical depth
+to the training-focused frameworks of Koop, Johnston, and Magness. This file covers
+sex-specific considerations, menstrual cycle impacts, menopause adaptations,
+disordered eating, age-related changes, youth development, and career-long
 progression.
 
 ## Key Concepts
@@ -244,6 +247,101 @@ years of consistent training may train at higher volumes.
 - "Lifetime training history" is one of the most important factors in individuality
   of training response (Ch. 2).
 
+### David Roche & Dr. Megan Roche (SWAP Running / The Happy Runner)
+
+#### Female Athletes — Physiological Differences
+
+- **Sex differences in stress response**: Across the population, women generally have
+  lower VO2max, lower testosterone, and higher essential body fat to maintain healthy
+  bodily function. This means female runners are typically at higher risk of
+  overstressing their bodies. "However, not every general rule applies to every
+  person" — individual variation matters, and population-level trends should inform,
+  not dictate, training decisions.
+
+- **Margin for error**: The Roches' general rule: "sex differences mean that the
+  average man has more margin for error than the average woman." Women's higher
+  essential body fat percentage means dropping below it causes bodily functions to
+  shut down. "Women are freaking rockstars, but physiology can be unfair sometimes."
+  Men may be able to withstand more hard runs due to testosterone differences.
+
+- **Iron deficiency in female runners**: Blood tests for iron illustrate how sex
+  differences change the dose-response curve for stress. All runners lose iron through
+  foot-strike hemolysis. Women additionally lose iron through menstruation. The average
+  man absorbs iron more readily than the average woman. As a result, female runners
+  are iron deficient more commonly than men. Low iron → low hemoglobin → less oxygen →
+  extreme fatigue. Female vegetarian runners need to think particularly carefully about
+  iron intake because "heme" iron from red meat is more readily absorbed — they may
+  need supplementation more than male vegetarians.
+
+#### Disordered Eating — Clinical Perspective
+
+- **Dr. Megan Roche's personal experience**: Her collegiate track career at Duke was
+  derailed by the power-to-weight ratio misconception, leading to negative energy
+  availability, a persistent catabolic state, and inability to perform. Her recovery
+  came from understanding that healthy energy availability — not low weight — was the
+  key to performance. This experience informs SWAP's approach to body image and
+  nutrition for all athletes, especially women.
+
+- **Prevalence**: The Roches cite research showing 44% of female Comrades Marathon
+  participants displayed disordered eating behaviors. They openly discuss eating
+  disorders at SWAP and have four keys:
+  1. Eliminate self-judgment tools (throw away the scale)
+  2. Understand triggering events
+  3. Reinforce that all food is good food
+  4. Know you're not alone
+
+#### Aging Athletes
+
+- **Runners over 40**: Should spend more time doing strides on hills and less time on
+  flat ground strides to emphasize improving power output safely and reinforce proper
+  biomechanics with less injury risk. Cadence recommendations still apply (170+), but
+  the approach to speed development shifts toward hills.
+
+- **Background and development**: There is evidence that children who run a lot at a
+  young age can develop differently (for better or worse). David's example — he started
+  running as a 200-lb football player in his late 20s and gradually adapted at the
+  cellular level over years. The key insight: it's never too late, but the adaptation
+  is gradual and individual. This aligns with Johnston's emphasis on lifetime training
+  volume and Magness's fiber type conversion research.
+
+- **David Roche as late-bloomer case study (expanded)**: David was a 200-lb
+  sprinter/football player who didn't start endurance running until his late 20s. By
+  age 40, he set the Leadville 100 course record (15:26:34) and defended it the
+  following year. His trajectory demonstrates that running economy can continue to
+  improve for decades with consistent development, regardless of starting background.
+  The key was patience: "Breaking down that assumption [that he was just fast-twitch]
+  was something that would take me a decade." (Source: iRunFar interview)
+
+#### Female Athletes — Research (Dr. Megan Roche, Stanford)
+
+- **FASTR program at Stanford**: Dr. Megan Roche is lead researcher at the Female
+  Athlete Science and Translational Research (FASTR) program, which seeks to close the
+  gender gap in sports science research. Focus areas include early identification and
+  interventions to prevent injury and optimize performance in female athletes. Her PhD
+  in epidemiology at Stanford focused on bone health in endurance athletes and genetic
+  predictors of sports injury. (Source: Stanford Daily, Stanford Center on Longevity)
+
+- **Genetic predictors of injury**: Megan investigates genetic markers that predict
+  sports injury risk. DEXA scans measure bone density with Z-scores explaining variance
+  around the mean. She has observed extreme Z-scores (both positive and negative
+  directions) with "little explanation aside from genetics" — suggesting a strong
+  genetic component to injury susceptibility. Athletes with prior stress fracture
+  history are the best predictor of future injury risk. (Source: Stanford Medicine,
+  The Happy Runner)
+
+- **7-year study: nutrition education and bone stress injuries**: Studied NCAA Division I
+  female endurance runners at two institutions. Key findings:
+  - Trabecular bone injuries dropped from 0.18 to 0.10 events/person-year with
+    nutrition education
+  - At one institution, overall BSI rates dropped from 0.63 to 0.27
+  - Critical: results varied by institutional culture. "Team culture surrounding
+    fueling, health, and performance would impact study success and athlete buy-in"
+    (Dr. Megan Roche)
+  - Education alone was insufficient — needed role model stories from athletes who
+    experienced the Female Athlete Triad to shift perceptions
+  - "An athlete's strongest self is their healthiest and often fastest self"
+  - (Source: Stanford Human Performance Alliance)
+
 ### Steve Magness (Science of Running)
 
 #### Career Development Phases
@@ -337,25 +435,39 @@ years of consistent training may train at higher volumes.
    acknowledges the VO2max gap narrows with distance. Magness's fiber type framework
    supports the slow-twitch advantage for longer events.
 
-2. **RED-S is a serious concern for all athletes, especially women.** Both Koop and
-   Johnston explicitly warn about the health consequences of under-fueling. Loss of
-   menstrual function is a critical warning sign, not a training badge.
+2. **RED-S and disordered eating are serious concerns, especially for women.** Both
+   Koop and Johnston explicitly warn about the health consequences of under-fueling.
+   Loss of menstrual function is a critical warning sign, not a training badge. The
+   Roches add clinical urgency through Dr. Megan Roche's personal experience with
+   disordered eating and cite research showing 44% of female Comrades participants
+   displayed disordered eating behaviors. All agree: healthy energy availability
+   underpins everything.
 
-3. **Aging requires more recovery and more strength work.** All three agree that
+3. **Aging requires more recovery and more strength work.** All four agree that
    masters athletes need longer recovery periods and that strength training becomes
-   essential rather than optional after 40.
+   essential rather than optional after 40. The Roches add the specific recommendation
+   to shift strides to hills for runners over 40 to reduce injury risk while
+   maintaining neuromuscular stimulus.
 
 4. **Youth development should prioritize base-building.** Johnston's starting volumes
    by age, Magness's career development phases, and the universal emphasis on aerobic
    base before intensity all point toward patience in young athletes.
 
 5. **Lifetime training volume matters enormously.** Johnston tracks annual hours across
-   years. Magness cites the African development model. Both emphasize that adaptations
-   accrue over years and decades, not weeks.
+   years. Magness cites the African development model. The Roches illustrate this with
+   David's late-start story — beginning as a 200-lb football player and adapting at the
+   cellular level over years. All emphasize that adaptations accrue over years and
+   decades, not weeks.
 
-6. **Individuality trumps universal protocols.** All three reject the idea that one
+6. **Individuality trumps universal protocols.** All four reject the idea that one
    training system works for all athletes regardless of age, gender, fiber type, or
-   training history.
+   training history. The Roches explicitly caveat their sex-based observations:
+   "not every general rule applies to every person."
+
+7. **Iron status deserves monitoring.** Koop and Johnston both flag nutritional
+   deficiencies as performance limiters. The Roches provide the most detailed treatment
+   of iron specifically — explaining the triple hit of foot-strike hemolysis, menstrual
+   loss, and lower absorption rates that makes female runners particularly vulnerable.
 
 ## Where They Disagree
 
@@ -363,13 +475,18 @@ years of consistent training may train at higher volumes.
   treatment — tracking cycle phases, understanding estrogen/progesterone effects,
   birth control considerations, and specific menopause protocols. Johnston touches on
   it primarily through fasted training warnings for women. Magness does not address
-  menstrual cycle considerations in the source material.
+  menstrual cycle considerations in the source material. The Roches address sex
+  differences more through the lens of stress tolerance and energy availability than
+  cycle-specific periodization — their emphasis is on women having less margin for
+  error overall, rather than optimizing around specific cycle phases.
 
 - **Strength training urgency for aging athletes**: Koop frames strength training as
   essential for aging athletes' general health ("shift some priority away from
   running"). Magness emphasizes speed and power training for neural recruitment and
   fiber preservation. Johnston's ME training naturally addresses this but is framed
-  as performance-driven rather than health-driven.
+  as performance-driven rather than health-driven. The Roches recommend shifting the
+  *type* of speed work for masters athletes — hill strides over flat strides — rather
+  than necessarily changing the volume of strength training.
 
 - **The 10% rule applied to youth/beginners**: Johnston allows beginners up to 25%
   annual volume increases. Magness says throw out percentage-based rules entirely.
@@ -386,7 +503,17 @@ years of consistent training may train at higher volumes.
   conversion (Rusko, Pette studies) and argues it requires years of accumulated
   training and damage. Johnston and Koop don't address this explicitly, though
   Johnston's ME training philosophy (recruiting untrained motor units through
-  hypergravity) operates on similar principles.
+  hypergravity) operates on similar principles. The Roches illustrate the long-term
+  nature of adaptation through David's story (football player to ultrarunner) without
+  engaging with the fiber type science directly.
+
+- **Approach to disordered eating**: Koop frames it clinically within RED-S. Johnston
+  warns about fasted training for women. The Roches bring the most personal and
+  emotionally direct treatment — Dr. Megan Roche shares her own experience, they
+  discuss it openly at SWAP, and they provide a practical four-step framework
+  (eliminate self-judgment tools, understand triggers, all food is good food, you're
+  not alone). This relational approach complements the clinical framing of the other
+  experts.
 
 ## Coaching Decision Tree
 
@@ -395,13 +522,20 @@ years of consistent training may train at higher volumes.
    menstrual cycle from day one. Avoid fasted training initially (Johnston's warning).
    Apply Koop's fueling targets (200-300 cal/hr) during long runs, accounting for
    potentially higher GI sensitivity (smaller stomach, slower gastric emptying).
-   Leverage natural fat oxidation advantage — don't push LCHF diets.
+   Leverage natural fat oxidation advantage — don't push LCHF diets. Check iron levels
+   early (the Roches: women face a triple hit of foot-strike hemolysis, menstrual loss,
+   and lower absorption). Remember the Roches' margin-for-error principle — women
+   typically have less room for training errors, so err toward conservative progression.
 
 2. **Female athlete, amenorrhea or irregular cycles**: Strongly recommend medical
    consultation immediately. This is a RED-S warning sign, not normal training
    adaptation. Review caloric intake — are they meeting training demands? Check for
    bone density concerns. Reduce training volume if energy balance cannot be restored
    through nutrition alone. "Losing your period is NOT normal for athletes" (Koop).
+   If disordered eating is a factor, apply the Roches' framework: eliminate
+   self-judgment tools, understand triggers, reinforce that all food is good food,
+   and normalize the conversation — 44% of female Comrades participants displayed
+   disordered eating behaviors (the Roches).
 
 3. **Female athlete, perimenopause/menopause**: Apply Koop's 5-point protocol:
    (1) Prioritize sleep hygiene, (2) Add heavy strength training 2-3x/week,
@@ -420,8 +554,10 @@ years of consistent training may train at higher volumes.
 5. **Masters athlete (40-55)**: Add strength training if not already doing it —
    "essential for general health" (Koop). Consider moving from 3:1 to 2:1
    build:recovery ratio. Increase emphasis on speed/neural recruitment work to combat
-   fast-twitch fiber loss (Magness). May need more recovery days between hard sessions.
-   Don't chase volume increases — quality over quantity becomes more important.
+   fast-twitch fiber loss (Magness). Shift strides to hills rather than flat ground
+   to improve power output safely with less injury risk (the Roches). May need more
+   recovery days between hard sessions. Don't chase volume increases — quality over
+   quantity becomes more important.
 
 6. **Masters athlete (55+)**: Follow Johnston's starting volume guidance (300
    hours/year if new or returning). Strength training 2-3x/week is non-negotiable for
@@ -441,14 +577,18 @@ years of consistent training may train at higher volumes.
    are partially retained (Johnston: "people with years of endurance training retain
    many structural adaptations"). Recovery to previous fitness may be faster than a
    true beginner. Start at 50% of previous training load (Johnston) but may progress
-   faster than someone with no history. Get blood work done (ferritin, hormones).
-   Apply Magness's principle: safe to increase rapidly to previously maintained levels.
+   faster than someone with no history. Get blood work done (ferritin, hormones —
+   especially iron for female athletes per the Roches). Apply Magness's principle:
+   safe to increase rapidly to previously maintained levels. The Roches' emphasis on
+   it never being too late applies here — David Roche started as a 200-lb football
+   player and adapted over years. The adaptation is gradual and individual.
 
 ## Sources & Further Reading
 
 ### Books
 - *Training Essentials for Ultrarunners* — Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
 - *Training for the Uphill Athlete* — Scott Johnston, Steve House & Kilian Jornet ([Amazon](https://www.amazon.com/Training-Uphill-Athlete-Mountain-Mountaineers/dp/1938340841))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Lifelong-Running-Quitting/dp/1718203543))
 
 ### Articles & Podcasts
 - [Training as a Female Mountain Athlete Across Life Stages](https://uphillathlete.com/female-athlete/training-as-a-female-mountain-athlete-across-life-stages/) — Menstrual cycles, pregnancy, postpartum, and menopause adaptations (Uphill Athlete)

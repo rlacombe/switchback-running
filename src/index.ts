@@ -158,13 +158,24 @@ server.tool(
   { oldest: z.string().optional(), newest: z.string().optional() },
   async ({ oldest, newest }) => {
     try {
-      let path = `/athlete/${ATHLETE_ID}/fitness`;
-      const params: string[] = [];
-      if (oldest) params.push(`oldest=${oldest}`);
-      if (newest) params.push(`newest=${newest}`);
-      if (params.length) path += `?${params.join("&")}`;
-      const data = await fetchAPI(path);
-      return ok(data);
+      const o = oldest ?? new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
+      const n = newest ?? new Date().toISOString().slice(0, 10);
+      const data = await fetchAPI(
+        `/athlete/${ATHLETE_ID}/wellness.json?oldest=${o}&newest=${n}`
+      );
+      const rows = Array.isArray(data) ? data : [];
+      const FITNESS_FIELDS = ["id", "ctl", "atl", "rampRate", "ctlLoad", "atlLoad"];
+      const fitness = rows.map((r: Record<string, unknown>) => {
+        const entry: Record<string, unknown> = {};
+        for (const f of FITNESS_FIELDS) {
+          if (r[f] !== undefined && r[f] !== null) entry[f] = r[f];
+        }
+        if (entry.ctl !== undefined && entry.atl !== undefined) {
+          entry.tsb = Number(entry.ctl) - Number(entry.atl);
+        }
+        return entry;
+      }).filter((e: Record<string, unknown>) => Object.keys(e).length > 1);
+      return ok(fitness);
     } catch (e) {
       return err(e);
     }

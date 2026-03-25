@@ -139,6 +139,46 @@ training provides robust, long-lasting protection through the repeated bout effe
   'Chopsticks'" (Ch. 2). If racing on rocky/rough trails, train on rocky/rough trails.
   Smooth trail training hardwires different coordination patterns.
 
+### David Roche & Dr. Megan Roche (SWAP Running / The Happy Runner)
+
+- **Downhills as "free speed"**: Going downhill is a chance to capture free speed with
+  lower aerobic cost. Heart rates drop far lower than on flats or ups. Unlike putting
+  out power on climbs (big aerobic stress), downhills are primarily biomechanical and
+  neuromuscular stress — the limiter is coordination and resilience, not oxygen delivery.
+
+- **Eccentric contraction and impact forces**: Downhills involve eccentric muscle
+  contractions where muscles (primarily quadriceps) lengthen under load, causing
+  microtears in muscle fibers that produce delayed-onset muscle soreness (DOMS) 24-72
+  hours later. On top of DOMS, downhills involve significantly higher impact forces
+  requiring full-body resilience — it's not just the quads, it's everything from ankles
+  to core absorbing repeated high-force landings.
+
+- **Downhill as a learned skill**: "Comfort with pushing on downhills is a learned skill
+  that requires practice." Neuromuscularly, downhills require a blend of focus, agility,
+  and speed "rarely exhibited out of a puppy playpen." The implication: you can't just
+  will yourself to descend well on race day; the motor patterns must be built through
+  deliberate practice.
+
+- **Practice on long runs, not intervals**: Develop downhill skill on weekend long runs —
+  run downhills with purpose, not to push but to flow. Concentrating the stimulus on a
+  two-day block (back-to-back weekend runs) allows adaptation without overstress. "Later
+  on, do moderate tempo runs over hilly terrain, and you can become a downhill expert
+  without doing specific downhill intervals or substantially raising injury risk."
+
+- **Progression for trail runners**: In Economy Phase 2, trail runners start doing
+  extra-long runs with downhill emphasis. Begin training to run downhills fast in the
+  context of a couple runs per week during the Aerobic Phase. The key is flow-based
+  practice, not forced repetitions — let the terrain teach the skill.
+
+- **Speed development improves descending (Cat Bradley)**: Cat Bradley thought of herself
+  as a specialist ultrarunner — she trained slow, conquered mountains almost every day.
+  Her training was all geared toward covering mountain terrain. In August 2016, she
+  shifted focus: went back to basics, developed speed skill while running fewer mountain
+  miles. With less than two months of speed-focused training prior, she shocked the ultra
+  world by winning Western States 100. Speed development made her a better descender
+  because her improved running economy distributed to all terrain — faster flat running
+  economy translates directly to faster, more efficient downhill running.
+
 ### Steve Magness (Science of Running)
 
 - **Muscle damage and elastic energy**: "Muscle or tendon damage is one way that the
@@ -186,40 +226,56 @@ training provides robust, long-lasting protection through the repeated bout effe
 
 ## Where They Agree
 
-1. **A little goes a long way.** All three agree that eccentric/downhill training has
+1. **A little goes a long way.** All four agree that eccentric/downhill training has
    a highly favorable dose-response relationship — small doses produce large, lasting
-   protective adaptations. You do not need excessive downhill repeat workouts.
+   protective adaptations. You do not need excessive downhill repeat workouts. The
+   Roches specifically advocate flow-based long run practice and hilly tempo runs over
+   dedicated downhill intervals.
 
 2. **Downhill is a distinct skill.** Whether called a "discipline" (Koop), a
-   "locomotion technique" (Johnston), or "motor programming" (Magness), all three
-   treat downhill running as fundamentally different from flat or uphill running,
-   requiring specific practice.
+   "locomotion technique" (Johnston), "motor programming" (Magness), or a "learned
+   skill" requiring puppy-like agility (Roche), all four treat downhill running as
+   fundamentally different from flat or uphill running, requiring specific practice.
 
 3. **Stride length preservation matters.** All recognize that the ability to maintain
    stride length deep into a race — resisting the progressive shortening caused by
    eccentric damage — is one of the strongest predictors of ultrarunning performance.
 
-4. **Most intervals should be uphill.** All three prefer uphill intervals for
+4. **Most intervals should be uphill.** All four prefer uphill intervals for
    cardiovascular stimulus, reserving downhill training for technique and conditioning
-   rather than interval intensity.
+   rather than interval intensity. The Roches go further: avoid downhill intervals
+   entirely and develop the skill through long runs and hilly tempo runs instead.
 
 5. **Practice on race-specific terrain.** Whether matching feet-per-mile gradient
-   (Koop), building engram libraries (Johnston), or developing surface-specific
-   pre-activation (Magness), all emphasize that terrain specificity is non-negotiable.
+   (Koop), building engram libraries (Johnston), developing surface-specific
+   pre-activation (Magness), or flowing through downhills on weekend long runs (Roche),
+   all emphasize that terrain specificity is non-negotiable.
+
+6. **Downhill stress is biomechanical, not aerobic.** Johnston notes heart rate drops
+   on downhills and that's fine. The Roches frame this as "free speed" — the aerobic
+   cost is low but the biomechanical and neuromuscular demands are high. Training
+   should target the actual limiter (coordination, resilience) rather than trying to
+   keep heart rate elevated on descents.
 
 ## Where They Disagree
 
 - **Downhill repeats**: Koop explicitly warns against downhill interval repeats and
   says excessive downhill work has diminishing returns with disproportionately long
   recovery. Johnston integrates downhill tempo sessions as a regular weekly element
-  (1x/week for UTMB athletes). The tension: Koop treats downhill conditioning as a
-  small supplement; Johnston treats it as a core training component for mountain races.
+  (1x/week for UTMB athletes). The Roches side with Koop on avoiding downhill intervals
+  but differ on the alternative: they advocate embedding downhill practice into long
+  runs and hilly tempo runs rather than dedicated downhill sessions. The tension: Koop
+  treats downhill conditioning as a small supplement; Johnston treats it as a core
+  training component for mountain races; the Roches treat it as an organic skill
+  developed through regular hilly running.
 
 - **Mechanism emphasis**: Koop focuses on the repeated bout effect as a protective
   adaptation (structural resilience). Johnston focuses on motor pattern development
   and engram library expansion (neurological skill). Magness focuses on elastic energy
-  systems and pre-activation tuning (biomechanical efficiency). These are complementary
-  rather than contradictory, but they lead to different training emphases.
+  systems and pre-activation tuning (biomechanical efficiency). The Roches emphasize
+  running economy as the meta-skill — improving speed and efficiency on flat ground
+  distributes to all terrain including descents (the Cat Bradley principle). These are
+  complementary rather than contradictory, but they lead to different training emphases.
 
 - **Gym-based vs. running-based eccentric work**: Johnston's ME training (weighted
   hiking, box step-ups, split jump squats) provides eccentric conditioning through
@@ -230,7 +286,14 @@ training provides robust, long-lasting protection through the repeated bout effe
 
 - **Stride variation**: Koop uniquely advocates consciously varying foot-strike pattern
   during races to distribute eccentric load across different muscle groups. This
-  specific strategy does not appear in Johnston or Magness.
+  specific strategy does not appear in Johnston, Magness, or Roche.
+
+- **Speed development as downhill training**: The Roches uniquely argue that developing
+  flat-ground speed and running economy is itself a form of downhill training — Cat
+  Bradley became a faster descender by training speed, not by training downhills. This
+  contrasts with Koop, Johnston, and Magness, who all emphasize terrain-specific
+  practice as the primary pathway to downhill improvement. The Roche position: speed
+  and economy are prerequisites that make terrain-specific practice more productive.
 
 ## Coaching Decision Tree
 
@@ -238,7 +301,9 @@ training provides robust, long-lasting protection through the repeated bout effe
    progressive approach — integrate 2 sessions per week with fast downhill running
    pick-ups during base, graduating to 1 dedicated downhill tempo per week during
    race-specific phase. Supplement with Johnston's ME work (weighted uphill hiking to
-   build the legs that absorb downhill shock).
+   build the legs that absorb downhill shock). Consider the Roche approach of
+   back-to-back weekend long runs with purposeful downhill flow to build skill without
+   overstress.
 
 2. **Athlete training for a flat or rolling ultra**: Apply Koop's minimal effective
    dose — include some eccentric training once every 2-3 weeks to maintain protection
@@ -264,9 +329,18 @@ training provides robust, long-lasting protection through the repeated bout effe
    engram library) over conditioning. Insert short, controlled high-speed downhill
    reps into easy runs to build the motor patterns. Koop's coordination emphasis
    applies: downhill speed is about movement skill, not oxygen consumption or force
-   tolerance.
+   tolerance. Also consider the Roche approach: if the athlete's overall running
+   economy is poor, developing flat-ground speed first (Cat Bradley principle) may
+   yield bigger downhill gains than terrain-specific practice alone.
 
-7. **Post-race with severe DOMS**: Do not resume downhill running until DOMS has fully
+7. **Athlete who trains exclusively in mountains**: Be aware of the Cat Bradley
+   trap (Roche). Mountain-only training may produce durability but plateau running
+   economy. Periodically shift focus to speed development on runnable terrain —
+   improved economy distributes to all surfaces including descents. Don't abandon
+   mountains entirely, but balance terrain-specific work with general speed and
+   economy development.
+
+8. **Post-race with severe DOMS**: Do not resume downhill running until DOMS has fully
    resolved (48-72 hours minimum). Light aerobic recovery, swimming, and gentle
    massage are appropriate. Johnston recommends easy Z1 only for several days. Magness
    warns against workouts that break down form further, as this creates negative
@@ -277,6 +351,7 @@ training provides robust, long-lasting protection through the repeated bout effe
 ### Books
 - *Training Essentials for Ultrarunners* — Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
 - *Training for the Uphill Athlete* — Scott Johnston, Steve House & Kilian Jornet ([Amazon](https://www.amazon.com/Training-Uphill-Athlete-Mountain-Mountaineers/dp/1938340841))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Freeing-Potential-Training/dp/1492567647))
 
 ### Articles & Podcasts
 - [Eccentric Strength Training for Downhill Running](https://trainright.com/eccentric-strength-training-for-improved-downhill-running-performance/) — Eccentric exercises for runners with limited hill access (CTS)

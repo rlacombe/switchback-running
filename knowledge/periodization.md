@@ -1,7 +1,7 @@
 # Periodization & Training Blocks
 
 ## Summary
-Periodization -- the systematic organization of training into phases with distinct goals -- is where the three coaching philosophies diverge most sharply. Johnston follows a classical Transition → Base → Sport-Specific model inspired by cross-country skiing and mountaineering tradition. Koop uses block periodization with reverse intensity ordering, starting with VO2max work and finishing with race-specific endurance. Magness advocates a non-linear Build/Maintain/Connect framework drawn from Renato Canova and Arthur Lydiard where all qualities are present in every phase but emphasis shifts. Understanding when to apply which model is critical for effective coaching.
+Periodization -- the systematic organization of training into phases with distinct goals -- is where the coaching philosophies diverge most sharply. Johnston follows a classical Transition → Base → Sport-Specific model inspired by cross-country skiing and mountaineering tradition. Koop uses block periodization with reverse intensity ordering, starting with VO2max work and finishing with race-specific endurance. Magness advocates a non-linear Build/Maintain/Connect framework drawn from Renato Canova and Arthur Lydiard where all qualities are present in every phase but emphasis shifts. The Roches (SWAP Running) use an oscillating 5-phase model -- Aerobic → Economy 1 → Economy 2 → Specific → Pizza -- where athletes cycle between the first three phases for most of the year, building running economy through year-round speed work and compounding long-term development over years. Understanding when to apply which model is critical for effective coaching.
 
 ## Key Concepts
 
@@ -240,13 +240,100 @@ a smooth transition into the recovery phase.
 - "The best coach has no distinct system; he has general principles of training but is not locked into calling himself a 'high mileage' coach for example." (Ch. 17)
 - "Even the greatest training system will not work for every runner." (Ch. 17)
 
+### David Roche & Dr. Megan Roche (SWAP Running)
+
+#### SWAP 5-Phase Periodization Model
+
+The Roches use a distinctive phase system built around running economy development and joy-based sustainability. Athletes oscillate between Phases 1-3 for most of the year, with Phase 4 reserved for goal-race preparation and Phase 5 for recovery.
+
+**Phase 1: Aerobic Phase (4-10 weeks)**
+- Maximize aerobic volume, introduce short fast hill strides then flat-ground strides
+- Easy/moderate runs over hills, fartlek efforts as bridge to next phase
+- Run fast in the context of a couple runs per week
+- Spirit animal: border collie puppy learning not to pee in the house
+
+**Phase 2: Economy Phase 1 (2-8 weeks)**
+- Emphasize strides and short intervals to improve vVO2max/running economy through neuromuscular and biomechanical adaptations
+- Volume drops 20-40% at first, then returns to peak levels
+- Long runs mix light-tempo efforts and fartleks with sustained efforts over variable terrain
+- Spirit animal: golden retriever puppy learning how to fetch
+
+**Phase 3: Economy Phase 2 (2-6 weeks)**
+- Emphasize velocity at lactate threshold (vLT) through tempos and hills, improving pace at similar effort levels without tipping the lactate curve
+- Volume increases 10-20% above previous peaks
+- Long runs involve grueling tempos of 20-60 minutes total work with short recovery
+- Trail runners start extra-long runs with downhill emphasis
+- Spirit animal: husky sled dog preparing for the Iditarod
+
+**Phase 4: Specific Phase (3-8 weeks)**
+- Developing for goal event, emphasizing metabolic efficiency at race effort
+- For trails/ultras: mixing long runs over race-specific terrain with sustained tempos to build fat-burning capacity
+- For marathons: speeding up velocity at aerobic threshold (vAeT)
+- For shorter races: focusing on workouts matching race duration/intensity
+- Spirit animal: golden retriever puppy celebrating dinnertime
+
+**Phase 5: Pizza Phase (days to couple weeks)**
+- Recovery and rebuild. Eat pizza (or tacos, burgers, cake).
+- Spirit animal: ADDIE DOG
+
+#### 5 Overarching SWAP Principles
+
+1. **Maximize total aerobic volume while staying healthy, happy, and motivated.** Includes cross-training. Down weeks as often as every other week for injury-prone athletes, to every 6th week for resilient pros.
+2. **Year-round emphasis on speed endurance** outside of race-specific blocks -- strides or short intervals 1-4 times per week.
+3. **Long runs are quality efforts** -- the second workout of the week, tailored to athlete goals.
+4. **Rest from running consistently** -- at least one complete rest day (or two) per week.
+5. **Emphasize sustainability and qualitative metrics** over performance numbers.
+
+#### Think in Years, Not Months
+- Happy runners think long-term. Short-term specialization can lead to quick gains but stagnation.
+- Building running economy over years through consistent training creates compounding returns.
+- "Your new okay day can become your old top performance."
+- **Little-t training vs. big-T Training:** consistent daily running (little-t) is the foundation. Big-T Training blocks are important but should be built on top of that base, not replace it. "Consistent training is all about developing the aerobic system with easy miles and low-level stress. On top of that, short, fast strides get the running economy positive-feedback loop looping."
+
+#### Don't Interpolate from Outliers
+- Kilian taking off-seasons works for Kilian's genetics. Most runners who imitate pro off-season plans find themselves playing catch-up.
+- For most runners, a consistent year-round focus on speed development is the best way to unlock genetic potential.
+
+#### Specificity Window
+- Athletes almost never train specifically for a long race for more than 6-10 weeks. Of that, usually 6 weeks will be the absolute most for specific training.
+- "Going too far too often might undercut long-term development."
+
+#### Race as Training Block Transition
+- SWAP athletes often use races as transition points between training blocks rather than the sole focus.
+- "A" races get 6-10 weeks of specific prep; everything else is training.
+
+#### Multi-Race Periodization (David Roche's Approach)
+- David Roche's 2024 season illustrates how to structure multiple A-races across a single year -- Boston Marathon → Bighorn 100 → UTMB:
+  - **Boston Marathon** (4 weeks out): 100% long-distance focus, emphasizing slow-twitch recruitment and miles 20-26 sustainability
+  - **Bighorn 100** (post-marathon): One recovery week, two-week economy rebuild, then one month mountain emphasis with climbs/descents. Strides eliminated approaching race day.
+  - **UTMB** (multi-month cycle): Two-week full recovery, substantial economy rebuild, month-long mountain endurance work with strategic recovery periods
+  - Key principle: always rebuild economy before applying endurance. "If strides and sub-aerobic threshold running are on the Running Economy 101 syllabus, Economy 201 is adapting to the biomechanical and aerobic demands of going faster for longer."
+- (Source: Skurka interview)
+
+#### Athlete-Type Differentiation
+- David tailors periodization based on the athlete's background and training history:
+  - For runners with prior track/road experience (high economy): emphasizes "steady-state running throughout the training cycle" with "short intervals on short rest" -- leveraging their existing economy base and layering endurance on top
+  - For ultrarunners transitioning to shorter distances: prioritizes economy rebuilds before applying their endurance advantages -- the inverse problem
+- (Source: Skurka interview)
+
+#### Uphill Treadmill as Year-Round Phase Tool
+- David credits uphill treadmill intervals (4-12 x 5min at 10% grade) with transforming his own performance -- helping him break the 19-year Leadville course record. These sessions serve as a low-impact Economy Phase 1/2 staple that can be used year-round regardless of weather or terrain access. They develop running economy on climbs without the musculoskeletal cost of downhill running.
+- (Sources: Canadian Running Magazine, iRunFar)
+
+#### Key Quotes
+- "Consistent training is all about developing the aerobic system with easy miles and low-level stress."
+- "Your new okay day can become your old top performance."
+- "Going too far too often might undercut long-term development."
+- "If strides and sub-aerobic threshold running are on the Running Economy 101 syllabus, Economy 201 is adapting to the biomechanical and aerobic demands of going faster for longer."
+
 ## Where They Agree
-1. **Training should become more specific as the race approaches.** All three move toward race-specific work in the final training phase.
-2. **Recovery periods between training blocks are essential.** Whether it's Johnston's 3:1 build:recovery, Koop's 4-6 day recovery phases, or Magness's refresh periods.
+1. **Training should become more specific as the race approaches.** All four move toward race-specific work in the final training phase. The Roches limit this to 6-10 weeks maximum.
+2. **Recovery periods between training blocks are essential.** Whether it's Johnston's 3:1 build:recovery, Koop's 4-6 day recovery phases, Magness's refresh periods, or the Roches' Pizza Phase.
 3. **The base/general period is critical.** All dedicate significant time to building the aerobic foundation before layering specificity.
 4. **Multiple A-races require careful spacing and renewed base building between them.** 4-6 weeks minimum between ultra-distance events.
-5. **Transition/off-season is necessary.** All prescribe 2-8 weeks of reduced or cross-training between major training cycles.
+5. **Transition/off-season is necessary.** All prescribe 2-8 weeks of reduced or cross-training between major training cycles (though the Roches caution against copying pro-style long off-seasons -- most non-elite runners benefit from year-round consistency).
 6. **Nothing new in the final weeks.** Race week is for maintenance, not fitness building.
+7. **Long-term development trumps short-term peaks.** All emphasize multi-year development arcs over single-season optimization.
 
 ## Where They Disagree
 
@@ -254,28 +341,38 @@ a smooth transition into the recovery phase.
 - **Johnston:** Low to high. Base (Z1-Z2) → Z3 (only after 10% test passes) → Z4 (replacing Z3 volume). Classical periodization.
 - **Koop:** High to low (reverse). RI (VO2max) first → TR (threshold) → SSR (steady-state). "Least specific to most specific."
 - **Magness:** All types present in every phase; emphasis shifts. Non-linear. Base period includes strides, hill sprints, and small doses of specific work alongside high-volume easy running.
+- **Roches:** Oscillating. Athletes cycle between Aerobic → Economy 1 (strides/short intervals) → Economy 2 (tempos/hills) for most of the year, layering running economy gains. Specific race prep comes only in the final 6-10 weeks.
 
 ### Loading pattern within a phase
 - **Johnston:** Progressive. Build volume across 3 weeks, recover on 4th week. Conservative ramp.
 - **Koop:** Front-loaded. Hardest workouts at beginning of phase when freshest. Volume of intensity decreases across the phase.
 - **Magness:** Flexible. Stimulus should gradually increase but placement depends on individual recovery response, not fixed schedules.
+- **Roches:** Variable by phase. Volume drops 20-40% entering Economy 1 (to accommodate intensity increase), then rebuilds and exceeds previous peaks in Economy 2. Down weeks as often as every other week for injury-prone athletes, out to every 6th week for resilient pros.
 
 ### Block vs. mixed intensity
 - **Johnston:** Primarily mixed within training weeks, with intensity types introduced sequentially across phases. A week might include Z1-Z2 base work, one Z3 session, and hill sprints.
 - **Koop:** Strongly favors block periodization -- one intensity type per multi-week block. Block training works because "the acute stress is bigger even when overall workload is the same."
 - **Magness:** Non-linear -- multiple intensity types in every week, but emphasis changes. "During each training period, the vast majority of the training components are included."
+- **Roches:** Phase-based with consistent speed element. Each phase has an emphasis (aerobic volume, short intervals, tempos), but strides or short intervals appear 1-4 times per week year-round. Closest to Magness's "never leave anything behind" but with more distinct phase transitions.
 
 ### Length of aerobic base period
 - **Johnston:** Many months. The longest phase. Category 1 athletes (under 400 hrs/year) should focus almost exclusively on volume.
 - **Koop:** Aerobic base is built through total annual volume, not a dedicated base-only phase. Intensity can be included from the start if structured properly.
 - **Magness:** 3-8 weeks of general/base emphasis, but it includes speed maintenance (strides, hill sprints) from week one.
+- **Roches:** 4-10 weeks of dedicated Aerobic Phase, but it includes short fast strides from the start. The aerobic base is continuously maintained through all phases via the principle of maximizing total aerobic volume year-round.
+
+### Off-season philosophy
+- **Johnston:** 2-8 week transition period. 50% of previous year's volume. Focus on strength and movement quality.
+- **Koop:** 2-4 weeks away from running. Cross-train. Goal: make running feel like a desire, not a compulsion.
+- **Magness:** Refresh periods (3-10 days) can be used mid-season. Off-season is flexible.
+- **Roches:** Caution against long off-seasons for non-elite runners. "Don't interpolate from outliers" -- Kilian taking off-seasons works for Kilian. Most runners who imitate pro off-season plans find themselves playing catch-up. Favor the Pizza Phase (days to a couple weeks) for recovery, then return to consistent little-t training.
 
 ## Coaching Decision Tree
 
 1. **What is the athlete's experience level?**
    - New runner (<2 years, <400 hrs/year): Johnston's approach. Extended base period (months). Focus on aerobic development and general strength. No formal intensity until 10% test passes.
-   - Intermediate (2-5 years, 400-600 hrs/year): Blend approaches. Use Johnston's base-first structure but incorporate Magness's "never leave anything behind" principle -- include strides, hill sprints, and small doses of faster work even during base.
-   - Advanced (5+ years, >600 hrs/year, plateaued): Koop's block periodization. Concentrate intensity into focused blocks. Try front-loading within phases if traditional progressive loading has stagnated.
+   - Intermediate (2-5 years, 400-600 hrs/year): Blend approaches. Use Johnston's base-first structure but incorporate Magness's "never leave anything behind" principle -- include strides, hill sprints, and small doses of faster work even during base. The Roches' oscillating phase model (Aerobic → Economy 1 → Economy 2) works well here -- it builds economy progressively while keeping training varied and enjoyable.
+   - Advanced (5+ years, >600 hrs/year, plateaued): Koop's block periodization. Concentrate intensity into focused blocks. Try front-loading within phases if traditional progressive loading has stagnated. The Roches' year-round speed emphasis can also help break plateaus -- "your new okay day can become your old top performance."
 
 2. **How far out is the goal race?**
    - 24+ weeks: Full periodization cycle. Start with transition/general phase, build base, layer specificity.
@@ -285,7 +382,7 @@ a smooth transition into the recovery phase.
 
 3. **Single A-race or multiple targets?**
    - Single A-race: Full taper, full periodization arc.
-   - Multiple races: Use B/C races as training (Johnston). Refresh periods between targets (Magness). Koop: manage race frequency for long-term health.
+   - Multiple races: Use B/C races as training (Johnston). Refresh periods between targets (Magness). Koop: manage race frequency for long-term health. The Roches use races as training block transitions -- only "A" races get 6-10 weeks of specific prep; everything else is training.
 
 4. **Is the athlete responding to the current approach?**
    - Progressive loading working (A/B workout grades): Continue current approach.
@@ -296,17 +393,18 @@ a smooth transition into the recovery phase.
    - Johnston: Drop volume 30%/week for 1-3 weeks. Keep short intensity with long rests. Nothing new. Race week: recovery zone only, with 3-4x30 sec accelerations in 2 workouts.
    - Koop: Fast decay model. Week 1: 40-50% normal volume. Week 2: 20-30%. Week 3: <20%. Maintain intensity TYPE but reduce volume of intensity. Example: 4x10 min TR → 3x5 min → 2x5 min → 1x5 min.
    - Magness: Prefers sharpening over dramatic taper for distance events. Maintain or slightly drop mileage; slightly decrease volume of hard workouts; decrease density. Last week: adjust muscle tension (sprints/strides to raise, threshold to lower). Last hard workout ~10 days before peak race.
+   - Roches: Scale taper to the individual. For >50 mi/wk: cut 20% week 1, 40% week 2. For <50 mi/wk: cut 10% week 1, 25% week 2. Cut 10-25% more for races longer than 50K. Maintain intense workouts ("it's okay to do a big workout 10 days out"). Still do a long run the week before. Don't rest the day before the race -- do a shakeout.
    - **For 100-mile races:** 10-14 day taper (Johnston). Fast decay (Koop). All agree: only fully taper for A-level events.
 
 6. **Recommended phase structure for a 24-week 100-mile plan:**
 
-   | Weeks | Johnston | Koop | Magness |
-   |-------|----------|------|---------|
-   | 1-4 | Transition: strength 3x/wk, easy volume at 50% | Transition: no running, cross-train | General: easy volume + strides + hill sprints |
-   | 5-12 | Base: build volume, Z1-Z2, strength 2x/wk | RI block (2-4 wk) → TR block (3-4 wk) | Base: build volume, introduce LT work, maintain speed |
-   | 13-18 | Base cont'd: add Z3 if 10% test passes, ME work | SSR block (3-6 wk) with recovery | Pre-competition: shift to support paces, specific endurance |
-   | 19-22 | Sport-Specific: back-to-backs, terrain matching | Race-specific: high volume, terrain matching | Competition: specific endurance, reduce density |
-   | 23-24 | Taper: 30%/wk volume reduction | Fast decay taper: 50% → 25% → <20% | Sharpen: maintain volume, reduce hard workout density |
+   | Weeks | Johnston | Koop | Magness | Roches (SWAP) |
+   |-------|----------|------|---------|---------------|
+   | 1-4 | Transition: strength 3x/wk, easy volume at 50% | Transition: no running, cross-train | General: easy volume + strides + hill sprints | Aerobic Phase: max aerobic volume, hill strides, easy/moderate runs over hills |
+   | 5-12 | Base: build volume, Z1-Z2, strength 2x/wk | RI block (2-4 wk) → TR block (3-4 wk) | Base: build volume, introduce LT work, maintain speed | Economy 1 → Economy 2: strides + short intervals → tempos + hills, volume rebuilds to 10-20% above previous peaks |
+   | 13-18 | Base cont'd: add Z3 if 10% test passes, ME work | SSR block (3-6 wk) with recovery | Pre-competition: shift to support paces, specific endurance | Economy 2 cont'd → Specific Phase: grueling long-run tempos, then race-terrain long runs + sustained tempos |
+   | 19-22 | Sport-Specific: back-to-backs, terrain matching | Race-specific: high volume, terrain matching | Competition: specific endurance, reduce density | Specific Phase: race-specific terrain, fat-burning capacity, metabolic efficiency at race effort |
+   | 23-24 | Taper: 30%/wk volume reduction | Fast decay taper: 50% → 25% → <20% | Sharpen: maintain volume, reduce hard workout density | Scaled taper: 20% → 40% cut (+ extra 10-25% for 100mi), long run week before, shakeout day before |
 
 ## Sources & Further Reading
 
@@ -314,6 +412,7 @@ a smooth transition into the recovery phase.
 - *Training for the Uphill Athlete* — Scott Johnston, Steve House & Kilian Jornet ([Amazon](https://www.amazon.com/Training-Uphill-Athlete-Mountain-Mountaineers/dp/1938340841))
 - *Training Essentials for Ultrarunners* — Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
 - *Science of Running* — Steve Magness ([Amazon](https://www.amazon.com/Science-Running-Efficiently-Ultramarathons-Sprints/dp/0615942946))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Breakthrough-Running-Training/dp/1492598925))
 
 ### Articles & Podcasts
 - [Transition Period Training](https://uphillathlete.com/aerobic-training/transition-period-training-tactical/) — The transition period as the foundational phase (Uphill Athlete)

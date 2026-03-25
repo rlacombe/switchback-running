@@ -4,11 +4,12 @@
 
 Mental performance is arguably the single greatest differentiator in ultrarunning.
 While physiological capacity sets the ceiling, psychological skills determine how much
-of that capacity an athlete actually uses on race day. All three major coaching voices
+of that capacity an athlete actually uses on race day. All four major coaching voices
 agree that fatigue is not purely a physical phenomenon — the brain regulates exercise
 output through anticipatory mechanisms, perceived exertion, and emotional processing.
 Training the mind is as important as training the legs, and it can be practiced
-systematically.
+systematically — whether through structured protocols (Koop), neurophysiology (Magness),
+experiential adversity (Johnston), or foundational self-acceptance (the Roches).
 
 ## Key Concepts
 
@@ -178,6 +179,64 @@ systematically.
   active switching between associative/dissociative modes. Fine to use, but athletes
   should also carve out time for deliberate mental skills practice (Ch. 15).
 
+### David Roche & Dr. Megan Roche (SWAP Running / The Happy Runner)
+
+- **Joy-based training philosophy**: The Roches' entire mental framework is built on the
+  premise that sustainable performance comes from enjoying the process. "An unexamined
+  running life often becomes an unhappy running life." Running should add meaning to
+  life, not define self-worth. This is a fundamentally different starting point from
+  Koop's performance-optimization lens or Magness's neurophysiological framework — for
+  the Roches, mental performance begins with emotional health, not cognitive strategy.
+
+- **Unconditional self-acceptance**: The foundation of the Roches' approach. "You are
+  enough, right now." When you accept yourself unconditionally, you give yourself
+  permission to fail — and "when failure loses its stigma, you can overcome all the
+  obstacles you encounter." This removes the fear that drives catastrophizing and
+  pre-race anxiety at the root, rather than treating symptoms with coping strategies.
+
+- **Growth mindset in training**: Embracing bad days as part of the process. "Being a
+  lifelong runner involves a series of failures interspersed with momentary successes."
+  Self-worth must not be tied to running performance. Every failure is just a part of
+  the story — not evidence of inadequacy.
+
+- **Self-belief as emotional alchemy**: "Belief can act as emotional alchemy, turning
+  discouragement into confidence, and given time, that can turn the impossible into the
+  ordinary." The Liza Howard example — a 45-year-old busy mom who joined SWAP thinking
+  she was washed up, but through buying into her own potential, won two national
+  championships and the USATF 100K title at age 46. Self-belief is not delusion; it's
+  the precondition for accessing physical capacity.
+
+- **Process over outcome**: The Roches frame training as a tunnel — "there is no light
+  at the end of the tunnel. There is no magical time when the outcomes of your training
+  will bring you lifelong joy." The joy must come from the process itself. This is
+  distinct from the goal-focused approaches of Johnston and Koop, and extends beyond
+  "staying present" during a race (Koop's advice) to an entire life philosophy about
+  why you run.
+
+- **DNF processing**: Kimberley Teshima's story — DNF at Cascade Crest 100 left her
+  devastated. The Roches' advice: "Eat a pizza, drink a beer, suck it up and carry
+  on." But also: instead of wallowing in reduced strength, use the setback to refocus.
+  Kimberley shifted to speed development ("LET'S GET FAST!") and set PRs from 5K to
+  half marathon in six weeks. The practical framework: grieve briefly, then channel
+  the energy into a new challenge — don't let the DNF define the narrative.
+
+- **The monkey brain**: When tired, hurt, or undertrained, the "monkey brain" pushes
+  runners to train anyway. "Your shin hurts. Run goshdarnit or you're a failure!" Happy
+  runner training turns that brain off by reframing rest as productive. Examples:
+  - "Your shin hurts → I'll rest today, hop on the bike or go in the sauna."
+  - "Hills feel harder than usual → Time for a burger and a movie instead of a hill
+    workout."
+  - "You only slept three hours → Snoozle intervals sound way more productive than mile
+    repeats."
+  This directly addresses the compulsive training trap that Johnston also warns about,
+  but with humor and permission rather than clinical language.
+
+- **Depression and anxiety as running factors**: The Roches address mental health
+  openly — one of the few coaching voices to do so directly. "Most people have their
+  own mental health struggles at one time or another. And no matter what your
+  background, just know that it's okay. You are enough right now." They normalize
+  seeking help and reject the "tough it out" culture that can dominate endurance sports.
+
 ### Scott Johnston (Evoke / Uphill Athlete)
 
 - **Decision/gratitude/adversity reframing frameworks**: Johnston draws on athlete
@@ -214,37 +273,55 @@ systematically.
 
 ## Where They Agree
 
-1. **Fatigue is not purely physical.** All three reject the idea that fatigue is simply
+1. **Fatigue is not purely physical.** All four reject the idea that fatigue is simply
    muscles running out of fuel or accumulating too much waste. The brain plays a central
-   regulatory role.
+   regulatory role. The Roches extend this further — emotional state (joy, self-belief,
+   self-acceptance) directly shapes how much capacity an athlete can access.
 
 2. **Mental skills are trainable.** None treat mental toughness as a fixed trait. All
    advocate deliberate practice of coping strategies, whether through formal frameworks
-   (MAC, ADAPT) or experiential approaches (adversity training, gratitude reframing).
+   (MAC, ADAPT), experiential approaches (adversity training, gratitude reframing), or
+   foundational mindset shifts (the Roches' unconditional self-acceptance and growth
+   mindset).
 
-3. **Staying present matters.** All three advocate some form of "staying in the moment"
+3. **Staying present matters.** All four advocate some form of "staying in the moment"
    rather than projecting suffering forward. Koop formalizes this as perceived exertion
    endpoint interaction. Magness describes it through pacing psychology. Johnston frames
-   it through decision-making and short-term goal-setting.
+   it through decision-making and short-term goal-setting. The Roches anchor it in
+   process orientation — "there is no light at the end of the tunnel."
 
 4. **Pre-race mental energy conservation.** All recognize that arriving at the start
    mentally depleted degrades performance. Koop warns about pre-race anxiety. Magness
    cites Marcora's willpower depletion research. Johnston's athletes talk about
-   surrendering to circumstances rather than fighting them.
+   surrendering to circumstances rather than fighting them. The Roches address it through
+   self-acceptance — removing the need to prove anything eliminates a major source of
+   pre-race stress.
+
+5. **Training should involve joy.** Johnston's athletes (Kilian Jornet, Dakota Jones)
+   emphasize training as enjoyable and purposeful. The Roches build their entire framework
+   on this principle. Even Magness's research supports it — positive emotional states
+   lower perceived exertion, while fear and anxiety amplify it.
 
 ## Where They Disagree
 
 - **Theoretical framework**: Magness anchors to Noakes's Central Governor model (brain
   as ultimate arbiter), while Koop explicitly prefers the Psychobiological Model
-  (athlete in the driver's seat, not the brain). The practical difference is subtle
-  but philosophically significant: CGM implies the brain will always limit you; PBM
-  implies you can choose to push harder if motivation is high enough.
+  (athlete in the driver's seat, not the brain). The Roches don't engage with fatigue
+  models directly — their framework operates at a different level, treating emotional
+  health and self-acceptance as the upstream variable that shapes all downstream mental
+  performance. The practical difference matters: CGM implies the brain will always limit
+  you; PBM implies you can choose to push harder if motivation is high enough; the
+  Roches imply that when you run joyfully and without fear of failure, the limits
+  recede naturally.
 
 - **Formality of training**: Koop provides structured, step-by-step mental training
   protocols (MAC framework, ADAPT framework) with specific timelines. Johnston's
   approach is more experiential and narrative-driven — learn through adversity,
   cultivate gratitude, make conscious decisions. Magness is research-heavy, providing
-  the scientific basis but fewer practical protocols.
+  the scientific basis but fewer practical protocols. The Roches are the least
+  structured — their approach is philosophical and relational rather than protocol-based.
+  Change the foundational beliefs (self-worth, growth mindset, joy in the process) and
+  the race-day coping follows.
 
 - **Role of dissociation**: Koop sees dissociation as a valuable and trainable tool —
   lower perceived exertion, endure longer. Magness is more cautious: dissociative
@@ -256,43 +333,84 @@ systematically.
   on safe, non-technical terrain; re-associate at decision points (aid stations, climbs,
   any moment requiring judgment). Johnston does not explicitly discuss dissociation as
   a strategy, instead emphasizing gratitude and decision-making frameworks that are
-  inherently associative (present-moment, acceptance-based).
+  inherently associative (present-moment, acceptance-based). The Roches don't frame
+  mental strategy in terms of association/dissociation — their "monkey brain" concept
+  focuses on when to override the voice pushing you to train through warning signs,
+  which is more about training decisions than in-race attention.
+
+- **Response to DNFs and setbacks**: Koop's ADAPT framework treats race crises as
+  solvable problems with structured analysis. Johnston's athletes reframe adversity
+  as growth opportunities. The Roches take a different tack — acknowledge the grief
+  ("eat a pizza, drink a beer"), then redirect energy into a new challenge rather than
+  dwelling on what went wrong. Where Koop analyzes and Johnston transcends, the Roches
+  grieve briefly and pivot.
+
+- **Mental health**: The Roches are unique in directly addressing depression and anxiety
+  as factors in running performance and coaching. The other experts focus on situational
+  mental states (pre-race anxiety, mid-race catastrophizing) rather than underlying
+  mental health conditions. The Roches' willingness to normalize mental health struggles
+  fills a gap that the performance-focused frameworks leave open.
 
 ## Coaching Decision Tree
 
 1. **Athlete with no mental skills training**: Start with Koop's MAC framework
    (Steps 1-2 first, 2+ weeks of mindfulness practice in daily life before applying
    to training). Layer in Johnston's adversity reframing on harder training days.
+   Introduce the Roches' foundational concept early: "you are enough, right now."
 
 2. **Athlete who DNFs from "I can't go on" rather than injury**: Focus on Koop's
    perceived exertion endpoint interaction — train to bypass projection by breaking
    the race into micro-segments (next aid station, next 10 seconds). Use Magness's
-   deception research to explain why the brain is lying.
+   deception research to explain why the brain is lying. For post-DNF processing,
+   apply the Roches' framework: grieve briefly, then redirect energy into a new
+   challenge (Kimberley Teshima example — pivot to a different goal rather than
+   dwelling on the DNF).
 
 3. **Athlete who starts too conservatively**: Use Magness's central governor research
    to build confidence that the brain has reserves. Gradually expand the "permission
-   envelope" through race-pace training and B-priority races.
+   envelope" through race-pace training and B-priority races. The Roches' self-belief
+   framework also applies — the Liza Howard example shows how believing in your own
+   potential can unlock capacity the athlete didn't know existed.
 
 4. **Athlete who catastrophizes under discomfort**: Use Magness's pain tolerance
    research (coping strategies are trainable) combined with Johnston's adversity
    training (deliberately seek uncomfortable conditions). Koop's ADAPT framework
-   provides an in-race protocol when catastrophizing begins.
+   provides an in-race protocol when catastrophizing begins. For the root cause,
+   consider the Roches' unconditional self-acceptance — catastrophizing often stems
+   from tying self-worth to performance outcomes.
 
-5. **Experienced athlete seeking marginal gains**: Combine all three — use Koop's
+5. **Experienced athlete seeking marginal gains**: Combine all four — use Koop's
    associative/dissociative switching as a race-day tool, Johnston's gratitude
-   reframing for the dark patches, and Magness's understanding of neurotransmitter
+   reframing for the dark patches, Magness's understanding of neurotransmitter
    manipulation (caffeine timing, pre-cooling) to optimize the brain's willingness
-   to release reserves.
+   to release reserves, and the Roches' self-belief framework to remove internal
+   limiters.
 
 6. **Pre-race week**: Minimize cognitive load (Marcora's research via Magness).
    Manage taper tantrums with Koop's normalizing language. Use Johnston's joy-centered
-   philosophy to maintain perspective.
+   philosophy to maintain perspective. The Roches' "you are enough" mindset can be
+   particularly powerful here — it reduces the stakes of the race from "I need to
+   prove myself" to "I get to do this."
+
+7. **Athlete dealing with compulsive training ("monkey brain")**: Apply the Roches'
+   reframing directly — rest is productive, skipping a session when hurt or
+   under-recovered is the smart move, not a failure. Reinforce with Johnston's
+   warning against compulsive training. The humor in the Roches' approach ("snoozle
+   intervals") can disarm the shame that drives overtraining.
+
+8. **Athlete struggling with mental health (depression, anxiety)**: The Roches are
+   the primary resource here — they normalize mental health struggles and reject the
+   "tough it out" culture. Lead with a recommendation to consult a mental health
+   professional. Within coaching, emphasize unconditional self-acceptance, separate
+   self-worth from performance, and adjust training to reduce stress rather than add
+   to it.
 
 ## Sources & Further Reading
 
 ### Books
 - *Science of Running* — Steve Magness ([Amazon](https://www.amazon.com/Science-Running-Efficiently-Ultramarathons-Sprints/dp/0615942946))
 - *Training Essentials for Ultrarunners* — Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Lifelong-Running-Quitting/dp/1718203543))
 
 ### Articles & Podcasts
 - [3 Sports Psychology Strategies to Prevent DNFs](https://trainright.com/sports-psychology-strategies-prevent-ultramarathon-dnf/) — Mental strategies to finish tough races (CTS)
@@ -302,3 +420,4 @@ systematically.
 - [Being Clutch Isn't Magic — It's a Trainable Skill](https://www.scienceofrunning.com/2020/05/being-clutch-isnt-magic-its-a-trainable-skill.html) — Five characteristics of clutch performance (Science of Running)
 - [Do Hard Things: Why We Get Resilience Wrong](https://www.stevemagness.com/do-hard-things/) — Real toughness comes from embracing vulnerability (Steve Magness)
 - [Ultra Mindset — Lessons from Ultrarunners](https://uphillathlete.com/trail-running/ultra-mindset-lessons-ultrarunners/) — Grit, resilience, and mental toughness in ultrarunning (Uphill Athlete)
+- [Some Work, All Play Podcast](https://www.someworkallplay.com/podcast) — Weekly coaching, science, and joy-based running discussions (SWAP Running)

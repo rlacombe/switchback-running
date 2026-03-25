@@ -1,7 +1,7 @@
 # Workout Types & Intensity
 
 ## Summary
-The three primary ultrarunning coaches use different naming conventions and intensity scales, but their workout toolkits overlap substantially. Understanding how CTS workout types map onto Johnston's zone-based sessions and Magness's pace-based classifications is essential for translating between frameworks and prescribing the right session for the athlete's current training phase. The deepest disagreement is in periodization order: Koop starts with high intensity and works toward specificity, while Johnston builds base first and layers intensity on top.
+The four primary ultrarunning coaches use different naming conventions and intensity scales, but their workout toolkits overlap substantially. Understanding how CTS workout types map onto Johnston's zone-based sessions and Magness's pace-based classifications is essential for translating between frameworks and prescribing the right session for the athlete's current training phase. The Roches (David Roche and Dr. Megan Roche) add a distinctive emphasis on strides as the foundational speed tool, arguing that running economy -- not just metabolic fitness -- is the primary limiter for most runners. The deepest disagreement is in periodization order: Koop starts with high intensity and works toward specificity, while Johnston builds base first and layers intensity on top.
 
 ## Key Concepts
 
@@ -73,10 +73,11 @@ The three primary ultrarunning coaches use different naming conventions and inte
 | RunningIntervals | Z4 | Support (anaerobic) | >AnT, near max | >4 mmol/L |
 | -- | Z5 | Pure Speed | Max HR | N/A (too short) |
 
-### Long Run Considerations (All Three)
+### Long Run Considerations (All Four)
 - Johnston: one long workout per week = 30-40% of weekly aerobic volume. Done at Z1 (if AeT within 10% of LT) or Z2 (if ADS). "Should leave you tired from the duration, not the intensity." (Ch. 10)
 - Koop: no magic long run distance. Should be at least 25% of anticipated race time (hours). Weekly volume for several weeks at least 50% of anticipated race time. Minimum 4 hours for practicing nutrition.
 - Magness: long run benefits include structural preparation (muscles, bones, joints adapt to pounding), fiber recruitment training (as duration extends, additional FT fibers are recruited and trained aerobically), and fuel system adaptation (only workout that stresses total fuel supply enough to trigger glycogen storage increases).
+- The Roches: long run = 20-40% of weekly volume, year-round. It's the second-hardest workout of the week. Start slow with the option to end faster. Don't overemphasize extra-long runs -- race-specific blocks should be limited to 6-10 weeks to protect running economy.
 
 ## What the Experts Say
 
@@ -105,12 +106,37 @@ The three primary ultrarunning coaches use different naming conventions and inte
 - **Base training is NOT just easy running.** Even during base, include strides, surges, hill sprints, and progressions. These maintain neuromuscular coordination and recruit fast-twitch fibers without the high metabolic cost of formal interval sessions.
 - **Circuits as strength endurance.** General exercises separated by runs at ~70% effort. Start at aerobic interval duration (e.g., 10k runner doing 5x2000m would do circuits ~5-6 min each x5). Non-specific lactate accumulation avoids negative effects on aerobic abilities while training lactate clearance.
 
+### David Roche & Dr. Megan Roche (SWAP Running)
+- **Strides are the foundational speed tool.** Short, fast bursts (15-30 seconds) at smooth, controlled top-end speed with full easy recovery. Not sprinting -- "smooth is fast." Place them in the second half of easy runs, 1-3 times per week. The Roches consider strides more important than traditional intervals for most runners.
+- **Hill strides before flat strides.** Start on hills to reduce impact forces and optimize power output. Progression: 4x15s hill strides → 4x20s hills → 6x30s hills → then move to flats. Runners over 40 should spend more time on hills than flats to reinforce biomechanics with less injury risk.
+- **Flat stride progression.** Once hills feel sustainable, move to flats gradually. Start with 4x20s flat, progress to 8x20s, then 8x30s, up to 10-15x30s with 30-second easy recovery. Ease into the effort over the first 5 seconds; the key is smooth, relaxed speed -- "like a kid playing tag at recess."
+- **The 20 Percent Rule.** Average stride speed is typically ~20% faster than lactate threshold time trial pace. Improving stride speed raises the ceiling for all sustained efforts. "If those 30-second strides get faster, the 30-minute time trial usually gets a bit faster too." (*The Happy Runner*, Ch. 6)
+- **"Fast needs to feel smooth, or eventually hard will become slow."** If you neglect speed development, vVO2 and vAeT will drop even as raw VO2max and AeT stay the same. Running economy degrades without speed practice.
+- **Speed-focused vs. strength-focused week design.** Two contrasting approaches with similar volume illustrate the SWAP philosophy:
+  - *Strength-focused:* 2x10 min moderate/hard with 5 min recovery, 10K moderate, 18 mi long run -- lots of sustained effort, body falls back on old habits.
+  - *Speed-focused:* 6x30s strides, 3/2/1 min fast with recovery, 6 mi easy, 16 mi easy/moderate, 6 mi with hill strides -- emphasizes speed skill development.
+  The Roches prefer speed-focused weeks for most of the year, reserving strength-focused approaches for race-specific blocks.
+- **Sustainable top-end speed endurance test:** 8x20 or 30 seconds fast with equal easy running recovery mid-run. Short recovery means they're using long-distance running form at top-end speed. Doubles as a fitness assessment and running economy workout.
+- **Sample Economy Build** (5-week progression integrated into normal easy runs):
+  - Week 1: 6x20s hills fast / 2 min recovery AND 8x20s hills fast / 2 min recovery
+  - Week 2: 6x30s hills fast / 1 min recovery AND 8x30s hills fast / 1 min recovery
+  - Week 3: 6x20s flat / 2 min recovery AND 8x20s flat / 2 min recovery
+  - Week 4: 8x30s flat / 2 min recovery AND 10x30s flat / 1 min recovery
+  - Week 5: 10x30s flat / 1 min recovery AND 15x30s flat / 30s recovery
+- **Additional Workout Protocols (from articles & interviews):**
+  - **16x1min fast / 1min easy:** Year-round staple workout. Fast segments at vVO2 -- "a controlled but challenging pace." Recovery starts very easy early in season, evolving to a quicker float as fitness improves. Boosts running economy at any fitness level. (Source: Canadian Running Magazine)
+  - **Uphill treadmill threshold intervals:** 4x5min at moderate effort with 1-2min easy recovery on 10% incline (adjustable 4-15%). Advanced runners progress to 8-12 intervals. Low-impact way to build aerobic development and strengthen muscles without overloading joints. Winter training staple. David credits these treadmill sessions with helping him break Matt Carpenter's 19-year Leadville 100 course record. (Source: Canadian Running Magazine)
+  - **5x3min hill repeats + tempo combo:** Five 3-minute uphill efforts at hard but sustainable effort with easy jog-down recovery, followed by a few miles of steady tempo running. Builds aerobic power and converts strength gains into endurance. (Source: Canadian Running Magazine)
+  - **Fartlek progression (Economy 201):** Start with 12x1min intervals at vVO2, progress to 12x3min. Rest decreases weekly (2min rest down to 1min rest). Initially targets vVO2, transitions to critical velocity as intervals lengthen. "Each successive workout is more economical than it would be otherwise." Represents the next step after the strides-based Economy Build. (Source: Andrew Skurka interview)
+  - **Long run with marathon-pace segments:** Long runs increase in both length and pace simultaneously. Example progression: 4 miles at marathon pace within a 20-mile run, building to 16 miles at marathon pace within a 24-mile run. Key principle: aerobic development peaks around 75-80 minutes of sustained effort. (Source: Andrew Skurka interview)
+  - **Feel-first data approach:** "95% feeling. The data just helps you calibrate feel slightly." Uses HR monitoring strategically on technical sections and steep climbs to prevent mistakes, but abandons it in flat/runnable sections. Teaches athletes to develop internal pacing sense rather than chasing numbers. (Source: iRunFar interview)
+
 ## Where They Agree
-1. **Recovery runs should be genuinely easy.** All three flag "no man's land" training as destructive.
-2. **Uphill is the preferred terrain for intervals.** Higher cardiovascular demand, lower injury risk, more sport-specific for mountain ultras.
+1. **Recovery runs should be genuinely easy.** All four flag "no man's land" training as destructive.
+2. **Uphill is the preferred terrain for intervals.** Higher cardiovascular demand, lower injury risk, more sport-specific for mountain ultras. The Roches specifically advocate hill strides before flat strides for the same reasons.
 3. **Hard days should be hard, easy days easy.** The polarized distribution principle is endorsed by all, even if Magness adds nuance about "medium" days.
 4. **Total time at intensity matters more than individual interval length.** All prescribe accumulated time at target intensity as the key variable.
-5. **Strides and short accelerations are valuable year-round.** Even Johnston includes pick-ups during base period.
+5. **Strides and short accelerations are valuable year-round.** Johnston includes pick-ups during base, Magness adds strides and surges, and the Roches make strides the single most important speed tool -- more important than traditional intervals for most runners.
 
 ## Where They Disagree
 
@@ -128,15 +154,23 @@ The three primary ultrarunning coaches use different naming conventions and inte
 - **Johnston:** Used sparingly. Z4 work only after Z3 is established. Total work 15-30 min per session.
 - **Koop:** VO2max intervals are the FIRST intensity type introduced in the training cycle. 2-4 week blocks. "Raise the roof" to lift all thresholds below.
 - **Magness:** VO2max itself plateaus early in trained athletes and is a poor performance predictor. Acknowledges VO2max work triggers adaptations via AMPK pathway but cautions against overemphasis.
+- **The Roches:** Prefer very short strides (15-30s) over sustained VO2max intervals for most runners. The 20 Percent Rule argues that improving top-end speed via strides lifts all sustainable paces below it. Traditional VO2max work has a role but shouldn't dominate -- "fast needs to feel smooth, or eventually hard will become slow."
+
+### Strides vs. traditional intervals as the primary speed tool
+- **The Roches:** Strides are *more important* than traditional intervals for most runners. Running economy -- not metabolic capacity -- is the primary limiter. Short, smooth strides 1-3x/week develop neuromuscular coordination and top-end speed without metabolic fatigue. A speed-focused week built around strides produces better long-term development than a strength-focused week of sustained intervals.
+- **Johnston:** Includes pick-ups and strides (6x15s to 8x30s) during base but treats them as supplements to the zone-based framework, not as a replacement for Z3/Z4 intervals once the athlete is ready.
+- **Koop:** Prescribes 4-8x20s RunningStrides as warm-up before formal intervals. Strides serve the workout; they are not the workout. The primary speed tool is RunningIntervals at >90% VO2max.
+- **Magness:** Values strides, surges, and hill sprints as base-period speed maintenance but also builds toward formal interval sessions as the competitive season approaches.
 
 ## Coaching Decision Tree
 
 1. **What phase is the athlete in?**
-   - Early season / base building: Easy volume (all three agree). Add strides, surges, hill sprints for neuromuscular maintenance (Magness, Johnston). No formal intervals unless athlete passes 10% test (Johnston).
+   - Early season / base building: Easy volume (all four agree). Add strides, surges, hill sprints for neuromuscular maintenance (Magness, Johnston, the Roches). No formal intervals unless athlete passes 10% test (Johnston). The Roches recommend starting with hill strides (4x15s) and progressing from here -- this is the phase where the Economy Build protocol has the most impact.
    - Mid-season / build phase:
      - Johnston approach: Add Z3 at 5% of weekly volume, progress to 10%, then begin Z4.
      - Koop approach: RI blocks first (2-4 weeks), then TR blocks (3-4 weeks), then SSR blocks (3-6 weeks).
      - Magness approach: Shift emphasis gradually from general to support to specific. Keep all components present.
+     - Roche approach: Continue strides 1-3x/week year-round, progressing volume and shifting from hills to flats. Add one midweek speed session. Speed-focused weeks for most of the year; shift to strength-focused weeks only in race-specific blocks.
    - Late season / race-specific: All converge on race-specific volume and terrain matching.
 
 2. **How should the workout be structured?**
@@ -147,7 +181,7 @@ The three primary ultrarunning coaches use different naming conventions and inte
 
 3. **How many hard sessions per week?**
    - Beginners: 1 per week maximum (Johnston).
-   - Intermediate: 2 per week with 48-72 hours between (all three).
+   - Intermediate: 2 per week with 48-72 hours between (all four).
    - Advanced: 2-3 per week, potentially on consecutive days during concentrated blocks (Koop).
    - Recovery week: maximum 1 intensity session (Johnston).
 
@@ -159,8 +193,13 @@ The three primary ultrarunning coaches use different naming conventions and inte
 
 5. **Athlete struggling with "no man's land" training?**
    - If all runs are at the same moderate effort: enforce separation. Use RPE 4-5 for easy days (Koop). Use HR ceiling at AeT for easy days (Johnston). Add specific hard sessions with clear intensity targets.
+   - The Roches offer a gentler on-ramp: add strides to easy runs rather than introducing formal interval sessions. This creates speed differentiation without the metabolic load of sustained hard efforts.
 
-6. **Workout construction checklist:**
+6. **Athlete over 40 or injury-prone?**
+   - Prioritize hill strides over flat strides -- lower impact forces, reinforces biomechanics (the Roches). Spend more time on the hill stride progression before moving to flats.
+   - Use the Roche Economy Build protocol as the primary speed development pathway -- progressive, low-risk, integrated into easy runs.
+
+7. **Workout construction checklist:**
    - Define the primary adaptation target (aerobic capacity, LT, VO2max, neuromuscular)
    - Set time at intensity based on athlete level (beginner: lower end of range, advanced: upper)
    - Choose terrain that matches purpose (uphill for RI, race-specific for SSR/TR)
@@ -170,7 +209,7 @@ The three primary ultrarunning coaches use different naming conventions and inte
    - Flag if proposed workout exceeds typical TSS for athlete's current fitness level
    - Schedule relative to other hard sessions (48-72 hrs between intensity sessions)
 
-7. **Recovery needed by workout type:**
+8. **Recovery needed by workout type:**
    - Recovery run: 8-12 hours (Magness: GH increases ~550% in first 40 min)
    - Endurance run (2-3 hrs): 24-48 hours for glycogen restoration
    - SSR/Tempo session: 48 hours minimum
@@ -179,7 +218,7 @@ The three primary ultrarunning coaches use different naming conventions and inte
    - ME session: 72+ hours initially (Johnston: "Allow 3+ days recovery")
    - Long run (>3 hrs): 48-72 hours (structural + metabolic recovery)
 
-8. **Terrain specificity reminders:**
+9. **Terrain specificity reminders:**
    - Koop's feet-per-mile gradient matching: Western States = (18,090 + 22,970) / 100.2 = 410 ft/mile. Match this in training.
    - Johnston: "Mountain running and road running are, at best, distant cousins."
    - Koop: "You will not learn to play Chopin by practicing 'Chopsticks.'" (Ch. 2) -- train on race-similar terrain.
@@ -191,6 +230,7 @@ The three primary ultrarunning coaches use different naming conventions and inte
 ### Books
 - *Training Essentials for Ultrarunners* — Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
 - *Science of Running* — Steve Magness ([Amazon](https://www.amazon.com/Science-Running-Efficiently-Ultramarathons-Sprints/dp/0615942946))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Freeing-Potential-Lifestyle/dp/1492567663))
 
 ### Articles & Podcasts
 - [12 Running Workouts for Ultramarathon Success](https://trainright.com/12-running-workouts-for-ultramarathon-success/) — Key interval workouts for ultra training (CTS)

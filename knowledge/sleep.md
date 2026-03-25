@@ -56,6 +56,15 @@ REM sleep consolidates motor patterns -- the neuromuscular coordination required
 - **Neurological fatigue and sleep.** Of Magness's three fatigue types (calcium accumulation, metabolic, neurological), neurological fatigue -- neurotransmitter depletion at synapses -- is the most sleep-dependent in its recovery. Hours to several days of recovery are needed, and sleep quality directly determines how fast neurotransmitter stores replenish. (Ch. 10, *The Science of Running*)
 - **Lack of motivation as a sleep-related signal.** Magness identifies lack of motivation as the body telling you to back off. While not always sleep-related, chronic sleep deprivation reliably produces the motivational flatness that coaches mistake for laziness. "Don't train compulsively." (Ch. 4, *The Science of Running*)
 
+### David Roche & Dr. Megan Roche (SWAP / The Happy Runner)
+- **Sleep as a PED (performance-enhancing drug).** "Sleep is a PED too, but a natural one. It makes you stronger and faster. Heck, it even makes you a better person." The Roches frame sleep not just as recovery but as an active performance enhancer — the biological context in which training adaptations actually occur. (*The Happy Runner*, Ch. 7)
+- **Running as controlled breakdown.** "Running training is the process of controlled breakdown. The key is to provide the biophysical context for the body to build itself back stronger. Sleep is when that building happens." Training without adequate sleep is self-destruction, not self-improvement. (*The Happy Runner*, Ch. 7)
+- **Sleep is essential for:** (1) regulation of hormone production including human growth hormone, (2) cortisol optimization to avoid overtraining, (3) cellular repair and maintenance. Training hard without adequate sleep strips away the biological context needed for adaptation. (*The Happy Runner*, Ch. 7)
+- **Recommended hours.** 7-8 hours minimum for healthy adults. The Roches find that 8+ hours averaged over the course of the week is ideal, 7+ is doable, and less than 7 is "a big injection of the drug Thissportsucks right in the butt cheek." (*The Happy Runner*, Ch. 7)
+- **Cultural sleep deprivation.** The Roches push back against the "hustle culture" glorification of sleep deprivation. "You may be able to build a company or drug cartel with little sleep. But you cannot build a happy runner." Sleep is non-negotiable for anyone who wants to sustain performance and enjoyment over years. (*The Happy Runner*, Ch. 7)
+- **No hard workouts without adequate sleep.** SWAP coaching rule: no hard workouts until an athlete can get a rolling average of adequate sleep to adapt to training. Sleep priority trumps workout priority. An athlete who cannot sleep enough should not be doing intensity — the training stimulus will be partially wasted and the injury risk elevated. (*The Happy Runner*, Ch. 7)
+- **The "little things" framework.** Sleep is one of four non-running factors the Roches have found holds most runners back: (1) not resting enough, (2) not doing at-home physical therapy / foam rolling, (3) not sleeping enough, (4) not eating enough. "All those little things don't involve too much time investment. But for long-term consistency and happiness, they are everything." Sleep is not optional infrastructure — it is a load-bearing pillar. (*The Happy Runner*, Ch. 7)
+
 ## Sleep Metrics and Tracking
 
 ### What the Data Tells You
@@ -228,12 +237,13 @@ Sleep data is most actionable when combined with other signals:
 4. Do not resume structured training until sleep has normalized and is consistently restorative (typically 5-10 days post-100-miler).
 
 ## Where They Agree
-1. **Sleep is the #1 recovery tool.** All three experts place sleep above every other recovery modality. Johnston lists it in his recovery enhancement priorities. Koop puts it at the top of his explicit recovery hierarchy. Magness frames it as the period when the body "gets better."
-2. **8+ hours is the target.** All recommend at least 8 hours for athletes in training, with 9-10 during heavy blocks.
-3. **Sleep deprivation degrades training adaptation.** The training stimulus is partially or fully wasted without adequate sleep to support the adaptation process.
-4. **Poor sleep is a warning sign of overtraining.** All three identify disrupted sleep as a symptom that appears in the progression toward overtraining syndrome.
+1. **Sleep is the #1 recovery tool.** All four sources place sleep above every other recovery modality. Johnston lists it in his recovery enhancement priorities. Koop puts it at the top of his explicit recovery hierarchy. Magness frames it as the period when the body "gets better." The Roches call it a "PED" and the biological context for all adaptation.
+2. **8+ hours is the target.** All recommend at least 8 hours for athletes in training, with 9-10 during heavy blocks. The Roches find that below 7 hours, both performance and enjoyment collapse.
+3. **Sleep deprivation degrades training adaptation.** The training stimulus is partially or fully wasted without adequate sleep to support the adaptation process. The Roches frame this most vividly: training without sleep is "controlled breakdown" without the rebuilding phase — pure self-destruction.
+4. **Poor sleep is a warning sign of overtraining.** All four sources identify disrupted sleep as a symptom that appears in the progression toward overtraining syndrome.
 5. **Sleep banking works; sleep deprivation training does not.** You cannot build tolerance to sleep deprivation through practice, but you can build a buffer through sleep extension before events.
-6. **Life stress impacts sleep, which impacts training.** All three recognize that non-training stressors (work, relationships, travel) degrade sleep quality, which in turn reduces the body's capacity to absorb training load.
+6. **Life stress impacts sleep, which impacts training.** All four recognize that non-training stressors (work, relationships, travel) degrade sleep quality, which in turn reduces the body's capacity to absorb training load.
+7. **No intensity work on bad sleep.** Johnston skips planned workouts when sleep is poor. Koop downgrades intensity sessions. The Roches make it a firm coaching rule: no hard workouts until rolling sleep averages are adequate.
 
 ## Where They Disagree
 
@@ -252,6 +262,10 @@ Sleep data is most actionable when combined with other signals:
 - **Koop:** Acknowledges nap benefits but focuses more on nighttime sleep quality and extension. His primary napping guidance is race-specific (40-60 minute naps during overnight ultras).
 - **Magness:** Views naps through the lens of split recovery -- the same logic behind split doubles applies to rest. Short recovery periods distributed through the day can enhance overall restoration.
 
+### Emphasis and Framing
+- **Johnston, Koop, Magness:** Treat sleep primarily through a physiological and performance lens -- hormone release, injury prevention, adaptation science.
+- **The Roches:** Add a happiness and sustainability lens. Sleep is not just about optimizing performance; it is about building a runner who enjoys the sport long-term. Their framing ("Thissportsucks") connects sleep deprivation to the emotional experience of running, not just the physical metrics. They also uniquely embed sleep within a broader "little things" framework alongside rest, PT/foam rolling, and nutrition -- treating it as one of four non-running pillars that determine long-term consistency.
+
 ## Sources & Further Reading
 
 ### Books
@@ -259,6 +273,7 @@ Sleep data is most actionable when combined with other signals:
 - *Training Essentials for Ultrarunners* -- Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
 - *Science of Running* -- Steve Magness ([Amazon](https://www.amazon.com/Science-Running-Efficiently-Ultramarathons-Sprints/dp/0615942946))
 - *Peak Performance* -- Brad Stulberg & Steve Magness ([Amazon](https://www.amazon.com/Peak-Performance-Elevate-Burnout-Science/dp/162336793X))
+- *The Happy Runner* -- David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Freeing-Body-Mind/dp/1492978884))
 
 ### Articles & Podcasts
 - [Recovery Strategies for Endurance Training](https://uphillathlete.com/aerobic-training/tips-to-aid-recovery/) -- Sleep, nutrition, self-massage, and active recovery strategies (Uphill Athlete)

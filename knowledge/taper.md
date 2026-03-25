@@ -1,7 +1,7 @@
 # Taper & Peak
 
 ## Summary
-The taper is the final phase of training before a goal race, designed to shed accumulated fatigue while preserving hard-earned fitness. For ultrarunners, the taper matters less than for shorter-event athletes -- the performance gap between a perfect taper and reasonable rest is only ~1% -- but getting it wrong can sabotage months of preparation. All three experts emphasize volume reduction over intensity reduction, but they diverge on mechanics: Johnston distinguishes tapering from sharpening, Koop advocates a "fast decay" model with maintained intensity type, and Magness introduces muscle tension management as the secret variable of peaking. The psychological challenge -- taper tantrums -- is universal and must be anticipated.
+The taper is the final phase of training before a goal race, designed to shed accumulated fatigue while preserving hard-earned fitness. For ultrarunners, the taper matters less than for shorter-event athletes -- the performance gap between a perfect taper and reasonable rest is only ~1% -- but getting it wrong can sabotage months of preparation. All four experts emphasize volume reduction over intensity reduction, but they diverge on mechanics: Johnston distinguishes tapering from sharpening, Koop advocates a "fast decay" model with maintained intensity type, Magness introduces muscle tension management as the secret variable of peaking, and the Roches emphasize scaling the taper to the individual's volume level -- noting that taper science derived from 100+ mile/week pros can overcorrect for lower-mileage runners. The psychological challenge -- taper tantrums -- is universal and must be anticipated.
 
 ## Key Concepts
 
@@ -96,13 +96,39 @@ The taper is the final phase of training before a goal race, designed to shed ac
   - Tuesday/Wednesday athlete looks good: combo workout (5min medium, 5 easy, 5 medium, 5 easy, 5min of 10sec sprint/50sec easy) + strides day before race
   - Early week athlete looks flat: faster work or sprints (but watch for soreness if not recently done)
 
+### David Roche & Dr. Megan Roche (SWAP Running)
+- **Taper as sharpening, not hibernation:** The goal is not to rest into race fitness but to get a final stimulus that makes race effort feel easy. "The goal of sharpening weeks is not to hibernate like a bear on Lunesta, but to get to the start line wide awake and excited, like a grizzly on caffeine pills."
+- **Non-pro taper scaling -- the key insight:** Taper theory is largely derived from pros doing 100+ miles/week. For a 30-mile/week runner, a traditional 50% cut in week 2 means barely running at all -- "soggy noodle" legs. The Roches emphasize scaling the taper to the individual's volume.
+- **SWAP taper principles:**
+  1. Cut volume by 20% in week 1 and 40% in week 2 (if >50 miles/week); 10% in week 1 and 25% in week 2 (if <50 miles/week); cut 10-25% more for races longer than 50K.
+  2. Cut intensity similarly, but maintain a healthy dose of intense workouts. "It's okay to do a big workout 10 days out."
+  3. The week before the race, still do a long run.
+  4. Don't rest the day before the race -- it could cause leaden legs on race day. Do a short, easy shakeout.
+- **"Every bear is different":** Find what works for you -- the principles matter more than the exact schedule.
+- **Sample marathon taper (60-mile/week runner):**
+  - Monday: rest
+  - Tuesday: 8mi easy with 4x30s strides
+  - Wednesday: 3mi easy, 5mi moderate/hard at half-marathon race effort, 3mi easy
+  - Thursday: 6mi easy
+  - Friday: 5mi easy with 4x20s strides
+  - Saturday: 14mi easy (4mi in middle at marathon effort)
+  - Sunday: 6-8mi easy
+- **Sample marathon taper (30-mile/week runner):**
+  - Monday: rest
+  - Tuesday: 5mi easy
+  - Wednesday: 2mi easy, 3mi at marathon effort, 2mi easy with 4x30s strides
+  - Thursday: 5mi easy
+  - Friday: rest
+  - Saturday: 4mi easy with 4x20s strides
+  - Sunday: Marathon!
+
 ## Where They Agree
-1. **Reduce volume, preserve intensity.** All three maintain some form of intensity during the taper. None advocate a complete shutdown. The body needs neuromuscular activation to avoid going stale.
+1. **Reduce volume, preserve intensity.** All four maintain some form of intensity during the taper. None advocate a complete shutdown. The body needs neuromuscular activation to avoid going stale.
 2. **Only fully taper for A races.** B and C races should not disrupt the training flow. Train through C races; moderate load for B races.
 3. **Taper tantrums are normal.** Anxiety, irritability, and heaviness during reduced training are universal. Athletes must be warned in advance and trust the process.
 4. **Nothing new during taper.** No new workouts, new shoes, new nutrition, new routes. The training is done -- the taper is about removing fatigue, not adding fitness.
 5. **Race week should be very light.** Short, easy efforts with a few brief accelerations to maintain neuromuscular readiness. No strength work.
-6. **Don't overthink it.** The difference between an imperfect and perfect taper is marginal. Reasonable rest is most of the benefit.
+6. **Don't overthink it.** The difference between an imperfect and perfect taper is marginal. Reasonable rest is most of the benefit. The Roches: "every bear is different."
 
 ## Where They Disagree
 
@@ -110,21 +136,31 @@ The taper is the final phase of training before a goal race, designed to shed ac
 - **Koop:** Fast decay -- drop volume abruptly early (40-50% in week 1), continue dropping. Front-loads the rest.
 - **Johnston:** Gradual 25% reduction per week. Can drop to 50-60% of normal. More conservative initial cut.
 - **Magness (sharpening):** Maintain or very slightly drop mileage. Decrease workout density rather than total volume. Most conservative approach.
+- **Roches:** Scale to the athlete. >50 mi/wk: 20% cut week 1, 40% cut week 2. <50 mi/wk: 10% cut week 1, 25% cut week 2. Additional 10-25% cut for ultra distances. More conservative than Koop for lower-mileage runners -- avoids "soggy noodle" legs.
 
 ### Taper Duration
 - **Koop:** 2-3 weeks. Ultramarathon tapers should not be elaborate -- just a slightly longer/deeper de-load week.
 - **Johnston:** 1-3 weeks, with 10-14 days for high-volume ultrarunners. Some sports scientists suggest up to a month for A endurance events.
 - **Magness:** Sharpening period mirrors normal training schedule with slight adjustments. Last hard workout ~10 days before race.
+- **Roches:** ~2 weeks is the default. Acknowledge that the right taper length varies by individual -- "every bear is different."
 
 ### Role of Intensity
 - **Koop:** Maintain the TYPE of intensity but fast-decay the volume of intensity. If you were doing TempoRuns, keep doing shorter TempoRuns.
 - **Johnston:** Distinguishes tapering (reduce volume only) from sharpening (reduce volume + increase intensity). Even ultrarunners benefit from brief high-intensity work the day before racing.
 - **Magness:** Focuses on muscle tension management rather than arbitrary intensity rules. Adjusts tension based on how the athlete feels day to day. May prescribe sprints or threshold work depending on whether the athlete feels flat or bouncy.
+- **Roches:** Cut intensity alongside volume but maintain "a healthy dose" of intense workouts. "It's okay to do a big workout 10 days out." Include strides throughout the taper.
 
 ### The "Flat" Problem
 - **Magness:** Has a specific framework for this -- muscle tension is the underlying variable. Provides concrete tools (sprints to raise tension, threshold runs to lower it). Most sophisticated approach to the stale/flat feeling.
 - **Johnston:** Acknowledges some athletes perform better with moderate training up to race day. Kilian prefers not to taper when racing often.
 - **Koop:** Addresses it mainly through maintaining intensity type. Terrain specificity during taper also helps maintain neuromuscular readiness.
+- **Roches:** Don't rest the day before the race -- do a shakeout run. Still include a long run the week before. Their lower-volume-cut approach for sub-50 mi/wk runners is designed precisely to avoid the flat/soggy feeling that comes from cutting too aggressively.
+
+### Pre-race day
+- **Johnston:** Rest or very easy. Rico Elmer protocol: 20 easy minutes on bike, then race-day course check with 2-3 quick sprints.
+- **Koop:** Light day. Maintain terrain specificity.
+- **Magness:** Depends on tension read. Single near-max acceleration for <1 min to set tension, or nothing if athlete feels bouncy.
+- **Roches:** Don't rest the day before the race. Do a short, easy shakeout -- full rest could cause leaden legs on race day. This is a notable departure from the other coaches, most of whom leave the day-before protocol to individual preference.
 
 ## Coaching Decision Tree
 
@@ -148,6 +184,13 @@ The taper is the final phase of training before a goal race, designed to shed ac
 - Week 2: 20-30% of normal volume
 - Week 3 (if applicable): <20% of normal volume
 - Maintain 1-2 sessions with race-specific intensity (shortened)
+
+**Low-mileage athletes (<50 mi/wk):**
+- Use the Roches' scaled approach. Traditional tapers derived from high-volume pros can overcut.
+- Week 1: 10% volume cut
+- Week 2: 25% volume cut
+- Additional 10-25% cut for ultra distances
+- Still include a long run in race week and a shakeout the day before
 
 **Experienced athletes in good form (TSB -5 to -10):**
 - Use Johnston's gradual approach or Magness's sharpening
@@ -185,6 +228,7 @@ The taper is the final phase of training before a goal race, designed to shed ac
 ### Books
 - *Training Essentials for Ultrarunners* — Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
 - *Training for the Uphill Athlete* — Scott Johnston, Steve House & Kilian Jornet ([Amazon](https://www.amazon.com/Training-Uphill-Athlete-Mountain-Mountaineers/dp/1938340841))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Breakthrough-Running-Training/dp/1492598925))
 
 ### Articles & Podcasts
 - [Tapering for a Race: What to Do](https://uphillathlete.com/trail-running/tapering-for-race-event-what-to-do/) — Volume cuts, taper vs sharpening, and the psychology of reduced training (Uphill Athlete)

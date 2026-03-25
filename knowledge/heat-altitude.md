@@ -1,7 +1,7 @@
 # Heat & Altitude
 
 ## Summary
-Heat and altitude are environmental stressors that sit near the top of Koop's hierarchy of ultramarathon training needs -- they are enhancements that matter only after all the fundamentals are in place. However, for races like Western States (heat), Leadville (altitude), or Hardrock (both), failing to prepare for these conditions can turn a well-trained athlete into a DNF. Koop provides the most comprehensive protocols: 7-10 days of consecutive heat exposure, sauna protocols, and specific altitude arrival guidelines. Magness contributes the neuroscience of anticipatory thermoregulation -- the brain reduces muscle activation in heat before core temperature becomes dangerous. Johnston's coverage is limited, largely confined to altitude's effect on aerobic training, but his aerobic base philosophy indirectly supports performance at altitude. All three agree that acclimatization is real, trainable, and time-dependent.
+Heat and altitude are environmental stressors that sit near the top of Koop's hierarchy of ultramarathon training needs -- they are enhancements that matter only after all the fundamentals are in place. However, for races like Western States (heat), Leadville (altitude), or Hardrock (both), failing to prepare for these conditions can turn a well-trained athlete into a DNF. Koop provides the most comprehensive protocols: 7-10 days of consecutive heat exposure, sauna protocols, and specific altitude arrival guidelines. Magness contributes the neuroscience of anticipatory thermoregulation -- the brain reduces muscle activation in heat before core temperature becomes dangerous. Johnston's coverage is limited, largely confined to altitude's effect on aerobic training, but his aerobic base philosophy indirectly supports performance at altitude. The Roches' coverage is also limited, but they contribute useful principles on training consistency for blood volume, total stress management at altitude, and cross-training options during environmental stress blocks. All sources agree that acclimatization is real, trainable, and time-dependent.
 
 ## Key Concepts
 
@@ -92,6 +92,16 @@ Heat and altitude are environmental stressors that sit near the top of Koop's hi
 - **Flatlander's guide:** If you cannot arrive early, fly in the night before or morning of the race to avoid the 24-72 hour window. Once per 2-3 weeks, incorporate a session that exceeds your goal elevation gain/loss per mile by ~10%. (https://trainright.com/flatlander-guide-training-for-mountainous-ultramarathons/)
 - **Hierarchy position:** Heat acclimation and altitude training sit near the very top of Koop's training needs hierarchy -- they are enhancements that matter only after all the fundamentals (volume, rest, nutrition, intensity distribution, mental skills) are in place. "Focus on the things that matter more. Training concepts near the big base of the pyramid will matter much more than the nuance of whether you spend eight or ten days in the sauna." (Ch. 10)
 
+### David Roche & Dr. Megan Roche (SWAP Running)
+- **Limited direct coverage:** *The Happy Runner* does not provide specific heat or altitude protocols. The insights below are general training principles that apply meaningfully to environmental stress.
+- **Blood volume and training consistency:** The Roches emphasize that blood volume responds substantially to consistent training and drops rapidly with a stop-and-start approach. This is directly relevant to altitude adaptation, where plasma volume expansion is a key mechanism. Athletes preparing for altitude races should maintain training consistency in the months beforehand -- irregular training undermines the very blood volume adaptations that altitude demands.
+- **Iron for altitude:** The Roches advise eating iron-rich foods or supplementing to support blood volume. This aligns with Koop's iron panel recommendation (serum ferritin >35 ng/mL) and is especially important at altitude, where iron demands increase due to accelerated erythropoiesis.
+- **Altitude as a stress "slice":** The Roches use a pizza metaphor for total stress load -- each stressor (training, work, travel, relationships) takes a slice, and there are only so many slices to go around. Altitude itself takes a slice. Athletes training or racing at altitude need to account for this additional stress by reducing training volume or other life stressors accordingly. This reinforces Koop's advice to keep intensity low in the first days at altitude, but extends it beyond training to the athlete's whole life.
+- **Cross-training during altitude camps or heat acclimation:** The Roches note that high-cadence cycling provides a similar aerobic stimulus to running ("the aerobic stimulus is similar even if the activity is different"). For athletes managing injury risk during altitude camps or heat acclimation blocks -- where environmental stress already elevates total load -- substituting some running volume with cycling can maintain aerobic development while reducing musculoskeletal strain.
+- **High-altitude fueling demands:** David Roche emphasizes that caloric demands at altitude are dramatically higher than athletes expect: "At altitude and during intense efforts, you're burning through so many calories, and the only way to make it possible is by taking in a ton of fuel." He consumed 120-140g carbs/hour at Leadville (10,200 ft). Altitude increases metabolic rate and carbohydrate oxidation -- generic fueling plans designed for sea-level races will fall short. (Source: iRunFar interview)
+- **Active cooling strategy for heat/altitude races:** David's Leadville/Western States cooling protocol: ice bandanas, ice in a bucket hat, and ice down shirt secured with a belt. These interventions take only 15-20 seconds at aid stations -- minimal time cost for significant thermoregulation benefit. He specifically monitors HR on exposed sections to detect heat-induced cardiac drift. (Source: iRunFar interview)
+- **Extreme sweat rate variability:** David has "literally the highest sweat rate we have ever measured" (per testing). This highlights that individual variability in sweat rate is enormous and crucial for heat/altitude racing -- generic hydration plans are insufficient. Athletes should test their own sweat rates (via pre/post-exercise weigh-ins) and calibrate fluid intake accordingly. (Source: iRunFar)
+
 ### Steve Magness (Science of Running)
 - **Anticipatory thermoregulation:** The brain monitors rate of heat storage and adjusts muscle activation early in exercise, BEFORE critical temperature is reached. Lower EMG levels seen in hotter temperatures even when core temperatures were essentially the same -- this is an anticipatory mechanism, not a reactive one. (Ch. 8, *The Science of Running*, citing Tucker et al. 2004)
 - **Critical core temperature:** ~40 degrees Celsius. Body shuts down exercise before reaching it. "In a time trial in the heat, your pace slows early on, despite not having enough time to reach a critical core temperature." (Ch. 3)
@@ -115,6 +125,7 @@ Heat and altitude are environmental stressors that sit near the top of Koop's hi
 - **Koop:** Provides the most comprehensive, actionable protocols. Specific sauna timing, arrival guidelines, decay rates, and race-day cooling strategies. Treats heat/altitude as a distinct training variable with its own periodization.
 - **Johnston:** Limited direct coverage. The book focuses on training methodology. Altitude is addressed indirectly through the aerobic base framework -- a well-developed AeT is Johnston's primary answer to altitude performance. Heat protocols are not explicitly addressed.
 - **Magness:** Provides the neuroscience of WHY heat and altitude affect performance (anticipatory regulation, EMG reduction, cerebral oxygen reduction) but fewer specific protocols. His contribution is conceptual rather than prescriptive.
+- **The Roches:** No specific heat or altitude protocols. Their contribution is indirect -- training consistency for blood volume, total stress management at altitude, and cross-training options during environmental stress blocks.
 
 ### Sauna vs. Training in Heat
 - **Koop:** Explicitly prefers passive heating (sauna) post-exercise. Rationale: maintain workout quality in normal conditions, then add heat stress afterward. This separates the training stimulus from the acclimatization stimulus.
@@ -186,6 +197,7 @@ Heat and altitude are environmental stressors that sit near the top of Koop's hi
 - Keep training intensity low (<70% VO2max) for first 3-5 days
 - Gradually reintroduce intensity as body adapts
 - Use Live High, Train Low if possible (sleep at 5,900-9,840 ft, do hard sessions lower)
+- Reduce total life stress during altitude camps -- altitude itself takes a "slice" of the athlete's stress budget (the Roches' pizza metaphor). Minimize travel, work, and social obligations during the acclimatization period.
 
 *If athlete can arrive 1-2 weeks early:*
 - Minimum recommended for races at 6,561-9,842 ft
@@ -207,6 +219,7 @@ Heat and altitude are environmental stressors that sit near the top of Koop's hi
 - Serum ferritin must be >35 ng/mL to produce red blood cell mass increase from altitude exposure
 - If ferritin is low: supplement iron under medical guidance before attempting altitude training
 - Build the strongest aerobic base possible -- Johnston's AeT emphasis is particularly valuable for altitude racing
+- Maintain training consistency in the months before an altitude race -- blood volume (a key altitude adaptation) responds to consistent training and drops rapidly with a stop-and-start approach (the Roches)
 - Consider altitude tents only if living at 5,500-6,500 ft already and adding simulated elevation to 8,200-9,840 ft
 
 **Step 4: Race-day adjustments at altitude**
@@ -229,6 +242,7 @@ Heat and altitude are environmental stressors that sit near the top of Koop's hi
 ### Books
 - *Training for the Uphill Athlete* — Scott Johnston, Steve House & Kilian Jornet ([Amazon](https://www.amazon.com/Training-Uphill-Athlete-Mountain-Mountaineers/dp/1938340841))
 - *Training Essentials for Ultrarunners* — Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Freeing-Runner-Within/dp/1492978906))
 
 ### Articles & Podcasts
 - [Cross-Adaptation: Heat Training for Altitude](https://uphillathlete.com/mountaineering/high-altitude-heat-training-hypoxia-adaptation/) — How heat exposure carries over to altitude performance (Uphill Athlete)

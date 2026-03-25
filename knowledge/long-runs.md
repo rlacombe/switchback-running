@@ -1,7 +1,7 @@
 # Long Runs & Specificity
 
 ## Summary
-The long run is the cornerstone workout for ultramarathon preparation, but its value depends on how it is structured. All three experts agree that duration matters more than distance, that terrain should match race demands, and that ultrarunning requires mastery of four distinct locomotion disciplines. Where they diverge is on execution: Johnston emphasizes time-on-feet at low intensity with terrain-specific vertical, Koop introduces the feet-per-mile gradient concept and concentrated volume through back-to-back long runs, and Magness focuses on how long runs recruit otherwise dormant muscle fibers and train fuel systems. For an ultrarunner, getting the long run right is arguably more important than any interval session.
+The long run is the cornerstone workout for ultramarathon preparation, but its value depends on how it is structured. All four expert frameworks agree that duration matters more than distance, that terrain should match race demands, and that ultrarunning requires mastery of four distinct locomotion disciplines. Where they diverge is on execution: Johnston emphasizes time-on-feet at low intensity with terrain-specific vertical, Koop introduces the feet-per-mile gradient concept and concentrated volume through back-to-back long runs, Magness focuses on how long runs recruit otherwise dormant muscle fibers and train fuel systems, and the Roches (David Roche and Dr. Megan Roche) caution against overemphasizing extra-long runs at the expense of long-term speed and economy development. For an ultrarunner, getting the long run right is arguably more important than any interval session.
 
 ## Key Concepts
 
@@ -69,13 +69,23 @@ Each discipline has distinct GRFs, EMG patterns, and joint angles. Training must
 - **Specificity principle:** "Running at race pace is the only way to mimic the exact muscle fiber recruitment pattern and fatiguing by-product buildup that will occur in a race." (Ch. 15) But specific training alone is insufficient -- other paces build the foundation.
 - **Stride length as performance predictor:** "The decrease of stride length during races is one of the most powerful predictors of race results." (Ch. 6) ME training greatly improves ability to ward off late-race neuromuscular fatigue.
 
+### David Roche & Dr. Megan Roche (SWAP Running)
+- **Long run as 20-40% of weekly volume.** 20% for very high mileage runners, up to 40% for lower mileage. "All year, it's good to do a long run that is 20 to 40 percent of training volume each week." (*The Happy Runner*)
+- **Start slow, option to end faster.** On most easy runs and long runs, start slow with the option to end faster if feeling good. "Running easy doesn't mean you can't find flow and enjoy the good days." This aligns with progression-style runs but without a rigid structure -- the athlete decides.
+- **Long run is the second-hardest workout of the week.** Most long runs are quality efforts (on top of a midweek speedy session), involving workouts tailored to the athlete's goals -- not just time-on-feet at easy effort.
+- **Don't overemphasize extra-long runs.** Athletes working with SWAP almost never train specifically for a long race for more than 6-10 weeks. Going too far into race-specific long runs "too often might undercut long-term development." Focus on accumulating aerobic and speed development, improving running economy as much as possible, and running really far as little as possible.
+- **Hanson's insight applied to ultras.** The Roches note that the Hanson's Distance Project mentored Olympic marathoners without any runs over 20 miles. The same principle applies to ultra races -- too many ultra-distance training runs will eventually undermine speed unless separated by enough time to rebuild running economy.
+- **Hills as long-run spice.** Easy/moderate runs over hilly terrain serve as unstructured introduction to strength. Best done as easy-moderate progression runs -- first half relaxed, second half purposeful but not hard. Trail runners should focus particularly on running downhills with purpose.
+- **Fuel adequately.** Energy availability is the #1 determinant of longevity in running (Dr. Megan Roche). Apply this to long runs: fuel adequately rather than training in a depleted state as a default. Under-fueling in training degrades adaptation quality and increases injury risk over time.
+
 ## Where They Agree
-1. **Duration over distance.** All three measure long run value by time, not miles. A 5-hour run on technical mountain terrain is more valuable for a mountain ultra than a 30-mile run on flat roads.
-2. **Terrain specificity is non-negotiable.** Training terrain must match race terrain. Flat running does not prepare the neuromuscular system for mountains, and vice versa.
+1. **Duration over distance.** All four measure long run value by time, not miles. A 5-hour run on technical mountain terrain is more valuable for a mountain ultra than a 30-mile run on flat roads.
+2. **Terrain specificity is non-negotiable.** Training terrain must match race terrain. Flat running does not prepare the neuromuscular system for mountains, and vice versa. The Roches add that hilly terrain on long runs doubles as unstructured strength work.
 3. **Four distinct locomotion patterns.** All acknowledge that walking, uphill running, downhill running, and flat running are biomechanically distinct and require separate practice.
 4. **The long run builds structural resilience.** Tendons, ligaments, bones, and connective tissue adapt through sustained duration at moderate effort.
-5. **Downhill training matters but is efficient.** A small dose of eccentric loading provides significant protection. No one advocates high-volume downhill repeat sessions.
-6. **Annual volume trumps single-session heroics.** Consistency over months matters more than any individual long run.
+5. **Downhill training matters but is efficient.** A small dose of eccentric loading provides significant protection. No one advocates high-volume downhill repeat sessions. The Roches specifically recommend running downhills with purpose during long runs.
+6. **Annual volume trumps single-session heroics.** Consistency over months matters more than any individual long run. The Roches and Koop both explicitly warn against over-indexing on single epic long runs.
+7. **Long run as a major weekly proportion.** Johnston (30-40%), the Roches (20-40%), and Koop (at least 25% of race time) all position the long run as a significant fraction of weekly training.
 
 ## Where They Disagree
 
@@ -83,16 +93,19 @@ Each discipline has distinct GRFs, EMG patterns, and joint angles. Training must
 - **Johnston:** Strict Z1-Z2 effort. The long run should make you tired from the duration, not the intensity. Progressive distance runs (with a Z3-Z4 finish) are separate workouts, not standard long runs.
 - **Koop:** Primarily EnduranceRun (RPE 5-6) effort but incorporates intervals within long runs (e.g., "2-hr ER with 3x10 min TR"). Intensity is embedded into endurance sessions.
 - **Magness:** Adds "stuff" -- surges, strides, pickups, progressions -- to long runs for fiber recruitment and fuel system benefits. Uses first portion to pre-fatigue, then runs the last portion faster.
+- **The Roches:** Start slow, option to end faster. Most long runs are the second-hardest workout of the week and involve quality tailored to goals. Easy-moderate progression with purpose -- not rigid structure, but the athlete can lean into the second half if feeling good.
 
 ### Role of the Single Long Run
 - **Koop:** De-emphasizes the single long run in favor of annual volume and concentrated volume strategies (back-to-back days). No magic distance qualifies an athlete.
 - **Johnston:** Values back-to-back specificity weeks but also prescribes individual long runs of 30-40% of weekly volume as a standard weekly feature.
 - **Magness:** Views the long run as uniquely important for fuel system adaptation -- the only workout stressing glycogen stores enough to trigger storage increases. Advocates glycogen-depleted training for enhanced adaptation signals.
+- **The Roches:** Caution against overemphasizing extra-long runs. Race-specific long run blocks should last only 6-10 weeks. Going too far into ultra-distance training runs "too often might undercut long-term development." Cite Hanson's Distance Project (Olympic marathoners without runs over 20 miles) as evidence that the single long run is over-indexed by most athletes.
 
 ### Fueling During Long Runs
 - **Magness:** Some long runs should be done without carbohydrate intake to maximize glycogen depletion signaling and mitochondrial biogenesis. Consuming carbs during a long run may blunt adaptation signals.
 - **Koop:** Emphasizes gut training -- practice race-day nutrition 4-6 times during training. The long run is the primary venue for rehearsing fueling.
 - **Johnston:** Recommends metabolic flexibility training with some fasted aerobic capacity-building workouts but warns against fasted training for female athletes.
+- **The Roches:** Prioritize energy availability as the #1 determinant of running longevity (Dr. Megan Roche). Default to fueling long runs adequately rather than training depleted. Under-fueling degrades adaptation quality and increases injury risk over time -- a stance that directly contrasts with Magness's glycogen depletion approach.
 
 ## Coaching Decision Tree
 
@@ -113,18 +126,22 @@ Each discipline has distinct GRFs, EMG patterns, and joint angles. Training must
 - Build structural resilience first; add "stuff" later
 - No back-to-backs until comfortable with single long run at 4+ hours
 - Practice walking/hiking on uphills from the start
+- Start slow with the option to end faster (the Roches) -- a good default for athletes learning effort management
 
 **Intermediate athletes (2-4 years, CTL 40-70):**
 - Blend approaches: mostly Z1-Z2 with occasional surges/strides (Magness)
 - Introduce back-to-back long runs 2x/month during build phase (Koop/Johnston)
-- Alternate fueled and partially-fasted long runs for dual adaptation
+- Alternate fueled and partially-fasted long runs for dual adaptation, but default to fueling (the Roches)
 - Practice all four disciplines weekly
+- Use hilly terrain for long runs as unstructured strength work (the Roches); focus on running downhills with purpose
 
 **Experienced athletes (4+ years, CTL > 70):**
 - Follow Koop's concentrated volume model: cluster long runs and hard efforts
 - Embed intervals within long runs (e.g., SSR or TR efforts during endurance runs)
 - Use back-to-back days as primary specificity tool, 3-4 weeks before race
 - Long runs serve dual purpose: structural prep + nutrition rehearsal
+- Limit race-specific long run blocks to 6-10 weeks (the Roches) to avoid undermining speed and running economy
+- If speed/economy metrics are declining, pull back on ultra-distance training runs and rebuild with shorter, faster work
 
 ### Step 4: Downhill Training Within Long Runs
 - **Small doses are effective.** The repeated bout effect provides protection lasting ~2 weeks from a single session of eccentric loading. (Koop, Ch. 4)
@@ -156,6 +173,7 @@ Each discipline has distinct GRFs, EMG patterns, and joint angles. Training must
 ### Books
 - *Training Essentials for Ultrarunners* — Jason Koop ([Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566))
 - *Training for the Uphill Athlete* — Scott Johnston, Steve House & Kilian Jornet ([Amazon](https://www.amazon.com/Training-Uphill-Athlete-Mountain-Mountaineers/dp/1938340841))
+- *The Happy Runner* — David Roche & Dr. Megan Roche ([Amazon](https://www.amazon.com/Happy-Runner-Freeing-Potential-Lifestyle/dp/1492567663))
 
 ### Articles & Podcasts
 - [How Long Should Your Longest Run Be?](https://trainright.com/longest-run-ultramarathon-training/) — Why runs beyond 4 hours still pack adaptive benefit (CTS)
