@@ -82,6 +82,7 @@ This project has an `intervals-icu` MCP server with 10 tools:
 - `get_activity_streams` — second-by-second time-series data (HR, pace, power, altitude) for an activity
 - `get_wellness` — HRV, sleep, weight, fatigue, mood
 - `get_fitness` — CTL/ATL/TSB fitness metrics
+- `get_weather` — current conditions and 7-day forecast for the athlete's location
 - `create_event` — create a planned workout
 - `update_event` — modify a planned workout
 - `delete_event` — remove a planned workout

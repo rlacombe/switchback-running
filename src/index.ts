@@ -220,6 +220,38 @@ server.tool(
   }
 );
 
+// --- Weather ---
+
+server.tool(
+  "get_weather",
+  "Fetch current conditions and 7-day forecast for a location. Use the athlete's lat/lon from their profile.",
+  {
+    latitude: z.number().describe("Latitude"),
+    longitude: z.number().describe("Longitude"),
+    timezone: z.string().optional().describe("IANA timezone, e.g. America/Los_Angeles"),
+    temperature_unit: z.enum(["fahrenheit", "celsius"]).optional().default("fahrenheit"),
+    wind_speed_unit: z.enum(["mph", "kmh"]).optional().default("mph"),
+    precipitation_unit: z.enum(["inch", "mm"]).optional().default("inch"),
+  },
+  async ({ latitude, longitude, timezone, temperature_unit, wind_speed_unit, precipitation_unit }) => {
+    try {
+      const tz = timezone ?? "auto";
+      const url = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}` +
+        `&current=temperature_2m,relative_humidity_2m,apparent_temperature,precipitation,wind_speed_10m,wind_gusts_10m,weather_code` +
+        `&hourly=temperature_2m,precipitation_probability,precipitation,wind_speed_10m,weather_code` +
+        `&daily=temperature_2m_max,temperature_2m_min,apparent_temperature_max,apparent_temperature_min,precipitation_sum,precipitation_probability_max,wind_speed_10m_max,weather_code,sunrise,sunset,uv_index_max` +
+        `&temperature_unit=${temperature_unit}&wind_speed_unit=${wind_speed_unit}&precipitation_unit=${precipitation_unit}` +
+        `&timezone=${tz}&forecast_days=7`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`Weather API ${res.status}: ${await res.text()}`);
+      const data = await res.json();
+      return ok(data);
+    } catch (e) {
+      return err(e);
+    }
+  }
+);
+
 // --- Write tools ---
 
 server.tool(
