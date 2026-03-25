@@ -1,8 +1,6 @@
 # Virgil
 
-**Your ultrarunning training companion.** Named after Dante's guide through the underworld — a calm, knowledgeable companion who walks beside you through the hardest passages, explains what you're seeing, and lets you make the decisions. If you've ever been at mile 80 of a 100-miler at 3am, you know that's not a metaphor.
-
-Virgil connects to your [Intervals.icu](https://intervals.icu) account — your training calendar, wellness data, and fitness trends — and uses [established exercise science](#recommended-reading) to help you make the most of your training and prepare for your next trail race. Built on [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Virgil works through natural conversation: reviewing workouts, adjusting plans, flagging risks, and answering questions about your training.
+[Your companion](https://en.wikipedia.org/wiki/Virgil_(Dante)) through ultratrail hell and back! Virgil connects to your [Intervals.icu](https://intervals.icu) account — your training calendar, wellness data, and fitness trends — and uses [established exercise science](#recommended-reading) to help you make the most of your training and prepare for your next trail race. Built on [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Virgil works through natural conversation: reviewing workouts, adjusting plans, flagging risks, and answering questions about your training.
 
 ## Why This Exists
 
