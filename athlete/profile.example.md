@@ -1,7 +1,9 @@
 # Athlete Profile
 
 - **Name:** [your name]
+- **Location:** [city/region and timezone, e.g. "San Francisco, CA (PT)"]
 - **Age:** [age]
+- **Units:** [imperial/metric]
 - **Build:** [height, weight, body type]
 - **Current volume:** [miles per week]
 - **Peak volume:** [highest weekly volume achieved]
