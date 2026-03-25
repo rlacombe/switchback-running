@@ -1,6 +1,6 @@
 # Switchback Running
 
-Your companion through ultratrail hell and back! Switchback connects to your [Intervals.icu](https://intervals.icu) account — your training calendar, wellness data, and fitness trends — and uses [established exercise science](#recommended-reading) to help you make the most of your training and prepare for your next trail race. Built on [Claude Code](https://docs.anthropic.com/en/docs/claude-code), your companion works through natural conversation: reviewing workouts, adjusting plans, flagging risks, and answering questions about your training.
+An AI-powered ultrarunning training companion. Switchback connects to your [Intervals.icu](https://intervals.icu) account — your training calendar, wellness data, and fitness trends — and uses [established exercise science](#recommended-reading) to help you make the most of your training and prepare for your next trail race. Built on [Intervals.icu](https://intervals.icu) and [Claude Code](https://docs.anthropic.com/en/docs/claude-code), your companion works through natural conversation: reviewing workouts, adjusting plans, flagging risks, and answering questions about your training.
 
 ## Why This Exists
 
@@ -124,7 +124,7 @@ Three principles guide every recommendation:
 
 ### Knowledge Base
 
-The `knowledge/` directory contains 17 reference docs covering training science topics — from aerobic base and periodization to race execution and injury prevention. Each doc synthesizes positions from Johnston, Koop, and Magness with specific protocols, quotes, and decision frameworks. Your companion reads these before making recommendations.
+The `knowledge/` directory contains 17 reference docs covering training science topics — from aerobic base and periodization to race execution and injury prevention. Each doc synthesizes positions from Johnston, Koop, Magness, and the Roches with specific protocols, quotes, and decision frameworks. Your companion reads these before making recommendations.
 
 ## Recommended Reading
 
