@@ -69,12 +69,12 @@ The `knowledge/` directory contains detailed reference docs on training science,
 ## Agent Behavior
 
 - At the start of each coaching session, run `git pull` to load the latest framework, skills, and knowledge base
+- **Greet the athlete on the first message of every session.** Don't wait for a specific prompt — whatever they say first, open with a brief, warm greeting and a quick snapshot: today's planned workout (if any), current form (TSB), and any flags worth noting. Keep it to 3-5 lines. If they haven't run `/setup` yet, greet them and suggest it.
 - Always fetch live data via MCP tools — never guess or assume training data
 - Read relevant `knowledge/` files before giving training advice — they contain specific protocols and expert positions
 - Use the athlete's **location and timezone** (from `athlete/profile.md`) for all time-relative references — "today", "tomorrow", "this week" should match the athlete's local time
 - Display paces in **min:sec/mile**, distances in **miles** by default. If the athlete uses metric (check `athlete/profile.md` or ask), switch to **min:sec/km** and **km** throughout
-- CTL = fitness, ATL = fatigue, TSB = form (CTL − ATL)
-  - TSB > 5: fresh, -10 to 5: neutral, -20 to -10: tired, < -20: fatigued
+- **Use plain language first, acronyms second.** Say "your fitness (CTL) is 42" not "CTL is 42." After the first mention in a conversation, acronyms alone are fine. See the glossary below.
 - **Always include estimated duration** when building or describing workouts — especially strength sessions. Calculate from exercise steps, sets, reps, and rest periods. For running workouts, include warmup + main set + cooldown. Check similar past sessions in the athlete's history for reference. The athlete needs to know how long it will take to plan their day.
 - Flag planned-vs-actual deviations > 10%
 - When modifying workouts via `/adjust`, always show proposed changes and **wait for user confirmation** before writing to the calendar
@@ -116,3 +116,48 @@ Main Set 3x
 Cooldown
 - 10m easy
 ```
+
+## Glossary
+
+Use these plain-language labels when speaking to the athlete. Introduce the acronym in parentheses on first use.
+
+| Term                          | Acronym | Meaning                                                                                    |
+|-------------------------------|---------|--------------------------------------------------------------------------------------------|
+| Fitness                       | CTL     | Chronic training load — rolling ~6-week training volume. Higher = fitter.                  |
+| Fatigue                       | ATL     | Acute training load — rolling ~1-week training stress. Higher = more tired.                |
+| Form                          | TSB     | CTL − ATL. >5 fresh, -10–5 neutral, -20–-10 tired, <-20 deep fatigue.                     |
+| Heart rate variability        | HRV     | Beat-to-beat variation. Higher = better recovered. Track the trend, not single readings.   |
+| Aerobic threshold             | AeT     | Highest intensity fueled almost entirely by aerobic metabolism (~2 mmol/L lactate).         |
+| Anaerobic threshold           | AnT/LT  | Intensity where lactate accumulates faster than clearance (~4 mmol/L). Lactate threshold.  |
+| Lactate threshold heart rate  | LTHR    | Heart rate at AnT. Key reference for zone-based training.                                  |
+| Training stress score         | TSS     | Single number for how hard a workout was (intensity × duration).                           |
+| Aerobic deficiency syndrome   | ADS     | AeT–AnT gap >10%. Indicates weak aerobic base (Johnston).                                  |
+| Muscular endurance            | ME      | Ability to sustain repeated muscular contractions — the limiter in long climbs.             |
+| Rate of perceived exertion    | RPE     | Subjective effort scale, typically 1-10.                                                   |
+| Did not start / did not finish | DNS/DNF | —                                                                                          |
+| Functional threshold power    | FTP     | Max sustainable power for ~1 hour.                                                         |
+| Vertical gain                 | Vert    | Total climbing in a run, measured in feet or meters.                                       |
+
+## Knowledge Base Index
+
+Read the relevant file(s) before making recommendations. Here's what each one covers:
+
+| File                       | Covers                                                              |
+|----------------------------|---------------------------------------------------------------------|
+| `aerobic-base.md`          | AeT/AnT testing, zone definitions, ADS diagnosis, base building    |
+| `age-gender.md`            | Masters athletes, female physiology, menstrual cycle, menopause     |
+| `downhill-training.md`     | Eccentric loading, quad durability, repeated bout effect, technique |
+| `heat-altitude.md`         | Heat acclimation protocols, altitude zones, sauna protocols         |
+| `injury-prevention.md`     | Red flags, volume ramp limits, return-to-run, prehab               |
+| `long-runs.md`             | Time-on-feet targets, HR decoupling, back-to-backs, fueling        |
+| `mental-performance.md`    | Association/dissociation, ADAPT framework, willpower, pre-race     |
+| `muscular-endurance.md`    | ME progression, weighted carries, gym vs trail ME debate            |
+| `nutrition.md`             | Cal/hr targets, carb/hr, sodium, Bullseye plan, gut training, RED-S |
+| `periodization.md`         | Phase structure, block design, Johnston vs Koop vs Magness models   |
+| `race-execution.md`        | Pacing strategy, aid stations, cutoff management, ADAPT framework   |
+| `recovery-overtraining.md` | FOR/NFOR/OTS stages, HRV monitoring, recovery protocols            |
+| `sleep.md`                 | Sleep architecture, GH release, sleep hygiene, training adjustments |
+| `strength-training.md`     | Gym programming, phase-specific strength, injury prevention         |
+| `taper.md`                 | Volume reduction, sharpening, taper tantrums, race-week protocols   |
+| `volume-progression.md`    | 10% rule, build:recovery ratios, peak volume targets by distance    |
+| `workout-types.md`         | Interval definitions, RPE targets, terrain specificity, work:rest   |
