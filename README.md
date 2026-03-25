@@ -133,6 +133,7 @@ The training framework draws from these books. We recommend them for any ultraru
 - **Training for the Uphill Athlete** by Scott Johnston, Steve House & Kilian Jornet — [Amazon](https://www.amazon.com/Training-Uphill-Athlete-Mountain-Mountaineers/dp/1938340841) | Coaching: [Evoke Endurance](https://evokeendurance.com) (Johnston) · [Uphill Athlete](https://uphillathlete.com)
 - **Training Essentials for Ultrarunners** by Jason Koop — [Amazon](https://www.amazon.com/Training-Essentials-Ultrarunning-Compete-Ultramarathon/dp/1937715566) | Coaching: [Jason Koop](https://jasonkoop.com) · [CTS](https://trainright.com)
 - **Science of Running** by Steve Magness — [Amazon](https://www.amazon.com/Science-Running-Efficiently-Ultramarathons-Sprints/dp/0615942946) | [stevemagness.com](https://stevemagness.com) · [scienceofrunning.com](https://scienceofrunning.com)
+- **The Happy Runner** by Dr. Megan Roche & David Roche — [Amazon](https://www.amazon.com/Happy-Runner-Lasting-Running-Success/dp/1492567647) | [swaprunning.com](https://www.swaprunning.com) · [Some Work All Play Podcast](https://podcasts.apple.com/us/podcast/some-work-all-play/id1463503118)
 
 This project is not affiliated with any of these authors or organizations. If you can work with them directly, you should — Switchback is not a substitute for a real coaching relationship.
 
@@ -149,6 +150,7 @@ Switchback is designed to complement that relationship, not replace it. Between 
 - [Jason Koop / CTS](https://jasonkoop.com)
 - [Uphill Athlete](https://uphillathlete.com)
 - [Steve Magness](https://stevemagness.com)
+- [SWAP Running](https://www.swaprunning.com) (Dr. Megan Roche & David Roche)
 
 ## Disclaimer
 
