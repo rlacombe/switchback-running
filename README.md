@@ -17,55 +17,51 @@ We encourage you to [buy the books](#recommended-reading). They're excellent, th
 
 ## Getting Started
 
-### Prerequisites
+### What you'll need
 
-- **[Intervals.icu](https://intervals.icu)** account connected to your sports watch (Garmin, Suunto, COROS, Apple Watch, etc.). Intervals.icu is free, syncs your training data automatically, and is built by a small team — please consider [becoming a Supporter](https://intervals.icu).
-- **An AI coding agent** — Switchback works with any of these (install at least one):
+1. **[Intervals.icu](https://intervals.icu)** — a free platform that syncs with your sports watch (Garmin, Suunto, COROS, Apple Watch, etc.). If you don't have an account yet, [create one](https://intervals.icu) and connect your watch — it takes a couple of minutes.
 
-| Agent | Install | Features |
+2. **An AI agent** — install at least one of these:
+
+| Agent | Install command | Notes |
 |-------|---------|----------|
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | `npm install -g @anthropic-ai/claude-code` | Full experience — slash commands, session memory, MCP |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | `npm install -g @anthropic-ai/gemini-cli` | Core companion + live data via MCP |
+| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | `npm install -g @anthropic-ai/claude-code` | Recommended — full experience with slash commands |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | `npm install -g @google/gemini-cli` | Full experience with live data |
 | [Codex CLI](https://github.com/openai/codex) | `npm install -g @openai/codex` | Core companion (no live data yet) |
 
-The launcher auto-detects which agents you have installed. If you have multiple, it asks you to pick one and remembers your choice.
+3. **[Node.js](https://nodejs.org)** (LTS) and the **[GitHub CLI](https://cli.github.com)** — the installer needs both. If you're not sure whether you have them, the installer will tell you.
 
 ### Install
 
-One command does everything — forks the repo to your GitHub (private), clones it, installs dependencies, sets up the shell alias, and launches your companion for first-time setup:
+Open a terminal and run:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/rlacombe/switchback-running/main/install.sh | bash
 ```
 
-Requires [Node.js](https://nodejs.org) (LTS), [GitHub CLI](https://cli.github.com) (`gh auth login`), and at least one AI agent (see prerequisites above).
+That's it. The installer will:
+- Create a **private copy** of Switchback under your GitHub account (your training data stays private)
+- Install everything and set up the `switchback` command
+- Launch your companion for first-time setup — it'll walk you through connecting Intervals.icu, building your athlete profile, and choosing a name and personality for your companion
 
-The installer creates a **private fork** under your GitHub account — your training data (athlete profile, zones, companion persona, coaching notes) lives there and is never pushed to the public repo. After install, your companion walks you through connecting Intervals.icu and building your athlete profile.
-
-Then just run `switchback` from anywhere.
+After that, just type `switchback` from anywhere to start a session.
 
 ### Updating
 
-Your fork tracks the upstream repo for framework updates (knowledge base, skills, companion logic). To pull the latest:
+When there's a new version of Switchback (new features, updated training science), just run:
 
 ```bash
+cd ~/switchback-running
 git pull upstream main
 ```
 
-This updates the companion framework without touching your personal data in `athlete/` or `SOUL.md`. If setup didn't add the upstream remote, you can add it manually:
-
-```bash
-git remote add upstream https://github.com/rlacombe/switchback-running.git
-git remote set-url --push upstream DISABLE   # prevent accidental pushes to public repo
-```
+This updates the companion framework without touching your personal data.
 
 ### How it works
 
-Switchback is not a traditional app — there's no UI to install, no server to run. The repository contains a companion framework and knowledge base that your AI agent loads automatically. When you run `switchback`, it picks up where you left off — your companion greets you and delivers a morning briefing.
+Switchback is not a traditional app — there's no UI, no server to run. The repository is a knowledge base and companion framework that your AI agent reads automatically. When you run `switchback`, your companion greets you, pulls your latest training data from Intervals.icu, and picks up where you left off.
 
-The companion framework lives in `COMPANION.md` and is generated into agent-specific instruction files (`CLAUDE.md`, `AGENTS.md`, `GEMINI.md`) that each agent discovers automatically.
-
-Your personal data — `athlete/` (profile, zones, coaching notes) and `SOUL.md` (companion persona) — lives in your private fork and is committed to git. This means you can launch Switchback from any machine, including cloud environments, and your training history is preserved over time. See `SOUL.example.md` for the default persona.
+Your personal data (athlete profile, training zones, coaching notes, companion persona) lives in your private copy and is never shared publicly. You can launch Switchback from any machine — your data travels with you.
 
 ## What You Can Do
 
