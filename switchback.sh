@@ -84,6 +84,11 @@ fi
 CONTEXT=$(mktemp)
 trap "rm -f $CONTEXT" EXIT
 
+# Inject current local date and time so the companion knows the time of day
+echo "# Current Date and Time" >> "$CONTEXT"
+echo "Right now it is $(date '+%A, %B %-d, %Y at %-I:%M %p %Z')." >> "$CONTEXT"
+echo "" >> "$CONTEXT"
+
 [ -f SOUL.md ] && cat SOUL.md >> "$CONTEXT"
 [ -f athlete/profile.md ] && { echo ""; echo "# Athlete Profile"; cat athlete/profile.md; } >> "$CONTEXT"
 [ -f athlete/notes.md ] && { echo ""; echo "# Companion Notes"; cat athlete/notes.md; } >> "$CONTEXT"
