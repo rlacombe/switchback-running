@@ -6,12 +6,12 @@ user-invocable: true
 # /week — Weekly Summary
 
 1. Determine the current week (Monday–Sunday). Read `knowledge/volume-progression.md` for safe ramp rates and recovery week guidelines, and `knowledge/periodization.md` for training phase context.
-2. Fetch in parallel:
-   - `get_activities` for this week
-   - `get_events` for this week (planned)
-   - `get_activities` for last week (for comparison)
-   - `get_events` for next week (preview)
-   - `get_fitness` for the last 14 days (trend)
+2. Call the Intervals.icu API via curl (see `knowledge/intervals-icu-api.md`). Run independent calls as parallel Bash tool calls:
+   - Activities endpoint for this week
+   - Events endpoint for this week (planned)
+   - Activities endpoint for last week (for comparison)
+   - Events endpoint for next week (preview)
+   - Fitness endpoint for the last 14 days (trend)
 3. Display:
    - **This Week:**
      - Total miles, duration, elevation gain

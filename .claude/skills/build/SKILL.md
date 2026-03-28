@@ -19,11 +19,11 @@ Read these coaching files to inform workout design:
 
 ## Step 2: Gather context
 
-Fetch in parallel:
-- `get_fitness` for the last 14 days — current CTL/ATL/TSB trend
-- `get_activities` for the last 14 days — recent training load and volume
-- `get_events` for the date range the user is asking about — existing planned workouts
-- `get_wellness` for the last 7 days — sleep, HRV, fatigue trends
+Call the Intervals.icu API via curl (see `knowledge/intervals-icu-api.md`). Run independent calls as parallel Bash tool calls:
+- Fitness endpoint for the last 14 days — current CTL/ATL/TSB trend
+- Activities endpoint for the last 14 days — recent training load and volume
+- Events endpoint for the date range the user is asking about — existing planned workouts
+- Wellness endpoint for the last 7 days — sleep, HRV, fatigue trends
 
 ## Step 3: Design the plan
 
@@ -84,11 +84,11 @@ If planning multiple weeks, show a week-by-week summary table first, then the da
 
 Explicitly ask: **"Should I add these workouts to your calendar?"**
 
-Do NOT call `create_event` until the user confirms. If they want changes, revise and show again.
+Do NOT call the create event endpoint until the user confirms. If they want changes, revise and show again.
 
 ## Step 7: Create events
 
-After confirmation, for each workout call `create_event` with:
+After confirmation, for each workout call the create event endpoint with:
 - `category`: `"WORKOUT"`
 - `start_date_local`: the date in `YYYY-MM-DD` format
 - `name`: workout name

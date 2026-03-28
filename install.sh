@@ -23,13 +23,6 @@ echo "Switchback Running — installer"
 echo "==============================="
 echo ""
 
-# Node.js
-if ! command -v node &>/dev/null; then
-  error "Node.js is required. Install it from https://nodejs.org (LTS) and re-run."
-  exit 1
-fi
-ok "Node.js $(node -v)"
-
 # GitHub CLI
 if ! command -v gh &>/dev/null; then
   error "GitHub CLI (gh) is required for forking."
@@ -134,17 +127,6 @@ if grep -q "^SOUL\.md$" .gitignore 2>/dev/null; then
   ok "Personal data will now be tracked in your private fork"
 else
   ok "Gitignore already configured for personal data"
-fi
-
-# ---- Install dependencies ----
-
-echo ""
-if [ -d node_modules ]; then
-  ok "Dependencies already installed"
-else
-  info "Installing dependencies..."
-  npm install --silent
-  ok "Dependencies installed"
 fi
 
 # ---- Shell alias ----

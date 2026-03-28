@@ -13,11 +13,11 @@ Read `knowledge/recovery-overtraining.md` and `knowledge/workout-types.md` to in
 
 ## Step 2: Gather data
 
-Fetch in parallel:
-- `get_events` for today (oldest=today, newest=today) — planned workouts
-- `get_wellness` for today (oldest=today, newest=today) — sleep, HRV, RHR, fatigue, mood
-- `get_fitness` for the last 7 days — CTL/ATL/TSB trend
-- Zones are cached in `athlete/profile.md` — skip `get_athlete` unless zones are missing
+Call the Intervals.icu API via curl (see `knowledge/intervals-icu-api.md`). Run independent calls as parallel Bash tool calls:
+- Events endpoint for today (oldest=today, newest=today) — planned workouts
+- Wellness endpoint for today (oldest=today, newest=today) — sleep, HRV, RHR, fatigue, mood
+- Fitness endpoint for the last 7 days — CTL/ATL/TSB trend
+- Zones are cached in `athlete/profile.md` — skip the athlete endpoint unless zones are missing
 
 ## Step 3: Write the coaching note
 
@@ -39,7 +39,7 @@ Guidelines:
 
 ## Step 4: Post to calendar
 
-Call `create_event` with:
+Call the create event endpoint with:
 - `category`: `"NOTE"`
 - `start_date_local`: today's date in `YYYY-MM-DD` format
 - `name`: `"Coach's Notes"`

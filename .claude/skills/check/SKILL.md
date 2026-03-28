@@ -17,11 +17,11 @@ Read these coaching files for detection criteria and thresholds:
 
 ## Step 2: Gather data
 
-Fetch in parallel:
-- `get_wellness` for the last 30 days — sleep, HRV, resting HR, fatigue, mood trends
-- `get_fitness` for the last 30 days — CTL/ATL/TSB progression
-- `get_activities` for the last 30 days — actual volume, frequency, intensity
-- `get_events` for the last 30 days — planned vs completed (compliance)
+Call the Intervals.icu API via curl (see `knowledge/intervals-icu-api.md`). Run independent calls as parallel Bash tool calls:
+- Wellness endpoint for the last 30 days — sleep, HRV, resting HR, fatigue, mood trends
+- Fitness endpoint for the last 30 days — CTL/ATL/TSB progression
+- Activities endpoint for the last 30 days — actual volume, frequency, intensity
+- Events endpoint for the last 30 days — planned vs completed (compliance)
 Read `athlete/profile.md` for injury history, age, known weaknesses, and cached zones.
 
 ## Step 3: Analyze

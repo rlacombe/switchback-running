@@ -26,10 +26,10 @@ Read the relevant file(s). If the question spans multiple topics, read all of th
 
 ## Step 2: Gather athlete context (if relevant)
 
-If the question relates to the athlete's current training, fetch data to personalize the explanation:
+If the question relates to the athlete's current training, call the Intervals.icu API via curl (see `knowledge/intervals-icu-api.md`) to personalize the explanation:
 - Zones are cached in `athlete/profile.md` — use those to reference actual numbers
-- `get_fitness` — their current CTL/ATL/TSB
-- `get_activities` or `get_events` — recent training context
+- Fitness endpoint — their current CTL/ATL/TSB
+- Activities or events endpoint — recent training context
 
 Skip this step if the question is purely conceptual (e.g., "what is ADS?").
 

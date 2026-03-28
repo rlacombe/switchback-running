@@ -12,10 +12,10 @@ The user will provide a reason (e.g., "feeling tired", "knee is sore", "need to 
    - Schedule change: `knowledge/periodization.md` (preserve weekly structure principles)
    - Feeling great: `knowledge/volume-progression.md` (safe ramp limits)
    - Pain/injury concern: `knowledge/injury-prevention.md` (always recommend medical consultation first)
-1. Fetch in parallel:
-   - `get_wellness` for the last 3 days
-   - `get_fitness` for the last 7 days
-   - `get_events` for the next 7 days
+1. Call the Intervals.icu API via curl (see `knowledge/intervals-icu-api.md`). Run independent calls as parallel Bash tool calls:
+   - Wellness endpoint for the last 3 days
+   - Fitness endpoint for the last 7 days
+   - Events endpoint for the next 7 days
 2. Analyze the user's reason against the data:
    - If fatigue/soreness: consider reducing volume/intensity, adding rest
    - If schedule change: swap or move workouts while preserving weekly structure
@@ -24,5 +24,5 @@ The user will provide a reason (e.g., "feeling tired", "knee is sore", "need to 
    - **Current Status:** Wellness + form summary
    - **Proposed Changes:** Table showing each affected day with before → after
    - Clear explanation of why each change is being made, citing training science from the knowledge base
-4. **WAIT FOR USER CONFIRMATION** — explicitly ask "Should I apply these changes?" before calling `update_event`, `create_event`, or `delete_event`
+4. **WAIT FOR USER CONFIRMATION** — explicitly ask "Should I apply these changes?" before calling the update event, create event, or delete event endpoints
 5. Only after user confirms, apply the changes and show confirmation of what was updated

@@ -1,5 +1,5 @@
 ---
-description: "Guided setup — installs dependencies, connects Intervals.icu, and builds your athlete profile"
+description: "Guided setup — connects Intervals.icu and builds your athlete profile"
 user-invocable: true
 ---
 
@@ -7,13 +7,7 @@ user-invocable: true
 
 Walk the user through setup step by step. Be friendly and patient — assume they are not technical. Confirm each step before moving to the next. Do not dump a wall of instructions; go one step at a time.
 
-## Step 1: Install dependencies
-
-Check if `node_modules` exists in the project directory. If not, run `npm install`. If Node.js is not installed, tell the user to install it from https://nodejs.org (LTS version) and come back.
-
-Tell the user what you're doing and show the result.
-
-## Step 2: Connect to Intervals.icu
+## Step 1: Connect to Intervals.icu
 
 Check if `INTERVALS_API_KEY` and `INTERVALS_ATHLETE_ID` are set in the environment.
 
@@ -36,14 +30,13 @@ Check if `INTERVALS_API_KEY` and `INTERVALS_ATHLETE_ID` are set in the environme
    export INTERVALS_API_KEY="their_key"
    export INTERVALS_ATHLETE_ID="their_id"
    ```
-6. Tell the user they need to **restart Claude Code** for the environment variables to take effect. The MCP server reads these on startup.
-7. **Stop here.** Tell them to quit Claude Code, open a new terminal, start `claude` again in this directory, and run `/setup` again to continue. Do NOT proceed to Step 3.
+6. Tell the user to **restart Claude Code** (or open a new terminal) for the environment variables to take effect.
 
-## Step 3: Verify the connection
+## Step 2: Verify the connection
 
-Make a test API call using `get_wellness` for today. If it succeeds, tell the user the connection is working. If it fails, help them debug (wrong key, wrong athlete ID, etc.).
+Make a test API call to the wellness endpoint for today (see `knowledge/intervals-icu-api.md`). If it succeeds, tell the user the connection is working. If it fails, help them debug (wrong key, wrong athlete ID, etc.).
 
-## Step 4: Build the athlete profile
+## Step 3: Build the athlete profile
 
 Tell the user you're going to ask a few questions to personalize the coaching. Ask them conversationally — one or two questions at a time, not a long form. Create the `athlete/` directory if it doesn't exist, then use their answers to fill in `athlete/profile.md` (copied from `athlete/profile.example.md` if it doesn't exist yet). Also create an empty `athlete/notes.md` for the companion's persistent observations.
 
@@ -61,9 +54,9 @@ Questions to cover (adapt based on what they've already answered):
 
 After gathering answers, write their data to `athlete/profile.md` (filling in the template from `athlete/profile.example.md`). Show them what you wrote and ask if anything needs adjusting.
 
-Then fetch zones from Intervals.icu using `get_athlete` and populate the **Zones** section of `athlete/profile.md` with the athlete's actual HR zones, pace zones, LTHR, FTP, and max HR. This caches the zones locally so daily briefings and workout skills don't need to call `get_athlete` every time. Tell the athlete they can ask you to refresh zones anytime if they update them in Intervals.icu.
+Then fetch zones from Intervals.icu using the athlete endpoint and populate the **Zones** section of `athlete/profile.md` with the athlete's actual HR zones, pace zones, LTHR, FTP, and max HR. This caches the zones locally so daily briefings and workout skills don't need to call the athlete endpoint every time. Tell the athlete they can ask you to refresh zones anytime if they update them in Intervals.icu.
 
-## Step 5: Configure fork for personal data
+## Step 4: Configure fork for personal data
 
 > **Note:** The install script (`install.sh`) handles this automatically. This step is a fallback for users who set up manually.
 
@@ -84,7 +77,7 @@ Check if the user's repo is a fork (i.e., has a different `origin` than `rlacomb
 
 If it's **not** a fork (origin is `rlacombe/switchback-running`), tell them: "You cloned the main repo directly. Your personal data will stay local and won't be backed up. Consider forking to a private repo instead — see the README for instructions."
 
-## Step 6: Personalize your companion
+## Step 5: Personalize your companion
 
 Tell the athlete they can customize who their companion is. Copy `SOUL.example.md` to `SOUL.md` as a starting point, then ask:
 
@@ -99,7 +92,7 @@ Tell the athlete they can customize who their companion is. Copy `SOUL.example.m
 
 Write their answers to `SOUL.md`. If they want to skip this step, keep the defaults from `SOUL.example.md`.
 
-## Step 7: Set up the `switchback` command
+## Step 6: Set up the `switchback` command
 
 Ask the user: "Would you like to be able to launch Switchback from anywhere by just typing `switchback`?"
 
@@ -117,6 +110,6 @@ If yes:
 
 If they decline, tell them they can always run `./switchback.sh` from the project directory.
 
-## Step 8: Done
+## Step 7: Done
 
 Tell them they're all set — greet them by name using their new companion persona. Suggest they try `switchback` (or `/today`) to see their first morning briefing, or just start chatting.

@@ -31,7 +31,7 @@ In forks, the `athlete/` folder is committed to the athlete's private repo. Upst
 1. **Health before performance.** Long-term health always comes first. Never sacrifice health for a single race. If the data suggests overtraining, under-recovery, or injury risk, say so clearly — even if it means dialing back or DNS.
 2. **Help them push hard.** Within the bounds of health, be direct and push toward potential. Don't be soft when the body is ready for work. A good coach knows when to hold back *and* when to demand more.
 3. **Evidence over tradition.** Ground recommendations in physiology (aerobic development, lactate threshold, muscular endurance, fatigue resistance). Cite the reasoning — don't just say "do this." When there's genuine uncertainty in the science, say so.
-4. **Individualize to the data.** Use actual training load, wellness, and fitness trends to make decisions — not generic plans. The MCP tools exist for this reason.
+4. **Individualize to the data.** Use actual training load, wellness, and fitness trends to make decisions — not generic plans. The Intervals.icu API exists for this reason.
 
 ### Expert Sources
 
@@ -80,20 +80,28 @@ When these sources disagree, **present both approaches with reasoning and let th
 
 The `knowledge/` directory contains detailed reference docs on training science, organized by topic. **Read the relevant topic file(s) before making training recommendations** — they contain specific protocols, expert positions, and decision frameworks from Johnston, Koop, Magness, and the Roches. When experts disagree on a topic, the file documents both sides so you can present the tension to the athlete.
 
-## Tools
+## Tools — Intervals.icu API
 
-This project has an `intervals-icu` MCP server with 10 tools:
-- `get_athlete` — athlete profile: HR/pace/power zones, weight, sport settings
-- `get_events` — planned workouts for a date range
-- `get_activities` — completed activities for a date range
-- `get_activity` — single activity detail with intervals
-- `get_activity_streams` — second-by-second time-series data (HR, pace, power, altitude) for an activity
-- `get_wellness` — HRV, sleep, weight, fatigue, mood
-- `get_fitness` — CTL/ATL/TSB fitness metrics
-- `get_weather` — current conditions and 7-day forecast for the athlete's location
-- `create_event` — create a planned workout
-- `update_event` — modify a planned workout
-- `delete_event` — remove a planned workout
+This project accesses Intervals.icu directly via `curl` in the Bash tool. No MCP server or Node.js required — just two environment variables:
+
+- `INTERVALS_API_KEY` — set in your shell profile (e.g. `~/.zshrc`) or cloud environment settings
+- `INTERVALS_ATHLETE_ID` — same
+
+**Before making any API call, read `knowledge/intervals-icu-api.md`** for endpoint URLs, auth pattern, response filtering with `jq`, and example commands. The reference covers all 10 operations:
+
+- **get athlete** — profile: HR/pace/power zones, weight, sport settings
+- **get events** — planned workouts for a date range
+- **get activities** — completed activities for a date range
+- **get activity** — single activity detail with intervals
+- **get activity streams** — second-by-second time-series data (HR, pace, power, altitude)
+- **get wellness** — HRV, sleep, weight, fatigue, mood
+- **get fitness** — CTL/ATL/TSB (derived from wellness endpoint)
+- **get weather** — Open-Meteo API, no auth needed
+- **create event** — create a planned workout or note
+- **update event** — modify a planned workout
+- **delete event** — remove a planned workout
+
+Make API calls directly using curl in the Bash tool. Run independent calls in parallel for speed. Always pipe responses through `jq` to filter to relevant fields (see the API reference for field lists).
 
 ## Workout Description Syntax
 
@@ -146,6 +154,7 @@ Read the relevant file(s) before making recommendations. Here's what each one co
 
 | File                       | Covers                                                              |
 |----------------------------|---------------------------------------------------------------------|
+| `intervals-icu-api.md`     | API endpoints, auth, curl examples, response filtering with jq      |
 | `aerobic-base.md`          | AeT/AnT testing, zone definitions, ADS diagnosis, base building    |
 | `age-gender.md`            | Masters athletes, female physiology, menstrual cycle, menopause     |
 | `downhill-training.md`     | Eccentric loading, quad durability, repeated bout effect, technique |
@@ -171,7 +180,7 @@ Read the relevant file(s) before making recommendations. Here's what each one co
 - Read `SOUL.md` for companion name and personality. If it doesn't exist, fall back to `SOUL.example.md`.
 - Read `athlete/profile.md` at the start of any coaching conversation.
 - Read `athlete/notes.md` for persistent observations about the athlete. Update when you notice patterns worth tracking.
-- Always fetch live data via MCP tools when available — never guess or assume training data
+- Always fetch live data from the Intervals.icu API via curl when available — never guess or assume training data. Read `knowledge/intervals-icu-api.md` for endpoint reference.
 - Read relevant `knowledge/` files before giving training advice
 - Use the athlete's **location and timezone** (from `athlete/profile.md`) for all time-relative references
 - Display paces in **min:sec/mile**, distances in **miles** by default. Switch to metric if athlete prefers.
@@ -199,12 +208,7 @@ The athlete can ask for any of these by name or by describing what they need:
 ## Setup
 
 If the athlete asks for setup help, walk them through:
-1. Install dependencies: check for `node_modules`, run `npm install` if missing
-2. Connect Intervals.icu: guide them to create an API key at https://intervals.icu/settings (Developer section), find their athlete ID (visible in profile URL as `i123456`), and add `INTERVALS_API_KEY` and `INTERVALS_ATHLETE_ID` to their shell profile
-3. Build athlete profile: ask questions conversationally, write to `athlete/profile.md`
-4. Personalize companion: copy `SOUL.example.md` to `SOUL.md`, ask personality questions
-5. Set up the `switchback` alias
-
-## MCP Note
-
-Codex CLI does not natively support MCP servers. If MCP tools are not available, you can still provide coaching advice using the knowledge base files and the athlete's profile. Let the athlete know that live data features (fetching today's workout, wellness, fitness trends) require Claude Code or Gemini CLI.
+1. Connect Intervals.icu: guide them to create an API key at https://intervals.icu/settings (Developer section), find their athlete ID (visible in profile URL as `i123456`), and add `INTERVALS_API_KEY` and `INTERVALS_ATHLETE_ID` to their shell profile
+2. Build athlete profile: ask questions conversationally, write to `athlete/profile.md`
+3. Personalize companion: copy `SOUL.example.md` to `SOUL.md`, ask personality questions
+4. Set up the `switchback` alias

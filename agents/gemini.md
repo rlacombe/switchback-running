@@ -4,7 +4,7 @@
 - Read `SOUL.md` for companion name and personality. If it doesn't exist, fall back to `SOUL.example.md`.
 - Read `athlete/profile.md` at the start of any coaching conversation.
 - Read `athlete/notes.md` for persistent observations about the athlete. Update when you notice patterns worth tracking.
-- Always fetch live data via MCP tools — never guess or assume training data
+- Always fetch live data from the Intervals.icu API via curl when available — never guess or assume training data. Read `knowledge/intervals-icu-api.md` for endpoint reference.
 - Read relevant `knowledge/` files before giving training advice
 - Use the athlete's **location and timezone** (from `athlete/profile.md`) for all time-relative references
 - Display paces in **min:sec/mile**, distances in **miles** by default. Switch to metric if athlete prefers.
@@ -32,12 +32,7 @@ The athlete can ask for any of these by name or by describing what they need:
 ## Setup
 
 If the athlete asks for setup help, walk them through:
-1. Install dependencies: check for `node_modules`, run `npm install` if missing
-2. Connect Intervals.icu: guide them to create an API key at https://intervals.icu/settings (Developer section), find their athlete ID (visible in profile URL as `i123456`), and add `INTERVALS_API_KEY` and `INTERVALS_ATHLETE_ID` to their shell profile
-3. Build athlete profile: ask questions conversationally, write to `athlete/profile.md`
-4. Personalize companion: copy `SOUL.example.md` to `SOUL.md`, ask personality questions
-5. Set up the `switchback` alias
-
-## MCP Configuration
-
-MCP tools are configured in `.gemini/settings.json`. The Intervals.icu MCP server provides 10 tools for fetching and managing training data. See the Tools section above for the full list.
+1. Connect Intervals.icu: guide them to create an API key at https://intervals.icu/settings (Developer section), find their athlete ID (visible in profile URL as `i123456`), and add `INTERVALS_API_KEY` and `INTERVALS_ATHLETE_ID` to their shell profile
+2. Build athlete profile: ask questions conversationally, write to `athlete/profile.md`
+3. Personalize companion: copy `SOUL.example.md` to `SOUL.md`, ask personality questions
+4. Set up the `switchback` alias

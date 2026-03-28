@@ -18,11 +18,11 @@ Read these coaching files for expert protocols:
 
 ## Step 2: Gather data
 
-Fetch in parallel:
-- `get_fitness` for the last 21 days — CTL/ATL/TSB trend into race day
-- `get_events` for the next 14 days — remaining workouts and taper check
-- `get_activities` for the last 30 days — recent training volume and long runs
-- `get_wellness` for the last 7 days — sleep, HRV, fatigue trends
+Call the Intervals.icu API via curl (see `knowledge/intervals-icu-api.md`). Run independent calls as parallel Bash tool calls:
+- Fitness endpoint for the last 21 days — CTL/ATL/TSB trend into race day
+- Events endpoint for the next 14 days — remaining workouts and taper check
+- Activities endpoint for the last 30 days — recent training volume and long runs
+- Wellness endpoint for the last 7 days — sleep, HRV, fatigue trends
 
 Read `athlete/profile.md` for race details (distance, elevation, cutoffs, key cutoffs) and cached zones.
 
@@ -78,4 +78,4 @@ Display as a structured race-day document:
 
 ## Step 5: Offer to save
 
-Ask if the athlete wants this posted as a NOTE on their race-day calendar via `create_event`.
+Ask if the athlete wants this posted as a NOTE on their race-day calendar via the create event endpoint.
