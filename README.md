@@ -15,54 +15,6 @@ Switchback reads your training data, applies those frameworks, and helps you mak
 
 We encourage you to [buy the books](#recommended-reading). They're excellent, they'll make you a better and more self-aware athlete, and they support authors who've dedicated their careers to helping runners like us go after their dreams.
 
-## Getting Started
-
-### What you'll need
-
-1. **[Intervals.icu](https://intervals.icu)** — a free platform that syncs with your sports watch (Garmin, Suunto, COROS, Apple Watch, etc.). If you don't have an account yet, [create one](https://intervals.icu) and connect your watch — it takes a couple of minutes.
-
-2. **An AI agent** — install at least one of these:
-
-| Agent | Install command | Notes |
-|-------|---------|----------|
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | `npm install -g @anthropic-ai/claude-code` | Recommended — full experience with slash commands |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | `npm install -g @google/gemini-cli` | Full experience with live data |
-| [Codex CLI](https://github.com/openai/codex) | `npm install -g @openai/codex` | Core companion (no live data yet) |
-
-### Install
-
-Open a terminal and run:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/rlacombe/switchback-running/main/install.sh | bash
-```
-
-That's it. The installer will:
-- Create a **private copy** of Switchback under your GitHub account (your training data stays private)
-- Install everything and set up the `switchback` command
-- Launch your companion for first-time setup — it'll walk you through connecting Intervals.icu, building your athlete profile, and choosing a name and personality for your companion
-
-**After that, just type `switchback` from anywhere to start a session.**
-
-### Updating
-
-When there's a new version of Switchback (new features, updated training science), just run:
-
-```bash
-cd ~/switchback-running
-git pull upstream main
-```
-
-This updates the companion framework without touching your personal data.
-
-### How it works
-
-Switchback is not a traditional app — there's no UI, no server to run. The repository is a knowledge base and companion framework that your AI agent reads automatically. When you run `switchback`, your companion greets you, pulls your latest training data from Intervals.icu, and picks up where you left off.
-
-Your personal data (athlete profile, training zones, coaching notes, companion persona) lives in your private copy and is never shared publicly. You can launch Switchback from any machine — your data travels with you.
-
-**Make it yours.** During setup, you choose a name and personality for your companion. By default your companion is called Virgil, inspired by Dante's faithful companion on his journey to hell and back. You can rename it after anyone who motivates you — a training partner, a runner you admire, that aid station volunteer who saved your race at mile 40. You also choose the tone, humor, and coaching style that work best for you.
-
 ## What You Can Do
 
 ### Morning check-in
@@ -124,6 +76,10 @@ You're not limited to slash commands. Ask anything:
 - *"What does Scott Johnston think about weighted hiking?"*
 - *"Build me a 12-week plan for a mountain 50K"*
 
+### Make it yours
+
+During setup, you choose a name and personality for your companion. By default your companion is called Virgil, inspired by Dante's faithful companion on his journey to hell and back. You can rename it after anyone who motivates you — a training partner, a runner you admire, that aid station volunteer who saved your race at mile 40. You also choose the tone, humor, and coaching style that work best for you.
+
 ## Skills (Claude Code)
 
 These slash commands are available in Claude Code. Other agents support the same capabilities through natural conversation — just ask.
@@ -140,6 +96,52 @@ These slash commands are available in Claude Code. Other agents support the same
 | `/race` | Race-day strategy — pacing, nutrition, aid stations, mental game plan |
 | `/why` | Explain the science behind any training decision (e.g., `/why VO2max intervals`) |
 | `/check` | Deep health audit — overtraining signals, volume trends, injury risk |
+
+## Getting Started
+
+### What you'll need
+
+1. **[Intervals.icu](https://intervals.icu)** — a free platform that syncs with your sports watch (Garmin, Suunto, COROS, Apple Watch, etc.). If you don't have an account yet, [create one](https://intervals.icu) and connect your watch — it takes a couple of minutes.
+
+2. **An AI agent** — install at least one of these:
+
+| Agent | Install command | Notes |
+|-------|---------|----------|
+| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | `npm install -g @anthropic-ai/claude-code` | Recommended — full experience with slash commands |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | `npm install -g @google/gemini-cli` | Full experience with live data |
+| [Codex CLI](https://github.com/openai/codex) | `npm install -g @openai/codex` | Core companion (no live data yet) |
+
+### Install
+
+Open a terminal and run:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/rlacombe/switchback-running/main/install.sh | bash
+```
+
+That's it. The installer will:
+- Create a **private copy** of Switchback under your GitHub account (your training data stays private)
+- Install everything and set up the `switchback` command
+- Launch your companion for first-time setup — it'll walk you through connecting Intervals.icu, building your athlete profile, and choosing a name and personality for your companion
+
+**After that, just type `switchback` from anywhere to start a session.**
+
+### Updating
+
+When there's a new version of Switchback (new features, updated training science), just run:
+
+```bash
+cd ~/switchback-running
+git pull upstream main
+```
+
+This updates the companion framework without touching your personal data.
+
+### How it works
+
+Switchback is not a traditional app — there's no UI, no server to run. The repository is a knowledge base and companion framework that your AI agent reads automatically. When you run `switchback`, your companion greets you, pulls your latest training data from Intervals.icu, and picks up where you left off.
+
+Your personal data (athlete profile, training zones, coaching notes, companion persona) lives in your private copy and is never shared publicly. You can launch Switchback from any machine — your data travels with you.
 
 ## Training Philosophy
 
