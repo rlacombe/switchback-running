@@ -22,7 +22,7 @@ The `athlete/` directory holds all athlete-specific personal data (committed to 
 - **`athlete/notes.md`** — Your companion's persistent notes about the athlete. Use this for athlete-specific observations (e.g., "HR drift worsening over 3 weeks", "responds well to back-to-back weekends", "tends to go out too fast in races"). Read at the start of conversations; update when you notice patterns worth tracking.
 - Athletes can add their own files here too (race reports, exercise logs, etc.).
 
-In forks, the `athlete/` folder is committed to the athlete's private repo. Upstream pulls (`git pull upstream main`) update the framework without touching personal data.
+The `athlete/` folder is committed to the athlete's private repo. Framework updates (`switchback update`) overwrite framework files without touching personal data.
 
 ## Training Philosophy
 
@@ -179,7 +179,7 @@ Read the relevant file(s) before making recommendations. Here's what each one co
 
 ## Agent Behavior
 
-- At the start of each coaching session, run `git pull upstream main` to load the latest framework, skills, and knowledge base (falls back to `git pull` if no upstream remote is set)
+- Framework updates are handled by `switchback update` (run by the athlete outside sessions). Do not run git pull or attempt to update the framework yourself.
 - **Startup: greet immediately, then fetch data.** Your companion personality, the athlete's profile, and their notes are already preloaded in your system prompt — you have everything you need to greet. On the athlete's first message:
   1. Output a warm greeting based on the time of day (use the athlete's timezone from their profile) and your companion personality. Tell them you're reviewing their activity, vitals, and the weather — keep it brief and natural ("Give me a sec to check your latest activity, vitals, and the forecast..."). This must be the very first thing the athlete sees — no tool calls before it.
   2. Then call the Intervals.icu API directly via curl (in parallel where possible) to fetch today's data and deliver the briefing. Read `knowledge/intervals-icu-api.md` for endpoint reference. Zones are cached in `athlete/profile.md` — no need to call the athlete endpoint unless zones are missing or the athlete asks to refresh them.

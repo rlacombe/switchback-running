@@ -131,11 +131,10 @@ That's it. The installer will:
 When there's a new version of Switchback (new features, updated training science), just run:
 
 ```bash
-cd ~/switchback-running
-git pull upstream main
+switchback update
 ```
 
-This updates the companion framework without touching your personal data.
+This downloads the latest framework and updates your local copy without touching your personal data.
 
 ### How it works
 

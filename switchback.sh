@@ -6,7 +6,65 @@
 set -euo pipefail
 cd "$(dirname "$0")" || exit 1
 
+UPSTREAM="rlacombe/switchback-running"
 PREF_FILE=".switchback-agent"
+
+# ---- Update command ----
+
+if [ "${1:-}" = "update" ]; then
+  echo ""
+  echo "Switchback — updating framework"
+  echo "================================"
+  echo ""
+
+  # Download latest tarball from GitHub
+  TMPDIR=$(mktemp -d)
+  trap "rm -rf $TMPDIR" EXIT
+
+  echo "  → Downloading latest version..."
+  curl -sL "https://github.com/$UPSTREAM/tarball/main" | tar xz -C "$TMPDIR" --strip-components=1
+
+  # Framework files to overwrite (everything except personal data)
+  echo "  → Updating framework files..."
+
+  # Directories — sync entirely
+  for dir in knowledge agents scripts .claude/skills .gemini; do
+    if [ -d "$TMPDIR/$dir" ]; then
+      rm -rf "$dir"
+      cp -r "$TMPDIR/$dir" "$dir"
+    fi
+  done
+
+  # Root files — overwrite framework, skip personal
+  for file in COMPANION.md CLAUDE.md AGENTS.md GEMINI.md README.md LICENSE \
+              switchback.sh install.sh SOUL.example.md athlete/profile.example.md \
+              scripts/generate-agent-docs.sh; do
+    if [ -f "$TMPDIR/$file" ]; then
+      mkdir -p "$(dirname "$file")"
+      cp "$TMPDIR/$file" "$file"
+    fi
+  done
+
+  # Make scripts executable
+  chmod +x switchback.sh install.sh scripts/*.sh 2>/dev/null || true
+
+  # Commit if there are changes
+  if ! git diff --quiet 2>/dev/null || ! git diff --cached --quiet 2>/dev/null; then
+    git add -A
+    git commit -m "Update Switchback framework to latest"
+    echo "  ✓ Framework updated and committed"
+
+    # Push if we have a remote
+    if git remote get-url origin &>/dev/null 2>&1; then
+      git push 2>/dev/null && echo "  ✓ Pushed to your repo" || echo "  → Push skipped (no remote or auth issue)"
+    fi
+  else
+    echo "  ✓ Already up to date"
+  fi
+
+  echo ""
+  exit 0
+fi
 
 # ---- Agent detection ----
 

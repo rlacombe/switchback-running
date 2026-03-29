@@ -22,7 +22,7 @@ The `athlete/` directory holds all athlete-specific personal data (committed to 
 - **`athlete/notes.md`** — Your companion's persistent notes about the athlete. Use this for athlete-specific observations (e.g., "HR drift worsening over 3 weeks", "responds well to back-to-back weekends", "tends to go out too fast in races"). Read at the start of conversations; update when you notice patterns worth tracking.
 - Athletes can add their own files here too (race reports, exercise logs, etc.).
 
-In forks, the `athlete/` folder is committed to the athlete's private repo. Upstream pulls (`git pull upstream main`) update the framework without touching personal data.
+The `athlete/` folder is committed to the athlete's private repo. Framework updates (`switchback update`) overwrite framework files without touching personal data.
 
 ## Training Philosophy
 

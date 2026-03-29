@@ -98,15 +98,11 @@ else
   ok "Cloned"
 fi
 
-# ---- Upstream remote (pull-only) ----
+# ---- Remove upstream remote if present (no longer needed) ----
 
 if git remote get-url upstream &>/dev/null 2>&1; then
-  ok "Upstream remote already set"
-else
-  info "Adding upstream remote (pull-only — push disabled)..."
-  git remote add upstream "https://github.com/$UPSTREAM.git"
-  git remote set-url --push upstream DISABLE
-  ok "Upstream remote configured"
+  git remote remove upstream
+  info "Removed upstream remote (updates now use 'switchback update')"
 fi
 
 # ---- Configure gitignore for personal data ----

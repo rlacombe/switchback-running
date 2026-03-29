@@ -60,22 +60,17 @@ Then fetch zones from Intervals.icu using the athlete endpoint and populate the 
 
 > **Note:** The install script (`install.sh`) handles this automatically. This step is a fallback for users who set up manually.
 
-Check if the user's repo is a fork (i.e., has a different `origin` than `rlacombe/switchback-running`). If it is:
+Check if the user's repo is a private repo (not the public `rlacombe/switchback-running`):
 
-1. **Check repo visibility.** Run `gh repo view --json visibility -q .visibility` on the origin repo. If the result is `PUBLIC`, **stop and warn the athlete**: "Your fork is public — your personal training data (health metrics, location, API keys) would be visible to anyone. Please make it private first: go to your repo's Settings → General → Danger Zone → Change visibility → Private." Do NOT proceed with un-ignoring personal data until the repo is private.
-2. **Add upstream remote** if not already set, with push disabled to prevent accidentally pushing personal data to the public repo:
-   ```
-   git remote add upstream https://github.com/rlacombe/switchback-running.git
-   git remote set-url --push upstream DISABLE
-   ```
-   This allows `git pull upstream main` for framework updates but blocks any `git push upstream`.
-3. **Un-ignore personal data** — remove these lines from `.gitignore`:
+1. **Check repo visibility.** Run `gh repo view --json visibility -q .visibility` on the origin repo. If the result is `PUBLIC`, **stop and warn the athlete**: "Your repo is public — your personal training data (health metrics, location, API keys) would be visible to anyone. Please make it private first: go to your repo's Settings → General → Danger Zone → Change visibility → Private." Do NOT proceed with un-ignoring personal data until the repo is private.
+2. **Un-ignore personal data** — remove these lines from `.gitignore`:
    - `SOUL.md`
    - `athlete/*` and `!athlete/.gitignore` and `!athlete/profile.example.md`
-4. **Remove `athlete/.gitignore`** — it's no longer needed since the parent `.gitignore` no longer excludes the directory.
-5. Tell the user: "Your fork is set up to track your personal data. Your profile, zones, companion persona, and coaching notes will be committed to your private repo — so you can launch Switchback from any machine."
+3. **Remove `athlete/.gitignore`** — it's no longer needed since the parent `.gitignore` no longer excludes the directory.
+4. **Remove upstream remote** if present — it's no longer needed. Framework updates use `switchback update` instead.
+5. Tell the user: "Your repo is set up to track your personal data. To update the framework, run `switchback update`."
 
-If it's **not** a fork (origin is `rlacombe/switchback-running`), tell them: "You cloned the main repo directly. Your personal data will stay local and won't be backed up. Consider forking to a private repo instead — see the README for instructions."
+If the origin **is** `rlacombe/switchback-running`, tell them: "You cloned the main repo directly. Your personal data will stay local and won't be backed up. Consider running the installer instead — see the README."
 
 ## Step 5: Personalize your companion
 
