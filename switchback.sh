@@ -38,7 +38,7 @@ if [ "${1:-}" = "update" ]; then
   # Root files — overwrite framework, skip personal
   for file in COMPANION.md CLAUDE.md AGENTS.md GEMINI.md README.md LICENSE \
               switchback.sh install.sh SOUL.example.md athlete/profile.example.md \
-              scripts/generate-agent-docs.sh; do
+              .claude/settings.json; do
     if [ -f "$TMPDIR/$file" ]; then
       mkdir -p "$(dirname "$file")"
       cp "$TMPDIR/$file" "$file"

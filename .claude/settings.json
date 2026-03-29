@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash scripts/check-update.sh 2>/dev/null || true",
+            "timeout": 30,
+            "statusMessage": "Checking for updates..."
+          }
+        ]
+      }
+    ]
+  }
+}

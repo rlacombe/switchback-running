@@ -1,6 +1,6 @@
 #!/bin/bash
 # Switchback Running — one-command installer
-# Forks the repo (private), clones it, installs deps, and launches setup.
+# Creates a private repo, populates it with the framework, and launches setup.
 #
 # Usage:
 #   curl -fsSL https://raw.githubusercontent.com/rlacombe/switchback-running/main/install.sh | bash
@@ -8,7 +8,8 @@
 set -euo pipefail
 
 UPSTREAM="rlacombe/switchback-running"
-INSTALL_DIR="${SWITCHBACK_DIR:-$HOME/switchback-running}"
+REPO_NAME="switchback-personal"
+INSTALL_DIR="${SWITCHBACK_DIR:-$HOME/$REPO_NAME}"
 
 # ---- Helpers ----
 
@@ -25,7 +26,7 @@ echo ""
 
 # GitHub CLI
 if ! command -v gh &>/dev/null; then
-  error "GitHub CLI (gh) is required for forking."
+  error "GitHub CLI (gh) is required."
   echo "    Install: https://cli.github.com"
   exit 1
 fi
@@ -52,77 +53,64 @@ if [ "$HAS_AGENT" = false ]; then
 fi
 ok "AI agent detected"
 
-# ---- Fork ----
+# ---- Create private repo ----
 
 echo ""
 GH_USER=$(gh api user -q .login)
 
-# Check if fork already exists
-if gh repo view "$GH_USER/switchback-running" &>/dev/null 2>&1; then
-  info "Fork already exists: $GH_USER/switchback-running"
-else
-  info "Forking $UPSTREAM → $GH_USER/switchback-running..."
-  gh repo fork "$UPSTREAM" --default-branch-only --clone=false
-  ok "Forked"
-fi
-
-# Make it private
-VISIBILITY=$(gh repo view "$GH_USER/switchback-running" --json visibility -q .visibility)
-if [ "$VISIBILITY" != "PRIVATE" ]; then
-  info "Setting fork to private (your training data will live here)..."
-  gh repo edit "$GH_USER/switchback-running" --visibility private
-  ok "Fork is now private"
-else
-  ok "Fork is already private"
-fi
-
-# ---- Clone ----
-
-echo ""
-if [ -d "$INSTALL_DIR" ]; then
-  info "Directory already exists: $INSTALL_DIR"
+if [ -d "$INSTALL_DIR" ] && git -C "$INSTALL_DIR" remote get-url origin &>/dev/null 2>&1; then
+  info "Already installed at $INSTALL_DIR"
   cd "$INSTALL_DIR"
-
-  # Verify it's the right repo
-  ORIGIN=$(git remote get-url origin 2>/dev/null || echo "")
-  if [[ "$ORIGIN" != *"$GH_USER/switchback-running"* ]]; then
-    error "$INSTALL_DIR exists but points to a different repo: $ORIGIN"
-    error "Remove it or set SWITCHBACK_DIR to a different location and re-run."
-    exit 1
+  ok "Using existing installation"
+else
+  # Create the private repo on GitHub if it doesn't exist
+  if gh repo view "$GH_USER/$REPO_NAME" &>/dev/null 2>&1; then
+    info "Repo already exists: $GH_USER/$REPO_NAME"
+  else
+    info "Creating private repo: $GH_USER/$REPO_NAME..."
+    gh repo create "$GH_USER/$REPO_NAME" --private --description "My Switchback Running companion"
+    ok "Created"
   fi
-  ok "Using existing clone"
-else
+
+  # Clone it
   info "Cloning to $INSTALL_DIR..."
-  gh repo clone "$GH_USER/switchback-running" "$INSTALL_DIR"
+  gh repo clone "$GH_USER/$REPO_NAME" "$INSTALL_DIR" 2>/dev/null || git clone "https://github.com/$GH_USER/$REPO_NAME.git" "$INSTALL_DIR"
   cd "$INSTALL_DIR"
-  ok "Cloned"
-fi
 
-# ---- Remove upstream remote if present (no longer needed) ----
+  # Populate from the framework tarball
+  info "Downloading Switchback framework..."
+  TMPDIR=$(mktemp -d)
+  trap "rm -rf $TMPDIR" EXIT
+  curl -sL "https://github.com/$UPSTREAM/tarball/main" | tar xz -C "$TMPDIR" --strip-components=1
+  cp -r "$TMPDIR"/. .
 
-if git remote get-url upstream &>/dev/null 2>&1; then
-  git remote remove upstream
-  info "Removed upstream remote (updates now use 'switchback update')"
-fi
-
-# ---- Configure gitignore for personal data ----
-
-if grep -q "^SOUL\.md$" .gitignore 2>/dev/null; then
-  info "Configuring .gitignore for personal data..."
-
-  # Remove lines that ignore personal data
+  # Configure gitignore for personal data
   sed -i.bak '/^SOUL\.md$/d' .gitignore
   sed -i.bak '/^athlete\/\*$/d' .gitignore
   sed -i.bak '/^!athlete\/\.gitignore$/d' .gitignore
   sed -i.bak '/^!athlete\/profile\.example\.md$/d' .gitignore
   rm -f .gitignore.bak
-
-  # Remove athlete/.gitignore if it exists
   [ -f athlete/.gitignore ] && rm athlete/.gitignore
 
-  ok "Personal data will now be tracked in your private fork"
-else
-  ok "Gitignore already configured for personal data"
+  # Make scripts executable
+  chmod +x switchback.sh install.sh scripts/*.sh 2>/dev/null || true
+
+  # Initial commit
+  git add -A
+  git commit -m "Initial Switchback setup"
+  git push -u origin main 2>/dev/null || git push -u origin HEAD:main
+  ok "Framework installed"
+fi
+
+# ---- Verify repo is private ----
+
+VISIBILITY=$(gh repo view "$GH_USER/$REPO_NAME" --json visibility -q .visibility 2>/dev/null || echo "UNKNOWN")
+if [ "$VISIBILITY" = "PUBLIC" ]; then
+  error "Your repo is public! Making it private..."
+  gh repo edit "$GH_USER/$REPO_NAME" --visibility private
+  ok "Repo is now private"
+elif [ "$VISIBILITY" = "PRIVATE" ]; then
+  ok "Repo is private"
 fi
 
 # ---- Shell alias ----
@@ -156,7 +144,7 @@ echo ""
 echo "==============================="
 echo "  Installation complete!"
 echo ""
-echo "  Your private fork: https://github.com/$GH_USER/switchback-running"
+echo "  Your private repo: https://github.com/$GH_USER/$REPO_NAME"
 echo "  Installed to: $INSTALL_DIR"
 echo ""
 echo "  Launching Switchback for first-time setup..."
