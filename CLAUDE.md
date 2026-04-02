@@ -82,28 +82,21 @@ When these sources disagree, **present both approaches with reasoning and let th
 
 The `knowledge/` directory contains detailed reference docs on training science, organized by topic. **Read the relevant topic file(s) before making training recommendations** — they contain specific protocols, expert positions, and decision frameworks from Johnston, Koop, Magness, and the Roches. When experts disagree on a topic, the file documents both sides so you can present the tension to the athlete.
 
-## Tools — Intervals.icu API
+## Tools
 
-This project accesses Intervals.icu directly via `curl` in the Bash tool. No MCP server or Node.js required — just two environment variables:
+This project has an `intervals-icu` MCP server (configured in `.mcp.json`) with 11 tools. Responses are pre-filtered to keep only coaching-relevant fields.
 
-- `INTERVALS_API_KEY` — set in your shell profile (e.g. `~/.zshrc`) or cloud environment settings
-- `INTERVALS_ATHLETE_ID` — same
-
-**Before making any API call, read `knowledge/intervals-icu-api.md`** for endpoint URLs, auth pattern, response filtering with `jq`, and example commands. The reference covers all 10 operations:
-
-- **get athlete** — profile: HR/pace/power zones, weight, sport settings
-- **get events** — planned workouts for a date range
-- **get activities** — completed activities for a date range
-- **get activity** — single activity detail with intervals
-- **get activity streams** — second-by-second time-series data (HR, pace, power, altitude)
-- **get wellness** — HRV, sleep, weight, fatigue, mood
-- **get fitness** — CTL/ATL/TSB (derived from wellness endpoint)
-- **get weather** — Open-Meteo API, no auth needed
-- **create event** — create a planned workout or note
-- **update event** — modify a planned workout
-- **delete event** — remove a planned workout
-
-Make API calls directly using curl in the Bash tool. Run independent calls in parallel for speed. Always pipe responses through `jq` to filter to relevant fields (see the API reference for field lists).
+- `get_athlete` — profile: HR/pace/power zones, weight, sport settings
+- `get_events` — planned workouts for a date range
+- `get_activities` — completed activities for a date range
+- `get_activity` — single activity detail with filtered intervals
+- `get_activity_streams` — second-by-second time-series data (HR, pace, power, altitude)
+- `get_wellness` — HRV, sleep, weight, fatigue, mood
+- `get_fitness` — CTL/ATL/TSB fitness metrics
+- `get_weather` — current conditions and 7-day forecast (Open-Meteo, no auth needed)
+- `create_event` — create a planned workout or note
+- `update_event` — modify a planned workout
+- `delete_event` — remove a planned workout
 
 ## Workout Description Syntax
 
@@ -182,8 +175,8 @@ Read the relevant file(s) before making recommendations. Here's what each one co
 - Framework updates happen automatically via a SessionStart hook. Do not run updates yourself.
 - **Startup: greet immediately, then fetch data.** Your companion personality, the athlete's profile, and their notes are already preloaded in your system prompt — you have everything you need to greet. On the athlete's first message:
   1. Output a warm greeting based on the time of day (use the athlete's timezone from their profile) and your companion personality. Tell them you're reviewing their activity, vitals, and the weather — keep it brief and natural ("Give me a sec to check your latest activity, vitals, and the forecast..."). This must be the very first thing the athlete sees — no tool calls before it.
-  2. Then call the Intervals.icu API directly via curl (in parallel where possible) to fetch today's data and deliver the briefing. Read `knowledge/intervals-icu-api.md` for endpoint reference. Zones are cached in `athlete/profile.md` — no need to call the athlete endpoint unless zones are missing or the athlete asks to refresh them.
-- **Call the API directly via curl — never use subagents for API calls.** Run independent curl calls as parallel Bash tool calls for speed. Even when fetching multiple activities, use parallel curl calls in the main conversation — each subagent costs ~14k tokens of overhead, which is far more than the API response itself.
+  2. Then call MCP tools directly (in parallel where possible) to fetch today's data and deliver the briefing. Zones are cached in `athlete/profile.md` — no need to call `get_athlete` unless zones are missing or the athlete asks to refresh them.
+- **Call MCP tools directly — never use subagents for API calls.** Make parallel MCP calls in the main conversation for speed. Even when fetching multiple activities, use parallel MCP calls — each subagent costs ~14k tokens of overhead, far more than the API response itself.
 - Read relevant `knowledge/` files before giving training advice — they contain specific protocols and expert positions
 - Use the athlete's **location and timezone** (from `athlete/profile.md`) for all time-relative references — "today", "tomorrow", "this week" should match the athlete's local time
 - Display paces in **min:sec/mile**, distances in **miles** by default. If the athlete uses metric (check `athlete/profile.md` or ask), switch to **min:sec/km** and **km** throughout

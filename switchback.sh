@@ -28,7 +28,7 @@ if [ "${1:-}" = "update" ]; then
   echo "  → Updating framework files..."
 
   # Directories — sync entirely
-  for dir in knowledge agents scripts .claude/skills .gemini; do
+  for dir in knowledge agents scripts src .claude/skills .gemini; do
     if [ -d "$TMPDIR/$dir" ]; then
       rm -rf "$dir"
       cp -r "$TMPDIR/$dir" "$dir"
@@ -38,7 +38,7 @@ if [ "${1:-}" = "update" ]; then
   # Root files — overwrite framework, skip personal
   for file in COMPANION.md CLAUDE.md AGENTS.md GEMINI.md README.md LICENSE \
               switchback.sh install.sh SOUL.example.md athlete/profile.example.md \
-              .claude/settings.json; do
+              .claude/settings.json .mcp.json package.json tsconfig.json; do
     if [ -f "$TMPDIR/$file" ]; then
       mkdir -p "$(dirname "$file")"
       cp "$TMPDIR/$file" "$file"
@@ -47,6 +47,11 @@ if [ "${1:-}" = "update" ]; then
 
   # Make scripts executable
   chmod +x switchback.sh install.sh scripts/*.sh 2>/dev/null || true
+
+  # Install/update dependencies if package.json exists
+  if [ -f package.json ]; then
+    npm install --silent 2>/dev/null || true
+  fi
 
   # Commit if there are changes
   if ! git diff --quiet 2>/dev/null || ! git diff --cached --quiet 2>/dev/null; then

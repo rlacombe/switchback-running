@@ -1,6 +1,7 @@
 .env
 .*
 !.gitignore
+!.mcp.json
 !.claude/
 .claude/settings.local.json
 !.gemini/
