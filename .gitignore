@@ -1,3 +1,5 @@
+node_modules/
+package-lock.json
 .env
 .*
 !.gitignore
@@ -6,6 +8,7 @@
 .claude/settings.local.json
 !.gemini/
 .switchback-agent
+.switchback-version
 SOUL.md
 data/
 sleep-routine.md
