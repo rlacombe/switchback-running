@@ -33,7 +33,7 @@ done
 # Overwrite framework root files (never personal data)
 for file in COMPANION.md CLAUDE.md AGENTS.md GEMINI.md README.md LICENSE \
             switchback.sh install.sh SOUL.example.md athlete/profile.example.md \
-            .claude/settings.json .mcp.json package.json tsconfig.json; do
+            .claude/settings.json .mcp.json; do
   if [ -f "$TMPDIR/$file" ]; then
     mkdir -p "$(dirname "$file")"
     cp "$TMPDIR/$file" "$file"
@@ -43,9 +43,6 @@ done
 # Make scripts executable
 chmod +x switchback.sh scripts/*.sh 2>/dev/null || true
 [ -f install.sh ] && chmod +x install.sh
-
-# Install/update dependencies
-[ -f package.json ] && npm install --silent 2>/dev/null || true
 
 # Record version
 echo "$LATEST" > "$VERSION_FILE"

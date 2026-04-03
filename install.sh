@@ -81,11 +81,6 @@ mkdir -p athlete
 # Make scripts executable
 chmod +x switchback.sh scripts/*.sh 2>/dev/null || true
 
-# Install MCP server dependencies
-info "Installing dependencies..."
-npm install --silent 2>/dev/null || true
-ok "Dependencies installed"
-
 # Initial commit
 git add -A
 git commit -q -m "Initial Switchback setup"
