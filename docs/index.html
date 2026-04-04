@@ -590,8 +590,35 @@
       tick();
     }
 
-    function playScene(scene) {
+    function measureScene(scene) {
+      body.style.minHeight = '';
       body.innerHTML = '';
+      const p = document.createElement('div');
+      p.style.color = '#00f0ff';
+      p.textContent = '> ' + scene.prompt;
+      body.appendChild(p);
+      scene.lines.forEach(line => {
+        const div = document.createElement('div');
+        div.style.color = gray;
+        if (line.text === '') { div.innerHTML = '<br>'; }
+        else if (line.color) {
+          const s = document.createElement('span'); s.style.color = line.color; s.textContent = line.text; div.appendChild(s);
+          if (line.after) div.appendChild(document.createTextNode(line.after));
+        } else if (line.extra) {
+          div.appendChild(document.createTextNode(line.text));
+          const s = document.createElement('span'); s.style.color = line.extraColor; s.textContent = line.extra; div.appendChild(s);
+          if (line.after) div.appendChild(document.createTextNode(line.after));
+        } else { div.textContent = line.text; }
+        body.appendChild(div);
+      });
+      const h = body.scrollHeight;
+      body.innerHTML = '';
+      return h;
+    }
+
+    function playScene(scene) {
+      const h = measureScene(scene);
+      body.style.minHeight = h + 'px';
 
       // Prompt
       const promptEl = document.createElement('div');
