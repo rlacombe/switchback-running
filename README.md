@@ -109,7 +109,7 @@ These slash commands are available in Claude Code. Other agents support the same
 |-------|---------|----------|
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | `npm install -g @google/gemini-cli` | **Free tier** — 1,000 requests/day, no credit card, just a Google account |
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | `npm install -g @anthropic-ai/claude-code` | Recommended — full experience with slash commands |
-| [Codex CLI](https://github.com/openai/codex) | `npm install -g @openai/codex` | Core companion (no live data yet) |
+| [Codex CLI](https://github.com/openai/codex) | `npm install -g @openai/codex` | Full experience with MCP support |
 
 ### Install
 
