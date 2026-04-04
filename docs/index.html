@@ -250,10 +250,10 @@
       overflow-x: auto;
     }
 
-    .terminal .prompt { color: var(--accent); }
+    .terminal .prompt { color: #00f0ff; }
     .terminal .output { color: var(--gray); }
-    .terminal .highlight { color: var(--accent); }
-    .terminal .ok { color: var(--accent); }
+    .terminal .highlight { color: #39ff14; }
+    .terminal .ok { color: #39ff14; }
 
     /* --- Install box --- */
     .install-cmd {
@@ -388,6 +388,7 @@
 
   <div class="hero">
     <div class="hero-content">
+      <p style="font-size: 5rem; margin-bottom: 0.5rem; line-height: 1;">&#x26F0;&#xFE0F;</p>
       <h1>Switchback<br><span class="accent">Running</span></h1>
       <p class="tagline"><strong>Training science companion for ultra trail.</strong><br>Free, open-source. Works with any AI agent.</p>
       <div class="cta-row">
@@ -412,27 +413,14 @@
       <p>Switchback connects to your <a href="https://intervals.icu">Intervals.icu</a> account and helps you think through your training by <strong>anchoring every recommendation in established exercise science</strong>.</p>
       <p>Review a workout. Flag a recovery concern. Adjust your week. Build a race-day plan. All through natural conversation.</p>
 
-      <div class="terminal">
+      <div class="terminal" id="demo-terminal">
         <div class="terminal-bar">
           <div class="terminal-dot red"></div>
           <div class="terminal-dot yellow"></div>
           <div class="terminal-dot green"></div>
           <span>switchback</span>
         </div>
-        <div class="terminal-body">
-          <div class="prompt">&gt; How's my training been going?</div>
-          <div class="output"><br>
-Looking at the last 14 days:<br>
-- Volume: 42 &rarr; 51 mi <span class="highlight">(+21%)</span> &mdash; above the 10% ramp guideline<br>
-- Sleep: averaging 6.1h (down from 7.3h two weeks ago)<br>
-- HRV: 3-day trend <span class="highlight">declining</span>, now 12% below your baseline<br>
-- TSB: -18 and falling<br><br>
-<span class="highlight">This is a yellow flag.</span> The volume jump alone is manageable, but
-combined with declining sleep and HRV, you're accumulating more
-fatigue than you're absorbing.<br><br>
-<span class="ok">Recommendation:</span> Swap tomorrow's intervals for an easy run
-and prioritize sleep this week.</div>
-        </div>
+        <div class="terminal-body" id="demo-body"></div>
       </div>
     </div>
   </div>
@@ -449,11 +437,22 @@ and prioritize sleep this week.</div>
     <div class="inner">
       <div class="section-label">Install</div>
       <h2>One command</h2>
-      <p>Free and open-source. Works with any agent (<a href="https://docs.anthropic.com/en/docs/claude-code">Claude Code</a>, <a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a>, <a href="https://github.com/openai/codex">Codex CLI</a>).</p>
+      <p>Free and open-source. Works with any agent (<a href="https://docs.anthropic.com/en/docs/claude-code">Claude Code</a>, <a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a>, <a href="https://github.com/openai/codex">Codex CLI</a>, <a href="https://github.com/openclaw/openclaw">OpenClaw</a>).</p>
       <div class="install-cmd" onclick="navigator.clipboard.writeText('curl -fsSL https://raw.githubusercontent.com/rlacombe/switchback-running/main/install.sh | bash'); this.querySelector('.copy-label').textContent = 'copied!'">
         <span>curl -fsSL https://raw.githubusercontent.com/rlacombe/switchback-running/main/install.sh | bash</span>
         <span class="copy-label" style="float: right; color: var(--gray); font-size: 0.75rem;">click to copy</span>
       </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="dark-section">
+    <div class="inner">
+      <div class="section-label">Make it yours</div>
+      <h2>Your companion. Your rules.</h2>
+      <p>During setup, you choose a name and personality for your companion. The default is <strong>Virgil</strong> — Dante's faithful companion on his journey to hell and back. Rename it after a training partner, a runner you admire, or that aid station volunteer who saved your race at mile 40.</p>
+      <p>You also choose the tone, humor, and style that work for you. Casual or structured. Brief or detailed. Fired up or analytical. It adapts to how you want to train.</p>
     </div>
   </div>
 
@@ -505,12 +504,149 @@ and prioritize sleep this week.</div>
 
   <footer>
     <p class="trail-emoji">&#x26F0;&#xFE0F;</p>
-    <p><a href="https://github.com/rlacombe/switchback-running">GitHub</a> &middot; MIT License &middot; Powered by <a href="https://intervals.icu">Intervals.icu</a> &middot; Made with love and coffee by <a href="https://romainlacombe.com">Romain Lacombe</a></p>
+    <p><a href="faq.html">FAQ</a> &middot; <a href="https://github.com/rlacombe/switchback-running">GitHub</a> &middot; MIT License &middot; Powered by <a href="https://intervals.icu">Intervals.icu</a> &middot; Made with love and coffee by <a href="https://romainlacombe.com">Romain Lacombe</a></p>
     <p style="margin-top: 0.5rem;">Happy trails. Stay safe and have fun out there.</p>
   </footer>
 
   <!-- Hero photo: Brian Erickson via Unsplash -->
   <!-- https://unsplash.com/photos/man-running-on-edge-near-mountain-XFneC_rHR48 -->
+
+  <script>
+  // Animated terminal demo
+  (function() {
+    const body = document.getElementById('demo-body');
+    const green = '#39ff14';
+    const gray = 'var(--gray)';
+
+    const scenes = [
+      {
+        prompt: "How's my training been going?",
+        lines: [
+          { text: '' },
+          { text: 'Looking at the last 14 days:' },
+          { text: '- Volume: 42 → 51 mi ', extra: '(+21%)', extraColor: green, after: ' — above the 10% ramp guideline' },
+          { text: '- Sleep: averaging 6.1h (down from 7.3h two weeks ago)' },
+          { text: '- HRV: 3-day trend ', extra: 'declining', extraColor: green, after: ', now 12% below your baseline' },
+          { text: '- TSB: -18 and falling' },
+          { text: '' },
+          { text: 'This is a yellow flag. ', color: green, after: 'The volume jump alone is manageable, but combined with declining sleep and HRV, you\'re accumulating more fatigue than you\'re absorbing.' },
+          { text: '' },
+          { text: 'Recommendation: ', color: green, after: 'Swap tomorrow\'s intervals for an easy run and prioritize sleep this week.' },
+        ]
+      },
+      {
+        prompt: "Am I ready for my 100K next month?",
+        lines: [
+          { text: '' },
+          { text: 'Let me check your fitness trend and recent long runs...' },
+          { text: '' },
+          { text: '- Fitness (CTL): 58 — target for a 100K is 60-70. ', extra: 'You\'re close.', extraColor: green },
+          { text: '- Longest run: 4h12m two weeks ago, good HR discipline' },
+          { text: '- Vert: 6,200 ft/week avg — solid for the course profile' },
+          { text: '- Form (TSB): -6, trending toward fresh' },
+          { text: '' },
+          { text: 'You\'re in good shape. ', color: green, after: 'Taper starts in two weeks. Keep this week steady, one more long effort this weekend, then we pull back. Let\'s build your race-day plan when you\'re ready.' },
+        ]
+      },
+      {
+        prompt: "I slept terribly last night. Should I still do intervals?",
+        lines: [
+          { text: '' },
+          { text: 'Checking your wellness data...' },
+          { text: '' },
+          { text: '- Sleep: ', extra: '4.8h', extraColor: green, after: ' (your avg is 7.1h)' },
+          { text: '- HRV: 38 (baseline 52) — ', extra: '27% below normal', extraColor: green },
+          { text: '- Resting HR: 58 (baseline 52) — elevated' },
+          { text: '' },
+          { text: 'One bad night is noise, not a signal. ', after: 'But these numbers are all pointing the same direction. I\'d swap the intervals for an easy 45 minutes and see how tomorrow looks.' },
+          { text: '' },
+          { text: 'The intervals will be there Friday. ', color: green, after: 'Recovery can\'t wait.' },
+        ]
+      }
+    ];
+
+    let sceneIdx = 0;
+    let observer;
+
+    function typeText(el, text, speed, cb) {
+      let i = 0;
+      function tick() {
+        if (i < text.length) {
+          el.textContent += text[i++];
+          setTimeout(tick, speed);
+        } else if (cb) cb();
+      }
+      tick();
+    }
+
+    function playScene(scene) {
+      body.innerHTML = '';
+
+      // Prompt
+      const promptEl = document.createElement('div');
+      promptEl.style.color = '#00f0ff';
+      promptEl.textContent = '> ';
+      body.appendChild(promptEl);
+
+      typeText(promptEl, scene.prompt, 30, () => {
+        // Pause then show response
+        setTimeout(() => showLines(scene.lines, 0), 600);
+      });
+    }
+
+    function showLines(lines, idx) {
+      if (idx >= lines.length) {
+        // Pause then play next scene
+        setTimeout(() => {
+          sceneIdx = (sceneIdx + 1) % scenes.length;
+          playScene(scenes[sceneIdx]);
+        }, 5000);
+        return;
+      }
+
+      const line = lines[idx];
+      const div = document.createElement('div');
+      div.style.color = gray;
+
+      if (line.text === '') {
+        div.innerHTML = '<br>';
+        body.appendChild(div);
+        setTimeout(() => showLines(lines, idx + 1), 100);
+        return;
+      }
+
+      if (line.color) {
+        const span = document.createElement('span');
+        span.style.color = line.color;
+        span.textContent = line.text;
+        div.appendChild(span);
+        if (line.after) div.appendChild(document.createTextNode(line.after));
+      } else if (line.extra) {
+        div.appendChild(document.createTextNode(line.text));
+        const span = document.createElement('span');
+        span.style.color = line.extraColor;
+        span.textContent = line.extra;
+        div.appendChild(span);
+        if (line.after) div.appendChild(document.createTextNode(line.after));
+      } else {
+        div.textContent = line.text;
+      }
+
+      body.appendChild(div);
+      body.scrollTop = body.scrollHeight;
+      setTimeout(() => showLines(lines, idx + 1), 80);
+    }
+
+    // Start when terminal scrolls into view
+    observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        observer.disconnect();
+        playScene(scenes[0]);
+      }
+    }, { threshold: 0.3 });
+    observer.observe(document.getElementById('demo-terminal'));
+  })();
+  </script>
 
 </body>
 </html>

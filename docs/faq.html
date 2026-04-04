@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ — Switchback Running</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x26F0;&#xFE0F;</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --dark: #0a0a0a;
+      --charcoal: #141414;
+      --ash: #2a2a2a;
+      --gray: #999;
+      --light: #ddd;
+      --white: #f5f5f5;
+      --accent: #ff6b2b;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Barlow', -apple-system, sans-serif;
+      background: var(--dark);
+      color: var(--light);
+      line-height: 1.7;
+    }
+
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(10,10,10,0.9);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--ash);
+      padding: 0.8rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    nav a.brand {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--white);
+      text-decoration: none;
+    }
+
+    nav a.brand span { color: var(--accent); }
+    nav a.back { font-size: 0.8rem; color: var(--gray); text-decoration: none; }
+    nav a.back:hover { color: var(--light); }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 6rem 2rem 4rem;
+    }
+
+    h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      color: var(--white);
+      margin-bottom: 2rem;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--ash);
+      padding: 1.5rem 0;
+    }
+
+    .faq-item:last-child { border-bottom: none; }
+
+    .faq-item h2 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      color: var(--accent);
+      margin-bottom: 0.6rem;
+    }
+
+    .faq-item p {
+      color: var(--gray);
+      font-size: 1rem;
+    }
+
+    .faq-item a { color: var(--accent); text-decoration: none; }
+    .faq-item a:hover { text-decoration: underline; }
+
+    .faq-item strong { color: var(--white); font-weight: 600; }
+
+    footer {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem;
+      border-top: 1px solid var(--ash);
+      text-align: center;
+    }
+
+    footer a { color: var(--gray); font-size: 0.8rem; text-decoration: none; }
+    footer a:hover { color: var(--accent); }
+
+    @media (max-width: 600px) {
+      main { padding: 5rem 1.5rem 3rem; }
+      h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="brand" href="index.html">&#x26F0;&#xFE0F; Switchback <span>Running</span></a>
+    <a class="back" href="index.html">&larr; Home</a>
+  </nav>
+
+  <main>
+    <h1>FAQ</h1>
+
+    <div class="faq-item">
+      <h2>What is Switchback?</h2>
+      <p>A training companion for ultra trail runners. It connects to your <a href="https://intervals.icu">Intervals.icu</a> account, reads your training data, and helps you make better decisions by grounding every recommendation in established training science.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Is it a coach?</h2>
+      <p><strong>No.</strong> Switchback presents your data, explains tradeoffs, and lets you decide. It never prescribes or directs. If you can work with a real coach, you absolutely should.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Is it free?</h2>
+      <p>Yes. Switchback is free and open-source (MIT license). You'll need an AI agent to run it — <a href="https://docs.anthropic.com/en/docs/claude-code">Claude Code</a>, <a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a>, <a href="https://github.com/openai/codex">Codex CLI</a>, or <a href="https://github.com/openclaw/openclaw">OpenClaw</a> — which may have their own pricing.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Do I need a GitHub account?</h2>
+      <p>Not to use Switchback locally. If you want to back up your personal data (athlete profile, training notes) or use it from multiple machines, a free GitHub account helps.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Do I need Intervals.icu?</h2>
+      <p>Yes. <a href="https://intervals.icu">Intervals.icu</a> is the data source — it syncs with your sports watch (Garmin, Suunto, COROS, Apple Watch, etc.) and provides the training data Switchback reads. It's free. Please consider <a href="https://intervals.icu">becoming a Supporter</a>.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Does it work with Strava?</h2>
+      <p>Indirectly. Intervals.icu syncs from Strava, so your Strava activities and notes are available through the Intervals.icu API. Switchback doesn't connect to Strava directly.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Is my data private?</h2>
+      <p>Yes. Your data stays between you, Intervals.icu, and your AI agent. Switchback doesn't send data anywhere else. Your personal files (athlete profile, training notes) live on your machine or in your own private repo.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Can I use it on my phone?</h2>
+      <p>Yes, through <a href="https://claude.ai/code">Claude Code Cloud</a>. Open your private repo from any browser and start a session. The companion works the same way everywhere.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Does it work offline?</h2>
+      <p>The knowledge base and your personal data are available offline. But fetching live training data from Intervals.icu and weather forecasts requires an internet connection.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Is it only for ultrarunners?</h2>
+      <p>The knowledge base is built around ultra trail running, but the training principles apply broadly. Trail runners, road runners, and mountain athletes of any distance are welcome.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Where does the training science come from?</h2>
+      <p>Four books: <em>Training for the Uphill Athlete</em> (Johnston, House & Jornet), <em>Training Essentials for Ultrarunners</em> (Koop), <em>Science of Running</em> (Magness), and <em>The Happy Runner</em> (Dr. Megan Roche & David Roche). 18 knowledge base topics, with specific protocols and decision frameworks. When experts disagree, Switchback presents both sides.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Can I customize the companion's personality?</h2>
+      <p>Yes. During setup, you choose a name, tone, humor level, and coaching style. Some runners name their companion after someone who inspires them. The default is Virgil — Dante's faithful companion on his journey to hell and back.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>I'm a coach. Can I use this with my athletes?</h2>
+      <p>Absolutely. Switchback is designed to complement real coaching, not replace it. Between sessions, it can handle daily check-ins, workout reviews, and training questions. Feel free to adopt it — it's open-source.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Is this medical advice?</h2>
+      <p><strong>No.</strong> Switchback is for informational and educational purposes only. Always consult a qualified healthcare professional before starting or modifying a training program.</p>
+    </div>
+
+  </main>
+
+  <footer>
+    <a href="index.html">Back to Switchback Running</a>
+  </footer>
+
+</body>
+</html>
