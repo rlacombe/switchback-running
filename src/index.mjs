@@ -29,6 +29,7 @@ function pick(obj, fields) {
 
 const ATHLETE_F = ["id","name","sex","birthday","weight","city","country","timezone","locale","max_hr","resting_hr","lthr","threshold_pace","ftp","run_ftp","weight_kg","sportSettings","hr_zones","pace_zones","power_zones"];
 const ACTIVITY_F = ["id","name","type","start_date_local","updated","distance","moving_time","elapsed_time","avg_hr","max_hr","total_elevation_gain","icu_training_load","icu_intensity","icu_efficiency_factor","average_speed","description","pace","icu_average_watts","suffer_score","calories","source"];
+const EVENT_F = ["id","uid","start_date_local","icu_training_load","name","category","type","moving_time","distance","description"];
 const INTERVAL_F = ["type","label","distance","moving_time","elapsed_time","average_speed","gap","average_heartrate","max_heartrate","average_cadence","total_elevation_gain","average_gradient","zone","intensity"];
 const GROUP_F = ["id","count","distance","moving_time","average_speed","gap","average_heartrate","average_cadence","total_elevation_gain","zone"];
 
@@ -41,7 +42,16 @@ const TOOLS = [
 
   { name: "get_events", description: "Fetch planned workouts for a date range (YYYY-MM-DD).",
     inputSchema: { type: "object", properties: { oldest: { type: "string" }, newest: { type: "string" } }, required: ["oldest", "newest"] },
-    async handler({ oldest, newest }) { return api(`/athlete/${ATHLETE_ID}/events.json?oldest=${oldest}&newest=${newest}`); }},
+    async handler({ oldest, newest }) {
+      const d = await api(`/athlete/${ATHLETE_ID}/events.json?oldest=${oldest}&newest=${newest}`);
+      return Array.isArray(d) ? d.map(e => {
+        const filtered = pick(e, EVENT_F);
+        // Truncate long descriptions to first 200 chars
+        if (filtered.description && filtered.description.length > 200)
+          filtered.description = filtered.description.slice(0, 200) + '...';
+        return filtered;
+      }) : d;
+    }},
 
   { name: "get_activities", description: "Fetch completed activities for a date range (YYYY-MM-DD).",
     inputSchema: { type: "object", properties: { oldest: { type: "string" }, newest: { type: "string" } }, required: ["oldest", "newest"] },
