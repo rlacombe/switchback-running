@@ -107,8 +107,8 @@ These slash commands are available in Claude Code. Other agents support the same
 
 | Agent | Install command | Notes |
 |-------|---------|----------|
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | `npm install -g @google/gemini-cli` | **Free tier** — 1,000 requests/day, no credit card, just a Google account |
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | `npm install -g @anthropic-ai/claude-code` | Recommended — full experience with slash commands |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | `npm install -g @google/gemini-cli` | Full experience with live data |
 | [Codex CLI](https://github.com/openai/codex) | `npm install -g @openai/codex` | Core companion (no live data yet) |
 
 ### Install
