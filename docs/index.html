@@ -433,14 +433,51 @@
     </div>
   </div>
 
+  <div class="divider"></div>
+
+  <div class="dark-section">
+    <div class="inner">
+      <div class="section-label">How it works</div>
+      <h2>Your watch. Your data. Your companion.</h2>
+
+      <div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 0.5rem; margin: 2.5rem 0; font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.85rem;">
+        <div style="background: var(--charcoal); border: 1px solid var(--ash); border-radius: 8px; padding: 1rem 1.5rem; text-align: center;">
+          <div style="font-size: 1.8rem; margin-bottom: 0.3rem;">⌚</div>
+          <div style="color: var(--white);">Your watch</div>
+          <div style="color: var(--gray); font-family: 'Barlow', sans-serif; text-transform: none; letter-spacing: 0; font-size: 0.75rem; margin-top: 0.2rem;">Garmin, Suunto, COROS,<br>Apple Watch, Strava...</div>
+        </div>
+        <div style="color: var(--gray); font-size: 1.5rem;">→</div>
+        <div style="background: var(--charcoal); border: 1px solid var(--ash); border-radius: 8px; padding: 1rem 1.5rem; text-align: center;">
+          <div style="font-size: 1.8rem; margin-bottom: 0.3rem;">📊</div>
+          <div style="color: var(--white);"><a href="https://intervals.icu" style="color: var(--white); text-decoration: none;">Intervals.icu</a></div>
+          <div style="color: var(--gray); font-family: 'Barlow', sans-serif; text-transform: none; letter-spacing: 0; font-size: 0.75rem; margin-top: 0.2rem;">Free. Syncs your<br>training data automatically.</div>
+        </div>
+        <div style="color: var(--gray); font-size: 1.5rem;">→</div>
+        <div style="background: var(--charcoal); border: 1px solid var(--accent); border-radius: 8px; padding: 1rem 1.5rem; text-align: center;">
+          <div style="font-size: 1.8rem; margin-bottom: 0.3rem;">⛰️</div>
+          <div style="color: var(--accent);">Switchback</div>
+          <div style="color: var(--gray); font-family: 'Barlow', sans-serif; text-transform: none; letter-spacing: 0; font-size: 0.75rem; margin-top: 0.2rem;">Reads your data.<br>Grounds it in science.</div>
+        </div>
+        <div style="color: var(--gray); font-size: 1.5rem;">→</div>
+        <div style="background: var(--charcoal); border: 1px solid var(--ash); border-radius: 8px; padding: 1rem 1.5rem; text-align: center;">
+          <div style="font-size: 1.8rem; margin-bottom: 0.3rem;">💬</div>
+          <div style="color: var(--white);">You</div>
+          <div style="color: var(--gray); font-family: 'Barlow', sans-serif; text-transform: none; letter-spacing: 0; font-size: 0.75rem; margin-top: 0.2rem;">Ask anything about<br>your training.</div>
+        </div>
+      </div>
+
+      <p>Switchback runs in your terminal — a text window on your computer. The installer walks you through everything: connecting your watch data, setting up your profile, and choosing a companion personality. No coding required.</p>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
   <div class="dark-section" id="get-started">
     <div class="inner">
       <div class="section-label">Get started</div>
-      <h2>One command</h2>
+      <h2>Install</h2>
 
-      <div id="terminal-help" style="background: var(--charcoal); border-radius: 6px; padding: 1rem 1.2rem; margin: 0 0 1.5rem; font-size: 0.9rem;">
-        <p id="terminal-instructions" style="color: var(--gray); margin: 0;"></p>
-      </div>
+      <p id="terminal-instructions" style="margin-bottom: 1.5rem;"></p>
 
       <script>
       (function() {
@@ -448,21 +485,21 @@
         const isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0 || navigator.userAgent.indexOf('Mac') >= 0;
         const isWindows = navigator.platform.toUpperCase().indexOf('WIN') >= 0 || navigator.userAgent.indexOf('Win') >= 0;
         if (isMac) {
-          el.innerHTML = '💻 Open the <strong style="color: var(--white);">Terminal</strong> app on your Mac: press <strong style="color: var(--white);">Cmd + Space</strong>, type <strong style="color: var(--white);">Terminal</strong>, hit Enter. Paste this and follow the prompts:';
+          el.innerHTML = '💻 Open the <strong style="color: var(--white);">Terminal</strong> app on your Mac (press <strong style="color: var(--white);">Cmd + Space</strong>, type <strong style="color: var(--white);">Terminal</strong>, hit Enter) and paste this:';
         } else if (isWindows) {
-          el.innerHTML = '💻 Open <strong style="color: var(--white);">PowerShell</strong> on your PC: press the <strong style="color: var(--white);">Windows key</strong>, type <strong style="color: var(--white);">PowerShell</strong>, hit Enter. Paste this and follow the prompts:';
+          el.innerHTML = '💻 Open <strong style="color: var(--white);">PowerShell</strong> on your PC (press the <strong style="color: var(--white);">Windows key</strong>, type <strong style="color: var(--white);">PowerShell</strong>, hit Enter) and paste this:';
         } else {
-          el.innerHTML = '💻 Open your terminal, paste this, and follow the prompts:';
+          el.innerHTML = '💻 Open your terminal and paste this:';
         }
       })();
       </script>
 
-      <div class="install-cmd" onclick="navigator.clipboard.writeText('curl -fsSL https://raw.githubusercontent.com/rlacombe/switchback-running/main/install.sh | bash'); this.querySelector('.copy-label').textContent = 'copied!'">
-        <span>curl -fsSL https://raw.githubusercontent.com/rlacombe/switchback-running/main/install.sh | bash</span>
+      <div class="install-cmd" onclick="navigator.clipboard.writeText('curl -fsSL switchback.run/install.sh | bash'); this.querySelector('.copy-label').textContent = 'copied!'">
+        <span>curl -fsSL switchback.run/install.sh | bash</span>
         <span class="copy-label" style="float: right; color: var(--gray); font-size: 0.75rem;">click to copy</span>
       </div>
 
-      <p style="margin-top: 1.5rem;">The installer sets everything up. Then type:</p>
+      <p style="margin-top: 1rem; font-size: 0.9rem;">The installer guides you step by step — no coding needed. When it's done, type:</p>
 
       <div style="background: var(--charcoal); border: 2px solid #a855f7; border-radius: 10px; padding: 1.2rem 1.5rem; box-shadow: 0 0 25px rgba(168,85,247,0.2);">
         <div class="install-cmd" style="margin: 0; border-color: #a855f7; color: #a855f7;" onclick="navigator.clipboard.writeText('switchback'); this.querySelector('.copy-label').textContent = 'copied!'">

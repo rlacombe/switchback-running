@@ -117,7 +117,7 @@ These slash commands are available in Claude Code. Other agents support the same
 Open a terminal and run:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/rlacombe/switchback-running/main/install.sh | bash
+curl -fsSL switchback.run/install.sh | bash
 ```
 
 That's it. The installer will:
