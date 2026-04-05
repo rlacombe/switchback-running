@@ -11,7 +11,7 @@
 ## Quickstart
 
 ```bash
-curl -fsSL switchback.run/install.sh | bash
+curl -fsSL switchback.run/install.sh -o /tmp/sb.sh && bash /tmp/sb.sh
 ```
 
 The installer walks you through everything: installing an AI agent (free with [Gemini CLI](https://github.com/google-gemini/gemini-cli)), connecting [Intervals.icu](https://intervals.icu), and setting up your profile. Then type **`switchback`** to start.
@@ -131,7 +131,7 @@ These slash commands are available in Claude Code. Other agents support the same
 Open a terminal and run:
 
 ```bash
-curl -fsSL switchback.run/install.sh | bash
+curl -fsSL switchback.run/install.sh -o /tmp/sb.sh && bash /tmp/sb.sh
 ```
 
 That's it. The installer will:

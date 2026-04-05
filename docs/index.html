@@ -530,8 +530,8 @@
       })();
       </script>
 
-      <div class="install-cmd" style="box-shadow: 0 0 30px rgba(255,107,43,0.3), 0 0 60px rgba(255,107,43,0.1);" onclick="navigator.clipboard.writeText('curl -fsSL switchback.run/install.sh | bash'); this.querySelector('.copy-label').textContent = 'copied!'">
-        <span>curl -fsSL switchback.run/install.sh | bash</span>
+      <div class="install-cmd" style="box-shadow: 0 0 30px rgba(255,107,43,0.3), 0 0 60px rgba(255,107,43,0.1);" onclick="navigator.clipboard.writeText('curl -fsSL switchback.run/install.sh -o /tmp/sb.sh && bash /tmp/sb.sh'); this.querySelector('.copy-label').textContent = 'copied!'">
+        <span>curl -fsSL switchback.run/install.sh -o /tmp/sb.sh && bash /tmp/sb.sh</span>
         <span class="copy-label" style="float: right; color: var(--gray); font-size: 0.75rem;">click to copy</span>
       </div>
 
