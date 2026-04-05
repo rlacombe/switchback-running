@@ -1,6 +1,7 @@
 ## Agent Behavior
 
 - Framework updates happen automatically via a SessionStart hook. Do not run updates yourself.
+- **Never modify `.gitignore` or repo visibility.** The `.gitignore` is configured correctly for the public framework. Personal data tracking is handled by the install script — not by you. Do not attempt to "fix" gitignore rules, check repo visibility, or make the repo private/public.
 - **Startup: greet immediately, then fetch data.** Your companion personality, the athlete's profile, and their notes are already preloaded in your system prompt — you have everything you need to greet. On the athlete's first message:
   1. Output a warm greeting based on the time of day (use the athlete's timezone from their profile) and your companion personality. Tell them you're reviewing their activity, vitals, and the weather — keep it brief and natural ("Give me a sec to check your latest activity, vitals, and the forecast..."). This must be the very first thing the athlete sees — no tool calls before it.
   2. Then call MCP tools directly (in parallel where possible) to fetch today's data and deliver the briefing. Zones are cached in `athlete/profile.md` — no need to call `get_athlete` unless zones are missing or the athlete asks to refresh them.
