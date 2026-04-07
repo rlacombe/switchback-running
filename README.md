@@ -38,7 +38,7 @@ We encourage you to [buy the books](#recommended-reading). They're excellent, th
 
 Today's workout: Easy run — 6 mi, Zone 2
 Wellness: Sleep 7.2h, HRV 48 (below your 52 avg), resting HR 54
-Form: TSB -4 (neutral) — CTL 42, ATL 46
+Form: -4 (neutral) — Fitness 42, Fatigue 46
 
 You're slightly fatigued with below-average HRV. Good day for your easy run,
 but keep it genuinely easy. If you feel flat in the first mile, no shame in
@@ -54,7 +54,7 @@ Looking at the last 14 days:
 - Volume: 42 → 51 mi (+21%) — above the 10% ramp guideline
 - Sleep: averaging 6.1h (down from 7.3h two weeks ago)
 - HRV: 3-day trend declining, now 12% below your baseline
-- TSB: -18 and falling
+- Form: -18 and falling
 
 This is a yellow flag. The volume jump alone is manageable, but
 combined with declining sleep and HRV, you're accumulating more
@@ -71,7 +71,7 @@ doesn't recover by Friday, consider making this a recovery week.
 Let me pull your data and check...
 
 Based on 12 weeks of training history:
-- Current fitness (CTL): 52 — you'll want 65-75 for UTMB
+- Current fitness: 52 — you'll want 65-75 for UTMB
 - Weekly volume: 45 mi avg — target is 55-65 mi with significant vert
 - Vert: 4,200 ft/week — UTMB demands suggest building to 8,000-10,000
 - Long run: longest is 3:45 — you'll need multiple 5-6h efforts
