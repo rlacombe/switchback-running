@@ -16,7 +16,7 @@ The athlete ID is in `$INTERVALS_ATHLETE_ID`.
 
 **Always check** that both env vars are set before making calls. If either is missing, tell the athlete to run `/setup`.
 
-**Never run `source ~/.zshrc` or `source ~/.bashrc`** to load env vars — they are already in the environment. Sourcing shell profiles can produce unwanted output that corrupts API responses.
+Env vars are loaded from the `.env` file in the project root (by the MCP server and by `switchback.sh`). They can also be set in the shell environment, which takes precedence over `.env`.
 
 ## Response Filtering
 

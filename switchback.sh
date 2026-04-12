@@ -6,6 +6,13 @@
 set -euo pipefail
 cd "$(dirname "$0")" || exit 1
 
+# Load .env if it exists (exports vars for all agents, not just Claude)
+if [ -f .env ]; then
+  set -a
+  source .env
+  set +a
+fi
+
 UPSTREAM="rlacombe/switchback-running"
 PREF_FILE=".switchback-agent"
 

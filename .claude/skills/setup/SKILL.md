@@ -9,7 +9,7 @@ Walk the user through setup step by step. Be friendly and patient — assume the
 
 ## Step 1: Connect to Intervals.icu
 
-Check if `INTERVALS_API_KEY` and `INTERVALS_ATHLETE_ID` are set in the environment.
+Check if `INTERVALS_API_KEY` and `INTERVALS_ATHLETE_ID` are set in the environment (either from a `.env` file or shell env).
 
 **If both are set:** Tell the user they're already configured and skip to Step 3.
 
@@ -25,11 +25,12 @@ Check if `INTERVALS_API_KEY` and `INTERVALS_ATHLETE_ID` are set in the environme
    - It's in their Intervals.icu profile URL — looks like `i123456`
    - Or visible on the Settings page
 4. Ask the user to paste their API key and Athlete ID.
-5. Detect their shell (check `$SHELL` — likely `~/.zshrc` or `~/.bashrc`). Add the export lines to their shell profile:
+5. Write a `.env` file in the project root:
    ```
-   export INTERVALS_API_KEY="their_key"
-   export INTERVALS_ATHLETE_ID="their_id"
+   INTERVALS_API_KEY=their_key
+   INTERVALS_ATHLETE_ID=their_id
    ```
+   This file is already gitignored — their credentials stay local.
 6. Tell the user to **restart Claude Code** (or open a new terminal) for the environment variables to take effect.
 
 ## Step 2: Verify the connection

@@ -3,6 +3,21 @@
 // Implements MCP protocol over stdio using only Node.js built-ins.
 
 import { createInterface } from "readline";
+import { readFileSync } from "fs";
+import { dirname, join } from "path";
+import { fileURLToPath } from "url";
+
+// Load .env from project root (env vars already set in the shell take precedence)
+try {
+  const envFile = join(dirname(fileURLToPath(import.meta.url)), '..', '.env');
+  for (const line of readFileSync(envFile, 'utf8').split('\n')) {
+    const i = line.indexOf('=');
+    if (i < 1 || line.trimStart().startsWith('#')) continue;
+    const key = line.slice(0, i).trim().replace(/^export\s+/, '');
+    const val = line.slice(i + 1).trim().replace(/^(['"])(.*)\1$/, '$2');
+    if (key && !(key in process.env)) process.env[key] = val;
+  }
+} catch {}
 
 const API_KEY = process.env.INTERVALS_API_KEY;
 const ATHLETE_ID = process.env.INTERVALS_ATHLETE_ID;

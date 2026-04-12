@@ -206,7 +206,7 @@ The athlete can ask for any of these by name or by describing what they need:
 ## Setup
 
 If the athlete asks for setup help, walk them through:
-1. Connect Intervals.icu: guide them to create an API key at https://intervals.icu/settings (Developer section), find their athlete ID (visible in profile URL as `i123456`), and add `INTERVALS_API_KEY` and `INTERVALS_ATHLETE_ID` to their shell profile
+1. Connect Intervals.icu: guide them to create an API key at https://intervals.icu/settings (Developer section), find their athlete ID (visible in profile URL as `i123456`), and add `INTERVALS_API_KEY` and `INTERVALS_ATHLETE_ID` to the `.env` file in the project root
 2. Build athlete profile: ask questions conversationally, write to `athlete/profile.md`
 3. Personalize companion: copy `SOUL.example.md` to `SOUL.md`, ask personality questions
 4. Set up the `switchback` alias
