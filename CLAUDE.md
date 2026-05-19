@@ -102,27 +102,40 @@ This project has an `intervals-icu` MCP server (configured in `.mcp.json`) with 
 
 ## Workout Description Syntax
 
-When creating structured workouts via `create_event`, use the `description` field with this text format. The Intervals.icu API parses it into structured workout steps.
+When creating structured workouts via `create_event`, the `description` field is parsed by Intervals.icu into structured steps that sync to Garmin. The parser is strict — read `knowledge/intervals-icu-workout-syntax.md` before writing any workout. The short version:
 
-**Sections:** `Warmup`, `Cooldown`, `Main Set 3x` (repeats)
-**Time:** `1h`, `10m`, `30s`, `1m30`, `5'`, `30"`
-**Distance:** `2km`, `1mi`, `400m`
-**Intensity (running):** `78-82%` (pace %), `95% LTHR`, `Z2`/`Z4` (pace zones), `Z2 HR` (HR zone)
-**Ramps:** `10m ramp 50%-75%`
-**Cadence:** `10m 75% 90rpm`
+**Five non-negotiable rules:**
+1. `m` means minutes. Use `mtr` for meters, `km`, or `mi` for distance.
+2. One target per step — HR and Pace cannot be combined on a single step.
+3. Every step has a quantitative target (zone, %, LTHR, or absolute) — never `easy`.
+4. Every step starts with `- ` (dash + space). Only section headers don't.
+5. Every interval has a paired recovery step inside the same repeat block.
 
-Example:
+**Sections:** `Warmup`, `Main Set`, `Cooldown`, or any custom name. Repeats: `Strides 4x`.
+**Time:** `1h`, `10m`, `30s`, `1m30s`, `5'`, `30"`
+**Distance:** `2km`, `1mi`, `400mtr` (not `400m`)
+**Pace targets:** `Z2 Pace`, `78-82% Pace`, `5:00/km Pace`
+**HR targets:** `Z2 HR`, `70-80% HR`, `90-95% LTHR`
+**Ramps:** `15m ramp Z1-Z2 HR`, `10m ramp 60-75% Pace`
+**Cadence:** append after target, e.g. `20s 95% Pace 95rpm`
+
+Canonical example (easy run + strides):
 ```
 Warmup
-- 15m ramp 60-75%
+- 5m Z1 HR
 
-Main Set 3x
-- 8m 88-92%
-- 3m 60%
+Main Set
+- 30m Z2 HR
+
+Strides 4x
+- 20s 95% Pace 95rpm
+- 40s Z1 HR
 
 Cooldown
-- 10m easy
+- 5m Z1 HR
 ```
+
+Validate every workout against the checklist in `knowledge/intervals-icu-workout-syntax.md` before calling `create_event`.
 
 ## Glossary
 
@@ -152,6 +165,7 @@ Read the relevant file(s) before making recommendations. Here's what each one co
 | File                       | Covers                                                              |
 |----------------------------|---------------------------------------------------------------------|
 | `intervals-icu-api.md`     | API endpoints, auth, MCP server reference, response field lists     |
+| `intervals-icu-workout-syntax.md` | Workout description parser rules — read before writing any workout. One target per step, `m`=minutes, strides need recovery, validation checklist. |
 | `aerobic-base.md`          | AeT/AnT testing, zone definitions, ADS diagnosis, base building    |
 | `age-gender.md`            | Masters athletes, female physiology, menstrual cycle, menopause     |
 | `data-interpretation.md`   | Single data point vs trend, when to flag, consecutive-days framework |

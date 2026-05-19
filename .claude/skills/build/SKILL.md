@@ -37,38 +37,33 @@ Based on the user's request and the data:
 
 ## Step 4: Write workouts using description syntax
 
-Build each workout's `description` field using the Intervals.icu workout text format. The API parses this to generate structured workout steps.
+Build each workout's `description` field using the Intervals.icu workout text format. The API parses this to generate structured workout steps that sync to Garmin.
 
-### Syntax reference
+**Read `knowledge/intervals-icu-workout-syntax.md` before writing any workout.** It is the source of truth for the parser rules, with worked examples and a validation checklist. The short version:
 
-**Sections:**
-- `Warmup` / `Cooldown` — special section names
-- `Main Set 3x` — repeating section (number before `x`)
-- `3x` on its own line before steps also works
+- Every step starts with `- ` (dash + space).
+- Every step has exactly **one** quantitative target: `Z2 HR`, `Z3 Pace`, `90-95% LTHR`, `78-82% Pace`, etc. Never `easy`, never both HR + Pace.
+- `m` means minutes. Use `mtr` for meters, `km`, or `mi`.
+- Every fast interval has a paired recovery step inside the same repeat block.
+- Repeats use `Nx` (e.g. `Strides 4x` as a section header).
 
-**Duration/distance:**
-- Time: `1h`, `10m`, `30s`, `1m30`, `5'`, `30"`
-- Distance: `2km`, `1mi`, `400m`
-
-**Intensity (running):**
-- Pace percentage: `78-82%`, `90%`
-- LTHR percentage: `95% LTHR`
-- Zones: `Z2`, `Z4` (pace zones), `Z2 HR`, `Z4 HR` (HR zones)
-- Ramps: `10m ramp 50%-75%`
-- Cadence target: `10m 75% 90rpm`
-
-**Example workout:**
+**Canonical example:**
 ```
 Warmup
-- 15m ramp 60-75%
+- 5m Z1 HR
 
-Main Set 3x
-- 8m 88-92%
-- 3m 60%
+Main Set
+- 30m Z2 HR
+
+Strides 4x
+- 20s 95% Pace 95rpm
+- 40s Z1 HR
 
 Cooldown
-- 10m easy
+- 5m Z1 HR
 ```
+
+Run every workout through the validation checklist in `knowledge/intervals-icu-workout-syntax.md` before calling `create_event`.
 
 ## Step 5: Present the plan
 
