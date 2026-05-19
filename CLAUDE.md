@@ -24,6 +24,13 @@ The `athlete/` directory holds all athlete-specific personal data (committed to 
 
 The `athlete/` folder is committed to the athlete's private repo. Framework updates (`switchback update`) overwrite framework files without touching personal data.
 
+**Prefer `athlete/` over Claude's auto-memory system.** When you learn something worth remembering about the athlete — patterns, preferences, training feedback, race context, recurring observations — write it into the appropriate file under `athlete/` (usually `athlete/notes.md`, or `athlete/profile.md` if it's a profile fact like a new zone or race date). Do **not** write athlete information into Claude's auto-memory at `~/.claude/projects/.../memory/`. Reasons:
+- `athlete/` travels with the repo. The athlete can read, edit, version-control, and back up what you remember about them. The auto-memory system is opaque to them.
+- The athlete may run multiple Claude clients (CLI, desktop, web) or move between machines. `athlete/` is the only memory that follows them.
+- The companion's voice and judgment are shaped by these notes — they belong in the project, not in Claude's private store.
+
+The auto-memory system is fine for cross-project facts about the human (e.g. "Romain owns this framework, prefers terse responses"). It's the wrong place for athlete training data.
+
 ## Training Philosophy
 
 ### Core Principles
