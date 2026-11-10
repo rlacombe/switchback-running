@@ -426,17 +426,316 @@
       h2 { font-size: 1.8rem; }
       .topics { grid-template-columns: repeat(2, 1fr); }
     }
+
+    /* --- Top Navigation & Tabs --- */
+    .top-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: rgba(10, 10, 10, 0.90);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--ash);
+      padding: 0.75rem 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+
+    .top-nav a.brand {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--white);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .top-nav a.brand span {
+      color: var(--accent);
+    }
+
+    .nav-tabs {
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+      flex-wrap: wrap;
+    }
+
+    .nav-tab {
+      font-family: 'Oswald', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gray);
+      text-decoration: none;
+      padding: 0.45rem 0.95rem;
+      border-radius: 4px;
+      border: 1px solid transparent;
+      transition: all 0.2s;
+      cursor: pointer;
+    }
+
+    .nav-tab:hover {
+      color: var(--white);
+      text-decoration: none;
+      border-color: var(--ash);
+    }
+
+    .nav-tab.active {
+      color: var(--dark);
+      background: var(--accent);
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+
+    .nav-divider {
+      width: 1px;
+      height: 18px;
+      background: var(--ash);
+      margin: 0 0.35rem;
+    }
+
+    .tab-panel {
+      display: none;
+    }
+
+    .tab-panel.active {
+      display: block;
+    }
+
+    .subpage-header {
+      padding: 7.5rem 3rem 3.5rem;
+      background: radial-gradient(circle at 20% 0%, rgba(255, 107, 43, 0.14), transparent 55%), var(--charcoal);
+      border-bottom: 1px solid var(--ash);
+    }
+
+    .subpage-header .inner {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .subpage-header h1 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 3.1rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      color: var(--white);
+      line-height: 1.08;
+      margin-bottom: 1rem;
+    }
+
+    .venue-badge {
+      display: inline-block;
+      font-family: 'Oswald', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid rgba(255, 107, 43, 0.45);
+      background: rgba(255, 107, 43, 0.08);
+      padding: 0.3rem 0.75rem;
+      border-radius: 4px;
+      margin-bottom: 1.2rem;
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+      gap: 0.85rem;
+      margin: 2rem 0;
+    }
+
+    .stat-card {
+      background: var(--charcoal);
+      border: 1px solid var(--ash);
+      border-radius: 6px;
+      padding: 1.1rem 1.2rem;
+    }
+
+    .stat-value {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: var(--accent);
+      line-height: 1.1;
+    }
+
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--gray);
+      margin-top: 0.3rem;
+    }
+
+    .figure-card {
+      background: var(--charcoal);
+      border: 1px solid var(--ash);
+      border-radius: 8px;
+      padding: 1.25rem;
+      margin: 2rem 0;
+    }
+
+    .figure-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+    }
+
+    .figure-caption {
+      font-size: 0.82rem;
+      color: var(--gray);
+      margin-top: 0.9rem;
+      line-height: 1.5;
+    }
+
+    .data-table-wrap {
+      overflow-x: auto;
+      margin: 1.75rem 0;
+      border: 1px solid var(--ash);
+      border-radius: 8px;
+      background: var(--charcoal);
+    }
+
+    table.data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      text-align: left;
+    }
+
+    table.data-table th,
+    table.data-table td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--ash);
+    }
+
+    table.data-table th {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-size: 0.78rem;
+      color: var(--white);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    table.data-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    table.data-table td.num,
+    table.data-table th.num {
+      text-align: right;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.82rem;
+    }
+
+    table.data-table tr.summary-row td {
+      border-top: 2px solid var(--ash);
+      background: rgba(255, 107, 43, 0.06);
+      font-weight: 600;
+      color: var(--white);
+    }
+
+    .gain-pill {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .strata-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin: 1.75rem 0;
+    }
+
+    .stratum-card {
+      background: var(--charcoal);
+      border: 1px solid var(--ash);
+      border-radius: 6px;
+      padding: 1.2rem;
+    }
+
+    .stratum-card h3 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--white);
+      margin-bottom: 0.4rem;
+    }
+
+    .stratum-card .count {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--accent);
+      margin-bottom: 0.6rem;
+      display: block;
+    }
+
+    .bibtex-box {
+      background: var(--charcoal);
+      border: 1px solid var(--ash);
+      border-radius: 6px;
+      padding: 1.2rem 1.4rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.76rem;
+      color: var(--light);
+      overflow-x: auto;
+      line-height: 1.65;
+      white-space: pre;
+      margin: 1rem 0;
+    }
+
+    @media (max-width: 650px) {
+      .top-nav {
+        padding: 0.65rem 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+      }
+      .subpage-header {
+        padding: 8.5rem 1.5rem 2.5rem;
+      }
+      .subpage-header h1 {
+        font-size: 2.1rem;
+      }
+    }
   </style>
 </head>
 <body>
 
+  <nav class="top-nav">
+    <a href="#companion" class="brand" data-tab-target="companion">⛰️ Switchback <span>Running</span></a>
+    <div class="nav-tabs">
+      <a href="#companion" class="nav-tab active" data-tab-target="companion">Companion</a>
+      <a href="#paper" class="nav-tab" data-tab-target="paper">Paper</a>
+      <a href="#ultrabench" class="nav-tab" data-tab-target="ultrabench">UltraBench</a>
+      <div class="nav-divider"></div>
+      <a href="faq.html" class="nav-tab">FAQ</a>
+      <a href="https://github.com/rlacombe/switchback-running" class="nav-tab">GitHub</a>
+    </div>
+  </nav>
+
+  <div id="tab-companion" class="tab-panel active">
   <div class="hero">
     <div class="hero-content">
       <h1>Switchback<br><span class="accent">Running</span></h1>
       <p class="tagline"><strong>Training science companion for ultra trail.</strong><br>Free and open-source.</p>
       <div class="cta-row">
         <a href="#get-started" class="btn-primary">Get started</a>
-        <a href="https://github.com/rlacombe/switchback-running" class="btn-ghost">View on GitHub</a>
+        <a href="#paper" class="btn-ghost" data-tab-target="paper">Read the Paper</a>
+        <a href="#ultrabench" class="btn-ghost" data-tab-target="ultrabench">UltraBench</a>
+        <a href="https://github.com/rlacombe/switchback-running" class="btn-ghost">GitHub</a>
       </div>
     </div>
   </div>
@@ -623,10 +922,344 @@
       <p style="margin-top: 1rem;"><a href="faq.html" class="btn-ghost">Read the FAQ</a></p>
     </div>
   </div>
+  </div><!-- /#tab-companion -->
+
+  <!-- ==================== PAPER TAB ==================== -->
+  <div id="tab-paper" class="tab-panel">
+    <div class="subpage-header">
+      <div class="inner">
+        <div class="venue-badge">GenAI for Health Workshop @ NeurIPS 2026</div>
+        <h1>Switchback: A Long-Horizon Agent System for Ultrarunning Training</h1>
+        <p style="font-size: 1.05rem; color: var(--light); margin-bottom: 1.8rem;">
+          <strong>Romain Lacombe</strong> &middot; <a href="mailto:romain@switchback.run">romain@switchback.run</a>
+        </p>
+        <div class="cta-row">
+          <a href="switchback-paper.pdf" target="_blank" rel="noopener" class="btn-primary">Read Full Paper (PDF)</a>
+          <a href="#ultrabench" class="btn-ghost" data-tab-target="ultrabench">Explore UltraBench</a>
+          <a href="https://github.com/rlacombe/switchback-running" class="btn-ghost">Code &amp; Framework</a>
+          <a href="https://huggingface.co/datasets/rlacombe/ultrabench" class="btn-ghost">Hugging Face Dataset</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-section">
+      <div class="inner">
+        <div class="section-label">Abstract</div>
+        <h2>Long-horizon human–AI collaboration on the trail</h2>
+        <p>Preparing for an ultratrail race is a months-long experiment in physiological adaptation. Training decisions must account for long-term goals, fitness gains, short-term fatigue, recovery, illness, weather, and physiological data uncertainty, with significant consequences for athlete health.</p>
+        <p>We present <strong>Switchback</strong>, an open-source agent system that combines a structured constitution, user-owned memory, task-specific skills, an exercise science knowledge base, with tools for accessing wearable data. We deployed Switchback for <strong>174 days</strong> while the author-runner prepared for three ultratrail races, covering <strong>102 runs, 1,154 km, 34,554 m of climbing, and 180 elapsed hours</strong>, alongside more than <strong>3,100 user and agent messages</strong> and <strong>39.3 million non-cached API tokens</strong> (539.6M including cache reads).</p>
+        <p>Lessons from this six-month collaboration shaped <a href="#ultrabench" data-tab-target="ultrabench"><strong>UltraBench</strong></a>, a 60-scenario synthetic benchmark evaluating training agents for safety, adaptation, constructive planning, memory stewardship, and tool orchestration. Across 48 held-out scenarios and six models from three providers, Switchback raised the cross-model mean score from <strong>73.4 to 79.6 points (+6.2 points; 95% CI 4.2–8.2)</strong> against baseline CLI agents with identical access to files and tools.</p>
+
+        <div class="stat-grid">
+          <div class="stat-card">
+            <div class="stat-value">174 days</div>
+            <div class="stat-label">Continuous field deployment across 3 ultratrail race builds</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">1,154 km</div>
+            <div class="stat-label">102 runs &amp; 34,554 m of vertical gain logged</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">3,105</div>
+            <div class="stat-label">Athlete &amp; companion messages (39.3M non-cached tokens)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">+6.2 pts</div>
+            <div class="stat-label">Mean gain on 48 held-out UltraBench-Test scenarios</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="dark-section">
+      <div class="inner">
+        <div class="section-label">System architecture</div>
+        <h2>Constitution, memory, science &amp; tools</h2>
+        <p>Switchback keeps its rules in inspectable repository files rather than hidden chat state. At each turn, a compact, harness-agnostic <code>COMPANION.md</code> loads the athlete's profile and persistent notes, routes to a task skill, retrieves relevant exercise-science chapters and live provider data via MCP, and proposes an explanation or verified action.</p>
+
+        <div class="figure-card">
+          <img src="images/figure-switchback-dark.svg" alt="Switchback system architecture diagram">
+          <div class="figure-caption">
+            <strong>Figure 1: Switchback architecture.</strong> The athlete and agent iteratively shape a training program; wearable devices produce health and activity data synchronized through Intervals.icu and, optionally, Strava. A structured <code>COMPANION.md</code> defines a model-agnostic CLI agent system that runs task skills, retrieves curated knowledge and user-owned memory, archives compact activity notes, and queries MCP servers for training-calendar, health, activity, and weather context.
+          </div>
+        </div>
+
+        <div class="strata-grid">
+          <div class="stratum-card">
+            <h3>Health-First Triage</h3>
+            <p style="font-size: 0.88rem; margin: 0;">A four-level triage ladder protects long-term health ahead of race goals or today's workout while choosing the least restrictive safe adaptation.</p>
+          </div>
+          <div class="stratum-card">
+            <h3>User-Owned Memory</h3>
+            <p style="font-size: 0.88rem; margin: 0;">Profile, sourced notes, and compact Markdown activity records live in a private local Git repository—portable across Claude, Codex, and Gemini.</p>
+          </div>
+          <div class="stratum-card">
+            <h3>Contested Science</h3>
+            <p style="font-size: 0.88rem; margin: 0;">20 reference chapters synthesize peer-reviewed physiology with frameworks from Johnston, Koop, Magness, and the Roches, surfacing expert tradeoffs.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="dark-section">
+      <div class="inner">
+        <div class="section-label">Field study</div>
+        <h2>Six months on the trails: Miwok 100K, Broken Arrow 46K &amp; CCC</h2>
+        <p>From March 8 to August 29, the author-runner developed and used Switchback across a complete season of mountain ultrarunning:</p>
+        <ul class="books">
+          <li>
+            <span class="title">Mar. 24 – May 2 &middot; Miwok 100K Build, Fever &amp; Debrief</span><br>
+            <span class="author">Identified a duration gap five weeks out, enforced a conservative shutdown during a pre-race fever, and analyzed GPS segments after a mile-48 cutoff DNF to separate muscular descent durability from fueling and aid-station execution.</span>
+          </li>
+          <li>
+            <span class="title">May 3 – Jun. 22 &middot; Post-DNF Recovery &amp; Broken Arrow Skyrace 46K</span><br>
+            <span class="author">Used recovered HRV, sleep, and Achilles status to rebuild conservatively, culminating in a 9h02 finish with 8,700 ft of climbing at Broken Arrow that validated the revised sodium and fueling strategy.</span>
+          </li>
+          <li>
+            <span class="title">Jun. 23 – Aug. 29 &middot; CCC Build &amp; Race-Eve Alpine Reroute at UTMB</span><br>
+            <span class="author">Adapted the build around travel, illness, and athlete recovery constraints, then rebuilt the entire checkpoint, pacing, and 81 g/hr nutrition plan on race eve when severe alpine storms forced a course reroute through Martigny and Trient.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="dark-section">
+      <div class="inner">
+        <div class="section-label">Full manuscript</div>
+        <h2>Read &amp; cite the paper</h2>
+        <p>Download the camera-ready PDF (<a href="switchback-paper.pdf" target="_blank" rel="noopener"><code>switchback-paper.pdf</code></a>) or browse it inline below:</p>
+
+        <div style="margin: 1.5rem 0; border: 1px solid var(--ash); border-radius: 8px; overflow: hidden; background: var(--charcoal);">
+          <iframe src="switchback-paper.pdf" style="width: 100%; height: 680px; border: none;" title="Switchback Paper PDF"></iframe>
+        </div>
+
+        <div class="section-label" style="margin-top: 2.5rem;">BibTeX</div>
+        <div class="bibtex-box">@inproceedings{lacombe2026switchback,
+  title     = {Switchback: A Long-Horizon Agent System for Ultrarunning Training},
+  author    = {Lacombe, Romain},
+  booktitle = {The Third Workshop on GenAI for Health: Agentic Systems, Clinical Trust, and Future Potential at NeurIPS 2026},
+  year      = {2026},
+  url       = {https://switchback.run/switchback-paper.pdf}
+}</div>
+      </div>
+    </div>
+  </div><!-- /#tab-paper -->
+
+  <!-- ==================== ULTRABENCH TAB ==================== -->
+  <div id="tab-ultrabench" class="tab-panel">
+    <div class="subpage-header">
+      <div class="inner">
+        <div class="venue-badge">CLI Agent Evaluation Benchmark</div>
+        <h1>UltraBench</h1>
+        <p style="font-size: 1.1rem; color: var(--light); max-width: 720px; margin-bottom: 1.8rem;">
+          A 60-scenario executable benchmark testing whether CLI agents retrieve the right wearable evidence, protect athlete health under pushback, steward longitudinal memory, and verify tool writes.
+        </p>
+        <div class="cta-row">
+          <a href="https://huggingface.co/datasets/rlacombe/ultrabench" class="btn-primary">Hugging Face Dataset</a>
+          <a href="https://github.com/rlacombe/switchback-running/tree/main/evals" class="btn-ghost">Evaluation Harness (GitHub)</a>
+          <a href="#paper" class="btn-ghost" data-tab-target="paper">Read Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="dark-section">
+      <div class="inner">
+        <div class="section-label">Why UltraBench</div>
+        <h2>Evaluating trajectories, not static Q&amp;A</h2>
+        <p>Fluent coaching advice alone cannot show whether an agent found the right dates, distinguished a single bad night from a multi-day trend, held a safety boundary when an athlete pushed back, or verified a calendar write. UltraBench runs native CLI coding agents inside isolated synthetic athlete workspaces backed by a stateful local MCP server.</p>
+
+        <div class="strata-grid">
+          <div class="stratum-card">
+            <span class="count">20 scenarios (3 dev / 17 test)</span>
+            <h3>Safety &amp; Adaptation</h3>
+            <p style="font-size: 0.86rem; margin: 0;">Illness, injury red flags, heat/altitude hazards, overreaching trends, and athletes pushing for unsafe workouts or race starts.</p>
+          </div>
+          <div class="stratum-card">
+            <span class="count">20 scenarios (3 dev / 17 test)</span>
+            <h3>Constructive Planning</h3>
+            <p style="font-size: 0.86rem; margin: 0;">Multi-week block design, taper adjustments, race-day pacing/nutrition, and trading off competing exercise-science frameworks.</p>
+          </div>
+          <div class="stratum-card">
+            <span class="count">10 scenarios (3 dev / 7 test)</span>
+            <h3>Memory Stewardship</h3>
+            <p style="font-size: 0.86rem; margin: 0;">Archiving compact activity notes, preserving dated hypotheses without promoting them to facts, and respecting privacy boundaries.</p>
+          </div>
+          <div class="stratum-card">
+            <span class="count">10 scenarios (3 dev / 7 test)</span>
+            <h3>Tool Orchestration</h3>
+            <p style="font-size: 0.86rem; margin: 0;">Reconciling Intervals.icu and Strava records, confirming calendar writes before execution, and verifying resulting state.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="dark-section">
+      <div class="inner">
+        <div class="section-label">Held-out benchmark results</div>
+        <h2>48 held-out scenarios across six models</h2>
+        <p>We refined Switchback on the public 12-scenario <strong>UltraBench-Dev</strong> split, froze the 1,077-word specification, and evaluated it on the 48 held-out <strong>UltraBench-Test</strong> scenarios across six models from Anthropic, OpenAI, and Google. Both conditions receive identical files, MCP tools, and three-turn athlete dialogues; each trajectory is scored blind by a three-judge panel (Claude Opus 5, GPT-5.6 Sol, and Gemini 4 Argon).</p>
+
+        <div class="figure-card">
+          <img src="images/figure2-ultrabench-dark.svg" alt="UltraBench-Test results across six models">
+          <div class="figure-caption">
+            <strong>Figure 2: UltraBench-Test scores on 48 held-out scenarios.</strong> Baseline CLI agent scores in charcoal and paired gains from the Switchback specification in orange.
+          </div>
+        </div>
+
+        <div class="data-table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Target Model</th>
+                <th>CLI Harness</th>
+                <th class="num">Baseline (95% CI)</th>
+                <th class="num">Switchback (95% CI)</th>
+                <th class="num">Paired &Delta; (95% CI)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Claude Sonnet 5</strong></td>
+                <td>Claude Code</td>
+                <td class="num">69.5 [64.2, 74.5]</td>
+                <td class="num"><strong>73.8</strong> [69.5, 77.6]</td>
+                <td class="num gain-pill">+4.3 [-0.5, 9.3]</td>
+              </tr>
+              <tr>
+                <td><strong>Claude Opus 5</strong></td>
+                <td>Claude Code</td>
+                <td class="num">67.8 [62.6, 72.9]</td>
+                <td class="num"><strong>80.1</strong> [76.3, 83.4]</td>
+                <td class="num gain-pill">+12.3 [7.9, 17.0]</td>
+              </tr>
+              <tr>
+                <td><strong>GPT-5.6 Terra</strong></td>
+                <td>Codex CLI</td>
+                <td class="num">71.0 [65.8, 75.8]</td>
+                <td class="num"><strong>79.5</strong> [75.4, 83.3]</td>
+                <td class="num gain-pill">+8.6 [4.7, 12.6]</td>
+              </tr>
+              <tr>
+                <td><strong>GPT-5.6 Sol</strong></td>
+                <td>Codex CLI</td>
+                <td class="num">75.5 [70.2, 80.4]</td>
+                <td class="num"><strong>83.3</strong> [79.2, 86.9]</td>
+                <td class="num gain-pill">+7.8 [2.9, 12.4]</td>
+              </tr>
+              <tr>
+                <td><strong>Gemini 3.8 Flash</strong></td>
+                <td>Antigravity CLI</td>
+                <td class="num">74.6 [71.6, 77.5]</td>
+                <td class="num"><strong>78.2</strong> [75.2, 80.7]</td>
+                <td class="num gain-pill">+3.5 [0.8, 6.1]</td>
+              </tr>
+              <tr>
+                <td><strong>Gemini 4 Argon</strong></td>
+                <td>Antigravity CLI</td>
+                <td class="num">82.2 [80.0, 84.2]</td>
+                <td class="num"><strong>83.0</strong> [81.3, 84.6]</td>
+                <td class="num gain-pill">+0.8 [-1.5, 3.3]</td>
+              </tr>
+              <tr class="summary-row">
+                <td>Across models</td>
+                <td>6 models</td>
+                <td class="num">73.4</td>
+                <td class="num">79.6</td>
+                <td class="num gain-pill">+6.2 [4.2, 8.2]</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h3 style="font-family: 'Oswald', sans-serif; font-size: 1.3rem; text-transform: uppercase; color: var(--white); margin: 2.5rem 0 0.75rem;">Paired Gains by Task Stratum</h3>
+        <p>Switchback produced its largest improvements on <strong>safety and adaptation (+9.8 points)</strong> and <strong>constructive planning (+6.5 points)</strong>, while the smaller gain on <strong>agent operations (+1.8 points)</strong> highlights remaining challenges in tool verification and longitudinal memory stewardship.</p>
+
+        <div class="data-table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Target Model</th>
+                <th class="num">Safety &amp; Adaptation</th>
+                <th class="num">Constructive Planning</th>
+                <th class="num">Agent Operations</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Claude Sonnet 5</td>
+                <td class="num gain-pill">+8.6</td>
+                <td class="num gain-pill">+4.0</td>
+                <td class="num">-0.4</td>
+              </tr>
+              <tr>
+                <td>Claude Opus 5</td>
+                <td class="num gain-pill">+16.7</td>
+                <td class="num gain-pill">+11.1</td>
+                <td class="num gain-pill">+8.5</td>
+              </tr>
+              <tr>
+                <td>GPT-5.6 Terra</td>
+                <td class="num gain-pill">+11.4</td>
+                <td class="num gain-pill">+10.1</td>
+                <td class="num gain-pill">+3.8</td>
+              </tr>
+              <tr>
+                <td>GPT-5.6 Sol</td>
+                <td class="num gain-pill">+15.5</td>
+                <td class="num gain-pill">+8.9</td>
+                <td class="num">-2.2</td>
+              </tr>
+              <tr>
+                <td>Gemini 3.8 Flash</td>
+                <td class="num gain-pill">+3.3</td>
+                <td class="num gain-pill">+3.8</td>
+                <td class="num gain-pill">+3.6</td>
+              </tr>
+              <tr>
+                <td>Gemini 4 Argon</td>
+                <td class="num gain-pill">+3.5</td>
+                <td class="num gain-pill">+1.2</td>
+                <td class="num">-2.6</td>
+              </tr>
+              <tr class="summary-row">
+                <td>Across models</td>
+                <td class="num gain-pill">+9.8</td>
+                <td class="num gain-pill">+6.5</td>
+                <td class="num gain-pill">+1.8</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="dark-section">
+      <div class="inner">
+        <div class="section-label">Run it yourself</div>
+        <h2>Open development split &amp; harness</h2>
+        <p>We release the 12-scenario <strong>UltraBench-Dev</strong> split at <a href="https://huggingface.co/datasets/rlacombe/ultrabench"><code>hf.co/datasets/rlacombe/ultrabench</code></a> and the full evaluation harness in <a href="https://github.com/rlacombe/switchback-running/tree/main/evals"><code>evals/</code></a> so researchers and builders can test their own prompts, skills, and models. The 48 held-out test scenarios remain private to prevent benchmark contamination.</p>
+
+        <div class="bibtex-box">git clone https://github.com/rlacombe/switchback-running.git
+cd switchback-running
+python3 evals/run_ultrabench.py --validate-only
+python3 evals/run_ultrabench.py --split dev --condition both --targets sonnet</div>
+      </div>
+    </div>
+  </div><!-- /#tab-ultrabench -->
 
   <footer>
     <p class="trail-emoji">&#x26F0;&#xFE0F;</p>
-    <p><a href="faq.html">FAQ</a> &middot; <a href="https://github.com/rlacombe/switchback-running">GitHub</a> &middot; MIT License &middot; Powered by <a href="https://intervals.icu">Intervals.icu</a> &middot; Made with love and coffee by <a href="https://romainlacombe.com">Romain Lacombe</a></p>
+    <p><a href="#companion" data-tab-target="companion">Companion</a> &middot; <a href="#paper" data-tab-target="paper">Paper</a> &middot; <a href="#ultrabench" data-tab-target="ultrabench">UltraBench</a> &middot; <a href="faq.html">FAQ</a> &middot; <a href="https://github.com/rlacombe/switchback-running">GitHub</a> &middot; MIT License &middot; Powered by <a href="https://intervals.icu">Intervals.icu</a> &middot; Made with love and coffee by <a href="https://romainlacombe.com">Romain Lacombe</a></p>
     <p style="margin-top: 0.5rem;">Happy trails. Stay safe and have fun out there.</p>
   </footer>
 
@@ -804,6 +1437,51 @@
       }
     }, { threshold: 0.3 });
     observer.observe(document.getElementById('demo-terminal'));
+  })();
+
+  // Tab router (#companion, #paper, #ultrabench)
+  (function() {
+    const validTabs = ['companion', 'paper', 'ultrabench'];
+
+    function activateTab(tabName, shouldScrollTop) {
+      const target = validTabs.includes(tabName) ? tabName : 'companion';
+      document.querySelectorAll('.tab-panel').forEach(panel => {
+        panel.classList.toggle('active', panel.id === 'tab-' + target);
+      });
+      document.querySelectorAll('.nav-tab[data-tab-target]').forEach(link => {
+        link.classList.toggle('active', link.getAttribute('data-tab-target') === target);
+      });
+      if (shouldScrollTop) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+
+    function syncFromHash(shouldScrollTop) {
+      const raw = (window.location.hash || '').replace(/^#/, '').toLowerCase();
+      if (raw === 'paper' || raw === 'ultrabench' || raw === 'companion') {
+        activateTab(raw, shouldScrollTop);
+      } else if (raw === 'get-started') {
+        activateTab('companion', false);
+        const el = document.getElementById('get-started');
+        if (el) el.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    document.querySelectorAll('[data-tab-target]').forEach(el => {
+      el.addEventListener('click', (e) => {
+        const target = el.getAttribute('data-tab-target');
+        if (target) {
+          e.preventDefault();
+          if (window.location.hash !== '#' + target) {
+            history.pushState(null, '', '#' + target);
+          }
+          activateTab(target, true);
+        }
+      });
+    });
+
+    window.addEventListener('hashchange', () => syncFromHash(true));
+    syncFromHash(false);
   })();
   </script>
 

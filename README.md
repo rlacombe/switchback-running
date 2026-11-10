@@ -1,11 +1,11 @@
-# Switchback
+# ⛰️ Switchback Running
 
-Switchback is an open-source training companion for ultratrail runners. It reads the training data you choose to connect, retrieves exercise-science guidance, and helps you plan, review, and adapt over a season.
+**Training science companion for ultra trail.** Free and open-source.
 
 ```
-Your watch  →  Intervals.icu / Strava  →  AI agent  →  Switchback
-Garmin, Suunto,      training and activity     reasoning and     your training
-COROS, Apple Watch   data                       conversation      companion
+⌚ Your Watch  →  📊 Intervals.icu / Strava  →  🤖 AI Agent  →  ⛰️ Switchback
+  (Garmin,          (training and           (the brain,       (your training
+   Suunto, …)        activity data)          free w/ Gemini)    companion)
 ```
 
 ## Quickstart
@@ -14,13 +14,20 @@ COROS, Apple Watch   data                       conversation      companion
 curl -fsSL switchback.run/install.sh -o /tmp/sb.sh && bash /tmp/sb.sh
 ```
 
-The installer creates a local framework and private athlete files, then guides you through selecting an AI agent, connecting [Intervals.icu](https://intervals.icu) and/or [Strava](https://www.strava.com), and setting up your profile. Start a session with `switchback`.
+The installer walks you through everything: installing an AI agent (free with [Gemini CLI](https://github.com/google-gemini/gemini-cli)), connecting [Intervals.icu](https://intervals.icu) and/or [Strava](https://www.strava.com), and setting up your profile. Then type **`switchback`** to start.
 
 Also works with [Claude Code](https://docs.anthropic.com/en/docs/claude-code), [Codex CLI](https://github.com/openai/codex), or [OpenClaw](https://github.com/openclaw/openclaw). More at **[switchback.run](https://switchback.run)**.
 
-## Why Switchback
+## Why This Exists
 
-Ultratrail training compounds long-term planning with changing fitness, recovery, weather, work, and family constraints. Switchback turns the resulting stream of workouts, wellness signals, and athlete notes into a durable record that an AI companion can inspect with the runner. Its training framework draws on [Training for the Uphill Athlete](#recommended-reading), [Training Essentials for Ultrarunners](#recommended-reading), [Science of Running](#recommended-reading), and [The Happy Runner](#recommended-reading).
+Books like [Training for the Uphill Athlete](#recommended-reading), [Training Essentials for Ultrarunners](#recommended-reading), [Science of Running](#recommended-reading), and [The Happy Runner](#recommended-reading) have distilled decades of coaching wisdom into frameworks any runner can learn from. But most of us train without a coach — and even with one, the day-to-day decisions (what to do when your HRV is down, your schedule just changed, or you're not sure if that soreness is a warning sign) fall on you.
+
+Switchback reads your training data, applies those frameworks, and helps you make better decisions day to day.
+
+> [!IMPORTANT]
+> **Switchback is not a replacement for a human coach.** If you can work with one, you should — see [Working with a Coach](#working-with-a-coach) below. For the many runners who train alone, it offers something better than a static plan: science-based guidance that adapts to how your training is actually going.
+
+We encourage you to [buy the books](#recommended-reading). They're excellent, they'll make you a better and more self-aware athlete, and they support authors who've dedicated their careers to helping runners like us go after their dreams.
 
 ## What You Can Do
 
@@ -85,7 +92,7 @@ You can ask your companion anything about your training:
 
 ### Make it yours
 
-During setup, you choose the companion's name, tone, humor, and level of detail. The default name, Virgil, reflects the system's intended role: a guide who explains the terrain and leaves the decisions to the athlete.
+During setup, you choose a name and personality for your companion. By default your companion is called Virgil, inspired by Dante's faithful companion on his journey to hell and back. You can rename it after anyone who motivates you — a training partner, a runner you admire, that aid station volunteer who saved your race at mile 40. You also choose the tone, humor, and coaching style that work best for you.
 
 ## Skills (Claude Code)
 
@@ -110,7 +117,7 @@ These slash commands are available in Claude Code. Other agents support the same
 
 ### What you'll need
 
-1. **A training-data provider** — [Intervals.icu](https://intervals.icu) is recommended for the full experience: it syncs Garmin, Suunto, COROS, Apple Watch, and other devices while providing planned workouts, wellness, and fitness metrics. [Strava](https://www.strava.com) is also supported as an independent, read-only activity provider for runners who do not use Intervals.icu. Both can be connected together.
+1. **A training-data provider** — [Intervals.icu](https://intervals.icu) (free) is recommended for the full experience: it syncs Garmin, Suunto, COROS, Apple Watch, and other devices while providing planned workouts, wellness, and fitness trends. [Strava](https://www.strava.com) is also supported (read-only) on its own or alongside Intervals.icu to bring in your activity descriptions, perceived effort, and gear.
 
 2. **An AI agent** — install at least one of these:
 
@@ -120,29 +127,6 @@ These slash commands are available in Claude Code. Other agents support the same
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | `npm install -g @anthropic-ai/claude-code` | Recommended — full experience with slash commands |
 | [Codex CLI](https://github.com/openai/codex) | `npm install -g @openai/codex` | Full experience with MCP support |
 
-### Data providers
-
-Connect either provider during `/setup`, or connect both. When an activity appears in both services, Switchback treats it as one session and uses the richer source for the question at hand.
-
-| Provider | What it provides | What it does not provide |
-|---|---|---|
-| [Intervals.icu](https://intervals.icu) | Planned workouts and calendar updates; completed activities; training load; wellness; fitness and form trends; weather | Strava activity descriptions, gear, and social context |
-| [Strava](https://www.strava.com) | Completed activities; athlete-authored activity descriptions; perceived exertion; gear; opt-in streams; on-demand comments | Training calendar writes; wellness; fitness/form metrics |
-
-Intervals.icu is recommended when you want calendar planning and readiness-aware advice. Strava is useful on its own for activity review and history, and complements Intervals.icu with the narrative context that athletes often write after a run.
-
-#### Strava setup
-
-Strava is optional and read-only. Create a personal API application at [Strava API Settings](https://www.strava.com/settings/api), authorize it with `read,activity:read_all`, and follow [Strava's OAuth guide](https://developers.strava.com/docs/authentication/) to obtain a refresh token. Add the following only to your local `.env` file, never to Git or chat:
-
-```bash
-STRAVA_CLIENT_ID=your_client_id
-STRAVA_CLIENT_SECRET=your_client_secret
-STRAVA_REFRESH_TOKEN=your_refresh_token
-```
-
-Switchback refreshes short-lived access tokens in memory. The `activity:read_all` scope is needed to access activities visible only to you. No Strava data is written back by Switchback.
-
 ### Install
 
 Open a terminal and run:
@@ -151,13 +135,11 @@ Open a terminal and run:
 curl -fsSL switchback.run/install.sh -o /tmp/sb.sh && bash /tmp/sb.sh
 ```
 
-The installer will:
+That's it. The installer will:
 - Download the Switchback framework and create a local repo
 - Optionally create a **private GitHub repo** to back up your data (works with Claude Code Cloud too)
 - Install everything and set up the `switchback` command
-- Launch your companion for first-time setup — connecting Intervals.icu and/or Strava, building your athlete profile, and choosing a companion personality
-
-It also creates a local `.env` from `.env.example` for provider credentials. The file stays outside Git.
+- Launch your companion for first-time `/setup` — connecting Intervals.icu (and optionally Strava), building your athlete profile, and choosing a companion personality
 
 **After that, just type `switchback` from anywhere to start a session.**
 
@@ -165,63 +147,13 @@ You can also open your private repo in [Claude Code Desktop](https://claude.ai/c
 
 ### Updating
 
-At session start, Switchback checks whether an update exists. It changes nothing
-until you run `switchback update`. The update is downloaded from the resolved,
-immutable Git commit and leaves changes uncommitted for review. Athlete files are
-never overwritten.
+At the start of each session, Switchback checks whether a new version exists. Run `switchback update` whenever you want to pull the latest framework changes. Your personal data (athlete profile, companion notes, race plans, activity notes) is never overwritten.
 
 ### How it works
 
-Switchback is not a traditional app — there's no UI or application server. The
-repository supplies a contract, shared workflow skills, knowledge, and private
-athlete memory to the selected CLI agent. The agent retrieves current provider
-data when the athlete's request requires it.
+Switchback is not a traditional app — there's no UI, no server to run. The repository is a knowledge base and companion framework that your AI agent reads automatically. When you start a session, your companion greets you, pulls available training data from Intervals.icu and/or Strava, and picks up where you left off.
 
-### Activity memory
-
-Activity memory is enabled by default. Once per session after activity-related
-work, Switchback synchronizes completed workouts newer than the last successful
-sync or latest local record. A
-post-workout review also stores a compact, source-linked Markdown note in your
-private `athlete/activities/YYYY/MM/` directory. These notes give the companion
-durable evidence without turning your repository into a copy of a fitness
-platform. To opt out, set **Activity memory** to `disabled` in
-`athlete/profile.md`.
-
-Framework operations used by the agents are also available directly:
-
-```bash
-switchback route "plan race nutrition"
-switchback resource read athlete/profile.md
-switchback reconcile /tmp/intervals.json /tmp/strava.json
-switchback memory sync --intervals /tmp/intervals.json --through 2026-09-08
-```
-
-Each note retains:
-
-- activity source ID, local time, type, tags, distance, duration, elevation, pace, heart rate, load, power/cadence, perceived exertion, and gear when available;
-- your activity description when it adds context;
-- planned-versus-actual context and an interpretation labeled as a hypothesis or
-  decision.
-
-It deliberately does **not** copy GPX/FIT/TCX files, raw GPS coordinates, full streams, or friends' comments. GPS and streams can expose sensitive locations and are both large and already provider-hosted. Friends' comments are third-party data: Switchback retrieves them only when asked and never archives them without your explicit instruction.
-
-Synchronization happens only while the companion is active; there is no
-background daemon. Notes are validated before the synchronization marker
-advances. On first use, Switchback asks you to choose an initial
-lookback period, such as 1, 3, 6, or 12 months. It never silently selects how
-much history to import. `/review` writes the workout it analyzes, and `/archive`
-can backfill or refresh a requested range, for example: `archive my trail runs
-from the last 3 months`. See [activity-memory.md](docs/activity-memory.md) for
-the retention policy and [the note template](athlete/activity-note.example.md)
-for the on-disk schema.
-
-Your personal data (athlete profile, training zones, notes, and companion persona)
-lives in your private repo and is never shared publicly by Switchback. The CLI
-model provider receives files and tool results that the agent reads. Review that
-provider's data policy before use, redact sensitive notes when needed, or use a
-compatible local model. You can launch Switchback from any machine where you
-choose to make the private repository available.
+After a workout review (`/review`), Switchback saves a compact, source-linked Markdown note in your private `athlete/activities/YYYY/MM/` directory (pace, HR, load, RPE, gear, your run description, and a short assessment — never raw GPS/GPX files or friends' comments). Your personal data lives in your private repo and is never shared publicly; see [activity-memory.md](docs/activity-memory.md) for details.
 
 ## Training Philosophy
 
@@ -233,11 +165,7 @@ Three principles guide every recommendation:
 
 ### Knowledge Base
 
-The `knowledge/` directory contains reference documents covering training
-science from aerobic development to race execution and injury prevention. The
-files distinguish research findings, coaching frameworks, heuristics, and worked
-examples under the [evidence policy](knowledge/README.md). Your companion reads
-only the chapters relevant to the decision.
+The `knowledge/` directory contains 18 reference docs covering training science topics — from aerobic base and periodization to race execution and injury prevention. Each doc synthesizes positions from Johnston, Koop, Magness, and the Roches with specific protocols, quotes, and decision frameworks under the [evidence policy](knowledge/README.md). Your companion reads these before making recommendations.
 
 ## Recommended Reading
 
@@ -248,23 +176,38 @@ The training framework draws from these books. We recommend them for any ultraru
 - **Science of Running** by Steve Magness — [Amazon](https://www.amazon.com/Science-Running-Efficiently-Ultramarathons-Sprints/dp/0615942946) | [stevemagness.com](https://stevemagness.com)
 - **The Happy Runner** by Dr. Megan Roche & David Roche — [Amazon](https://www.amazon.com/Happy-Runner-Lasting-Running-Success/dp/1492567647) | [SWAP Running](https://www.swaprunning.com)
 
-This project is not affiliated with these authors or organizations. Reading their work remains the best way to understand the training frameworks behind Switchback.
+This project is not affiliated with any of these authors or organizations. If you can work with them directly, you should — Switchback is not a substitute for a real coaching relationship.
 
 ## Working with a Coach
 
-Switchback can organize training data, explain a plan, and preserve the context between sessions. A qualified coach can observe form, ask better questions, and adapt to the parts of life that a wearable does not measure. Coaches may also adapt the framework for their own practice; feedback belongs in [GitHub Issues](https://github.com/rlacombe/switchback-running/issues).
+The best thing you can do for your running is work with a real coach. A good coach sees things data can't capture — your form, your confidence, the way you carry stress — and builds a relationship that adapts to who you are, not just what your numbers say.
 
-The authors of the [recommended books](#recommended-reading) also offer coaching services:
+Switchback is designed to complement that relationship, not replace it. Between coaching sessions, it can handle the daily details: adjusting a workout when your schedule changes, reviewing an activity, or explaining why a training block is structured the way it is. Some coaches may find it useful in their own practice.
+
+**If you're a coach** and you're curious about how Switchback could support your athletes, please feel free to adopt it! [Let me know](https://github.com/rlacombe/switchback-running/issues) if you find it helpful.
+
+**If you're looking for a coach**, the authors of the [recommended books](#recommended-reading) above all offer coaching services:
 - [Evoke Endurance](https://evokeendurance.com) (Scott Johnston)
 - [Jason Koop / CTS](https://jasonkoop.com)
 - [Uphill Athlete](https://uphillathlete.com)
 - [Steve Magness](https://stevemagness.com)
 - [SWAP Running](https://www.swaprunning.com) (Dr. Megan Roche & David Roche)
 
+## Research Paper & UltraBench
+
+Switchback and **UltraBench** (our 60-scenario executable benchmark for CLI endurance-training agents) are described in our NeurIPS 2026 GenAI for Health Workshop paper:
+
+- **Paper:** [*Switchback: A Long-Horizon Agent System for Ultrarunning Training*](https://switchback.run/#paper) ([PDF](https://switchback.run/switchback-paper.pdf))
+- **UltraBench Overview & Leaderboard:** [switchback.run/#ultrabench](https://switchback.run/#ultrabench)
+- **Evaluation Harness (`evals/`):** [`evals/`](evals/)
+- **Public Dataset (`UltraBench-Dev`):** [`hf.co/datasets/rlacombe/ultrabench`](https://huggingface.co/datasets/rlacombe/ultrabench)
+
 ## Disclaimer
 
 > [!IMPORTANT]
-> Switchback provides educational training support. It does not diagnose or treat health conditions. Consult a qualified healthcare professional about pain, illness, injury, or changes to a training program. You remain responsible for training decisions and trail safety.
+> This project is for informational and educational purposes only. It is not medical advice. Use it at your own risk. The author, [Intervals.icu](https://intervals.icu), [Strava](https://www.strava.com), and the AI providers are not responsible for any injuries, health issues, or other consequences resulting from training decisions you make based on your companion's recommendations. Always consult a qualified healthcare professional before starting or modifying a training program.
+
+Happy trails! Stay safe and have fun out there. 🤟⛰️🏃
 
 ## License
 
