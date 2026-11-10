@@ -1,0 +1,344 @@
+{
+  "name": "UltraBench",
+  "version": "reserved-evaluation-v1",
+  "scenario_source": "scenarios_dev.json",
+  "conditions": [
+    "cli_agent",
+    "switchback"
+  ],
+  "replicates_per_cell": 1,
+  "development": [
+    {
+      "benchmark_id": "D01",
+      "scenario_id": "01_female_athlete_hip_pain",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "D02",
+      "scenario_id": "06_acute_overreaching_hrv_crash",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "D03",
+      "scenario_id": "15_heat_illness_exertional_hyponatremia",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "D04",
+      "scenario_id": "27_load_metrics_interpretation",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "D05",
+      "scenario_id": "31_vertical_progression",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "D06",
+      "scenario_id": "33_aid_station_execution",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "D07",
+      "scenario_id": "51_memory_fact_hypothesis_split",
+      "primary_stratum": "agent_operations",
+      "secondary_stratum": "memory_stewardship"
+    },
+    {
+      "benchmark_id": "D08",
+      "scenario_id": "54_memory_conflicting_preferences",
+      "primary_stratum": "agent_operations",
+      "secondary_stratum": "memory_stewardship"
+    },
+    {
+      "benchmark_id": "D09",
+      "scenario_id": "56_tool_dependency_order",
+      "primary_stratum": "agent_operations",
+      "secondary_stratum": "tool_orchestration"
+    },
+    {
+      "benchmark_id": "D10",
+      "scenario_id": "35_training_calendar_conflict",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "D11",
+      "scenario_id": "48_tool_failure_recovery",
+      "primary_stratum": "agent_operations"
+    },
+    {
+      "benchmark_id": "D12",
+      "scenario_id": "59_tool_provider_reconciliation",
+      "primary_stratum": "agent_operations",
+      "secondary_stratum": "tool_orchestration"
+    }
+  ],
+  "reserved_evaluation": [
+    {
+      "benchmark_id": "T01",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T02",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T03",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T04",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T05",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T06",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T07",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T08",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T09",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T10",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T11",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T12",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T13",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T14",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T15",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T16",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T17",
+      "primary_stratum": "safety_and_adaptation"
+    },
+    {
+      "benchmark_id": "T18",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T19",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T20",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T21",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T22",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T23",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T24",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T25",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T26",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T27",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T28",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T29",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T30",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T31",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T32",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T33",
+      "primary_stratum": "constructive_planning"
+    },
+    {
+      "benchmark_id": "T34",
+      "primary_stratum": "agent_operations"
+    },
+    {
+      "benchmark_id": "T35",
+      "primary_stratum": "agent_operations"
+    },
+    {
+      "benchmark_id": "T36",
+      "primary_stratum": "agent_operations"
+    },
+    {
+      "benchmark_id": "T37",
+      "primary_stratum": "agent_operations"
+    },
+    {
+      "benchmark_id": "T38",
+      "primary_stratum": "agent_operations"
+    },
+    {
+      "benchmark_id": "T39",
+      "primary_stratum": "agent_operations"
+    },
+    {
+      "benchmark_id": "T40",
+      "primary_stratum": "agent_operations"
+    },
+    {
+      "benchmark_id": "T41",
+      "primary_stratum": "agent_operations"
+    },
+    {
+      "benchmark_id": "T42",
+      "primary_stratum": "agent_operations",
+      "secondary_stratum": "tool_orchestration"
+    },
+    {
+      "benchmark_id": "T43",
+      "primary_stratum": "agent_operations",
+      "secondary_stratum": "memory_stewardship"
+    },
+    {
+      "benchmark_id": "T44",
+      "primary_stratum": "agent_operations",
+      "secondary_stratum": "memory_stewardship"
+    },
+    {
+      "benchmark_id": "T45",
+      "primary_stratum": "agent_operations",
+      "secondary_stratum": "memory_stewardship"
+    },
+    {
+      "benchmark_id": "T46",
+      "primary_stratum": "agent_operations",
+      "secondary_stratum": "tool_orchestration"
+    },
+    {
+      "benchmark_id": "T47",
+      "primary_stratum": "agent_operations",
+      "secondary_stratum": "tool_orchestration"
+    },
+    {
+      "benchmark_id": "T48",
+      "primary_stratum": "agent_operations",
+      "secondary_stratum": "tool_orchestration"
+    }
+  ],
+  "targets": [
+    {
+      "provider": "anthropic",
+      "harness": "claude",
+      "model": "claude-sonnet-5",
+      "effort": "medium"
+    },
+    {
+      "provider": "anthropic",
+      "harness": "claude",
+      "model": "claude-opus-5",
+      "effort": "medium"
+    },
+    {
+      "provider": "openai",
+      "harness": "codex",
+      "model": "gpt-5.6-terra",
+      "effort": "medium"
+    },
+    {
+      "provider": "openai",
+      "harness": "codex",
+      "model": "gpt-5.6-sol",
+      "effort": "medium"
+    },
+    {
+      "provider": "google",
+      "harness": "antigravity",
+      "model": "gemini-3.8-flash-medium",
+      "effort": "medium"
+    },
+    {
+      "provider": "google",
+      "harness": "antigravity",
+      "model": "gemini-4-argon-medium",
+      "effort": "medium"
+    }
+  ],
+  "judges": [
+    "anthropic:claude-opus-5@medium",
+    "openai:gpt-5.6-sol@medium",
+    "google:gemini-4-argon@medium"
+  ],
+  "analysis": {
+    "primary_endpoint": "Mean paired released-Switchback minus raw-CLI trajectory score across 48 reserved scenarios",
+    "secondary_endpoints": [
+      "Paired score difference by target model",
+      "Paired score difference by primary scenario stratum",
+      "Evidence acquisition, critical-fact utilization, and operational reliability",
+      "Median and interquartile range of complete three-turn trajectory latency",
+      "Cached and uncached tokens and measured API cost when exposed"
+    ],
+    "score_scale": "0-100 linear transform of the mean applicable 1-5 judge dimensions",
+    "bootstrap": {
+      "samples": 5000,
+      "seed": 42,
+      "unit": "paired scenario identity"
+    },
+    "infrastructure_policy": "Exclude verified infrastructure, quota, transport, empty-stream, and model-routing failures; rerun only the invalid cell",
+    "inspection_policy": "Do not inspect reserved trajectories or scores until every valid target trajectory is complete"
+  },
+  "protocol_hash": "c2b1c0b7329f493bfae30737505e8b5580af8f72e1a7560679ec46bba6dd2620",
+  "repositories": {
+    "benchmark_commit": "e14e1338d2cd22e3ddb681dc3bf83d7b5a37299f",
+    "switchback_commit": "60a2ffc3c0f3d0a4983ba23d5efca877f708bdd8"
+  },
+  "switchback_contract_sha256": "789e431e6017b866b2aa0e329ee0394b18052dd73a188e00c07cc8b176379980"
+}

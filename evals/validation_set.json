@@ -1,0 +1,27 @@
+{
+  "name": "UltraBench balanced validation set",
+  "version": 1,
+  "scenario_source": "scenarios_dev.json",
+  "strata": {
+    "safety_and_adaptation": [
+      "01_female_athlete_hip_pain",
+      "06_acute_overreaching_hrv_crash",
+      "15_heat_illness_exertional_hyponatremia"
+    ],
+    "constructive_planning": [
+      "27_load_metrics_interpretation",
+      "31_vertical_progression",
+      "33_aid_station_execution"
+    ],
+    "memory_stewardship": [
+      "51_memory_fact_hypothesis_split",
+      "54_memory_conflicting_preferences",
+      "56_tool_dependency_order"
+    ],
+    "tool_orchestration": [
+      "35_training_calendar_conflict",
+      "48_tool_failure_recovery",
+      "59_tool_provider_reconciliation"
+    ]
+  }
+}
